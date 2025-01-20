@@ -1,0 +1,732 @@
+{
+	"version": 5,
+	"id": "BTUIuwKddJwpGEANc",
+	"skills": [
+		{
+			"id": "SLHJYrIk6Ne5P16ID",
+			"name": "Birthplace",
+			"template_picker": {
+				"type": "count",
+				"qualifier": {
+					"compare": "is",
+					"qualifier": 1
+				}
+			},
+			"children": [
+				{
+					"id": "SZ34oZRl3ms80QdOl",
+					"name": "Barkstone",
+					"children": [
+						{
+							"id": "sE6t5m293uoiVjFYe",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s38HO2qYj0r9TPpp9"
+							},
+							"name": "Artist",
+							"reference": "MG9, B179",
+							"tags": [
+								"Arts",
+								"Craft",
+								"Entertainment"
+							],
+							"specialization": "Glassblowing",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Artist",
+									"modifier": -6
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sv_TYlRJM1gMyUV3j",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "skVQStZ2N2L_MyNFv"
+							},
+							"name": "Artist",
+							"reference": "MG9, B179",
+							"tags": [
+								"Arts",
+								"Craft",
+								"Entertainment"
+							],
+							"specialization": "Pottery",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Artist",
+									"modifier": -6
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sfxyOZRbXTIrdxDih",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sD3EsxbzE53gj93Ow"
+							},
+							"name": "Carpentry",
+							"reference": "MG11, B183",
+							"tags": [
+								"Craft"
+							],
+							"difficulty": "iq/e",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "S3aVEoRG-aGUYrA86",
+					"name": "Copperwood",
+					"children": [
+						{
+							"id": "sry3E74-SsKVI5wkS",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+								"id": "sJ-Mdf4Vf_PbzgFBS"
+							},
+							"name": "Merchant",
+							"reference": "DFA82",
+							"tags": [
+								"Business",
+								"Social"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Finance",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Market Analysis",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "SATmN59UDWmJ6o6bl",
+							"name": "Smith specialty",
+							"template_picker": {
+								"type": "count",
+								"qualifier": {
+									"compare": "is",
+									"qualifier": 1
+								}
+							},
+							"children": [
+								{
+									"id": "sK_IaMeFCmIJ2o_9o",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "sY3BnNFwh6AfULK78"
+									},
+									"name": "Smith",
+									"reference": "B221",
+									"tags": [
+										"Craft"
+									],
+									"specialization": "Copper",
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Jeweler",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Smith",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sRmW0D2dxRAV0eFUk",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "sPzbISx1YLymsXhzT"
+									},
+									"name": "Smith",
+									"reference": "B221",
+									"tags": [
+										"Craft"
+									],
+									"specialization": "Iron",
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Smith",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s0_3KWV1mHHTgdyJj",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "slk6a6Ok33wn9L3ct"
+									},
+									"name": "Smith",
+									"reference": "B221",
+									"tags": [
+										"Craft"
+									],
+									"specialization": "Lead \u0026 Tin",
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Jeweler",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Smith",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "ShTqFVF3TqezLc8RF",
+					"name": "Elmoss",
+					"children": [
+						{
+							"id": "sp5e6peuavlwDx7n1",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sD3EsxbzE53gj93Ow"
+							},
+							"name": "Carpentry",
+							"reference": "MG11, B183",
+							"tags": [
+								"Craft"
+							],
+							"difficulty": "iq/e",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sQ6g0U66ZTGGkYLGv",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sxvdYLe6aBGDF208V"
+							},
+							"name": "Farming",
+							"reference": "B194",
+							"tags": [
+								"Plant"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Biology",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Gardening",
+									"modifier": -3
+								}
+							],
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "S1xu1Y4u2_qtEy53c",
+					"name": "Ivydale",
+					"children": [
+						{
+							"id": "svmDOz6Hgdgp-Sw1f",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "spcD4n1qGEgtMUX7M"
+							},
+							"name": "Cooking",
+							"reference": "B185",
+							"tags": [
+								"Everyman"
+							],
+							"specialization": "Baking",
+							"difficulty": "iq/e",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Housekeeping",
+									"modifier": -5
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "s5VtY8oAi79FGMQ8u",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sxvdYLe6aBGDF208V"
+							},
+							"name": "Farming",
+							"reference": "B194",
+							"tags": [
+								"Plant"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Biology",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Gardening",
+									"modifier": -3
+								}
+							],
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "SE2rRiW5Z9SAKtUAH",
+					"name": "Lockhaven",
+					"children": [
+						{
+							"id": "ShD-BeXkar9DqxYRh",
+							"name": "Armory specialty",
+							"template_picker": {
+								"type": "count",
+								"qualifier": {
+									"compare": "is",
+									"qualifier": 1
+								}
+							},
+							"children": [
+								{
+									"id": "sh2vmC0ngDCIbqb8V",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+										"id": "s8Z_Fqc5F4jKvCJ3E"
+									},
+									"name": "Armory",
+									"reference": "MG8, DFA73",
+									"tags": [
+										"Maintenance",
+										"Military",
+										"Repair"
+									],
+									"specialization": "Body Armor",
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Engineer",
+											"specialization": "Body Armor",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s78PhLamwC5EdJp61",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+										"id": "sv2cn5HXFG3hzzX2I"
+									},
+									"name": "Armory",
+									"reference": "MG8, DFA73",
+									"tags": [
+										"Maintenance",
+										"Military",
+										"Repair"
+									],
+									"specialization": "Melee Weapons",
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Engineer",
+											"specialization": "Melee Weapons",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sIx13NNd9SedKREi-",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+										"id": "sgbWsoZDJKKa6ShB4"
+									},
+									"name": "Armory",
+									"reference": "MG8, DFA73",
+									"tags": [
+										"Maintenance",
+										"Military",
+										"Repair"
+									],
+									"specialization": "Missile Weapons",
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Engineer",
+											"specialization": "Missile Weapons",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								}
+							]
+						},
+						{
+							"id": "su1tn_YSW--qyyow6",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "smwvG7uvdgf3cJC56"
+							},
+							"name": "Sewing",
+							"reference": "B219",
+							"tags": [
+								"Craft",
+								"Everyman"
+							],
+							"difficulty": "dx/e",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "SM3usglArUUsc12tm",
+					"name": "Port Sumac",
+					"children": [
+						{
+							"id": "s5wGmC4KtZC8uB1Il",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+								"id": "sjE-a4j6eg2QtqXiR"
+							},
+							"name": "Boating",
+							"reference": "MG10, DFA73",
+							"tags": [
+								"Vehicle"
+							],
+							"difficulty": "dx/a",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Boating",
+									"specialization": "Motorboat",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Boating",
+									"specialization": "Sailboat",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Boating",
+									"specialization": "Unpowered",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Seamanship",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sl-F1zKcMyNYLibOA",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+								"id": "ssI3x02A9luuseRDy"
+							},
+							"name": "Weather Sense",
+							"reference": "DFA94",
+							"tags": [
+								"Everyman",
+								"Exploration",
+								"Outdoor"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "SJn9T4ns6DQjYxA3_",
+					"name": "Shaleburrow",
+					"children": [
+						{
+							"id": "s5Nm5XLq9PTOXan1b",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sxvdYLe6aBGDF208V"
+							},
+							"name": "Farming",
+							"reference": "B194",
+							"tags": [
+								"Plant"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Biology",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Gardening",
+									"modifier": -3
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sWT4hXtbZb0D2qQnX",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sqizWj_DepfDPfbC3"
+							},
+							"name": "Masonry",
+							"reference": "B207",
+							"tags": [
+								"Craft"
+							],
+							"difficulty": "iq/e",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "SSi9RhKT2XeWbk6BI",
+					"name": "Sprucetuck",
+					"children": [
+						{
+							"id": "svyQg7Mb0Ka_1NHGB",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sb6LoqgrQgzKvzHH2"
+							},
+							"name": "Biology",
+							"reference": "MG10, B180",
+							"tags": [
+								"Natural Science",
+								"Plant"
+							],
+							"difficulty": "iq/vh",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Naturalist",
+									"modifier": -6
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sh1AjqaYp5XOAMcum",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sNo8fl03x7a76gaOU"
+							},
+							"name": "Chemistry",
+							"reference": "MG34, B183",
+							"tags": [
+								"Natural Science"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Alchemy",
+									"modifier": -3
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sqpYhYdWkpFhCDvCJ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "snf1C1wltuy8_tanr"
+							},
+							"name": "Physics",
+							"reference": "B213",
+							"tags": [
+								"Natural Science"
+							],
+							"difficulty": "iq/vh",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								}
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"when_tl": {
+									"compare": "at_least",
+									"qualifier": 5
+								},
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "mathematics"
+										}
+									}
+								]
+							},
+							"points": 1
+						}
+					]
+				}
+			]
+		}
+	]
+}

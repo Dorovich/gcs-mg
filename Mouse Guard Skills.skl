@@ -1,0 +1,7004 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "s81Bg_lFZFUqAq7gz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "scuenh7R9rYWqfYAS"
+			},
+			"name": "Acrobatics",
+			"reference": "MG3, DFA72",
+			"tags": [
+				"Athletic"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Aerobatics",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Aquabatics",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s9RibDOltGoaUjnq_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s67lKFVlidABAXphP"
+			},
+			"name": "Acting",
+			"reference": "MG3, DFA72",
+			"tags": [
+				"Social",
+				"Spy"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Performance",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Public Speaking",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "SBW3MgfJhPYFiwaiU",
+			"name": "Animal Handling",
+			"reference": "MG37, DFA72",
+			"children": [
+				{
+					"id": "sSiAUGu2UYqJubm60",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s5-0fzlVirsDluibQ"
+					},
+					"name": "Animal Handling",
+					"reference": "MG37, DFA72",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "skQHXWSAy3jk_hWR1",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sv-Dusgp3VSM0RXfL"
+					},
+					"name": "Animal Handling",
+					"reference": "MG37, DFA72",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Amphibians",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "speILxV79OnKA265b",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sH0Y5YrG49Fh2sXg_"
+					},
+					"name": "Animal Handling",
+					"reference": "MG37, DFA72",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Arachnids",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sHCdehlpsTmTCp453",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sv-Dusgp3VSM0RXfL"
+					},
+					"name": "Animal Handling",
+					"reference": "MG37, DFA72",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Canines",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "smjuxLZK1tJpF8tgY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sv-Dusgp3VSM0RXfL"
+					},
+					"name": "Animal Handling",
+					"reference": "MG37, DFA72",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Chameleons",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "suYN4C-sFNF-K3V4J",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sH0Y5YrG49Fh2sXg_"
+					},
+					"name": "Animal Handling",
+					"reference": "MG37, DFA72",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Insects",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "smv_gYkGKBGT36VMB",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sv-Dusgp3VSM0RXfL"
+					},
+					"name": "Animal Handling",
+					"reference": "MG37, DFA72",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Salamanders",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "skjvikP1UdNwx8hZo",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sv-Dusgp3VSM0RXfL"
+					},
+					"name": "Animal Handling",
+					"reference": "MG37, DFA72",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Small Avians",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sBm5VeMAYieiHQskf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sv-Dusgp3VSM0RXfL"
+					},
+					"name": "Animal Handling",
+					"reference": "MG37, DFA72",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Small Fish",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sQBI9NYJeYKOefqDd",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sv-Dusgp3VSM0RXfL"
+					},
+					"name": "Animal Handling",
+					"reference": "MG37, DFA72",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Turtles",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "sFWv47K2b8FfKyhTL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sarvhf6ZiRjeof8Tf"
+			},
+			"name": "Archaeology",
+			"reference": "MG8, B176",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s34SM-61J-xHR-12k",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "spYiGvqKQbtrtyQ-5"
+			},
+			"name": "Architecture",
+			"reference": "B176",
+			"tags": [
+				"Design",
+				"Invention"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Civil",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "SuT8qd8d_B8u1A7ii",
+			"name": "Armory",
+			"reference": "MG8, DFA73",
+			"children": [
+				{
+					"id": "sUc3NTjHMYaj_iBBx",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s8Z_Fqc5F4jKvCJ3E"
+					},
+					"name": "Armory",
+					"reference": "MG8, DFA73",
+					"tags": [
+						"Maintenance",
+						"Military",
+						"Repair"
+					],
+					"specialization": "Body Armor",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Body Armor",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s2zqrIAKU7pkHg01O",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sv2cn5HXFG3hzzX2I"
+					},
+					"name": "Armory",
+					"reference": "MG8, DFA73",
+					"tags": [
+						"Maintenance",
+						"Military",
+						"Repair"
+					],
+					"specialization": "Melee Weapons",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Melee Weapons",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sJr-_xcOo3HsH2DNT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sgbWsoZDJKKa6ShB4"
+					},
+					"name": "Armory",
+					"reference": "MG8, DFA73",
+					"tags": [
+						"Maintenance",
+						"Military",
+						"Repair"
+					],
+					"specialization": "Missile Weapons",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Missile Weapons",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "SYjfqPXf3dHgfuRw-",
+			"name": "Artist",
+			"reference": "MG9, B179",
+			"children": [
+				{
+					"id": "svM3r_3egLpjXxNZT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sJtFqogZvXvdp98HU"
+					},
+					"name": "Artist",
+					"reference": "MG9, B179",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"specialization": "Body Art",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Calligraphy",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Drawing",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Illumination",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Painting",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sTzxCrMcb8_AQGZjD",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sY280WwWVjW5xMSDT"
+					},
+					"name": "Artist",
+					"reference": "MG9, B179",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"specialization": "Drawing",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Calligraphy",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Illumination",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Painting",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Body Art",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "smp2Y2XLB68tUnPOY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s38HO2qYj0r9TPpp9"
+					},
+					"name": "Artist",
+					"reference": "MG9, B179",
+					"tags": [
+						"Arts",
+						"Craft",
+						"Entertainment"
+					],
+					"specialization": "Glassblowing",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "skwPjL3d2KjRq-9gd",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sXeh3UaLcnvHFiKmu"
+					},
+					"name": "Artist",
+					"reference": "MG9, B179",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"specialization": "Painting",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Calligraphy",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Drawing",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Illumination",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Body Art",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s2UX0bGutJnHQ_kH2",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "skVQStZ2N2L_MyNFv"
+					},
+					"name": "Artist",
+					"reference": "MG9, B179",
+					"tags": [
+						"Arts",
+						"Craft",
+						"Entertainment"
+					],
+					"specialization": "Pottery",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sFzrHGALgEkvMGpiR",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sRgf9-5G92sPN0tZs"
+					},
+					"name": "Artist",
+					"reference": "MG9, B179",
+					"tags": [
+						"Arts",
+						"Craft",
+						"Entertainment"
+					],
+					"specialization": "Sculpting",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sJBUHBilaByAdP7yi",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s38HO2qYj0r9TPpp9"
+					},
+					"name": "Artist",
+					"reference": "MG9, B179",
+					"tags": [
+						"Arts",
+						"Craft",
+						"Entertainment"
+					],
+					"specialization": "Woodworking",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Carpentry",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Interior Decorating",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Scene Design",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sWJD1eZE0amrdgStY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s8KuGe3C7Fi8BECZl"
+					},
+					"name": "Artist",
+					"reference": "MG9, B179",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"specialization": "Writings",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Drawing",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Painting",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"specialization": "Body Art",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Artist",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "sQVOCW36wsh1bWgbq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sJWXHIqO1bo3Y5r62"
+			},
+			"name": "Axe/Mace",
+			"reference": "MG6, DFA81",
+			"tags": [
+				"Combat",
+				"Guardmouse",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed Axe/Mace",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Flail",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "smFYkPaNveppjcHMy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sNjbXhOiMNN9jl_RJ"
+			},
+			"name": "Bartender",
+			"reference": "B216",
+			"reference_highlight": "Professional Skill",
+			"tags": [
+				"Professional",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Carousing",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sfcoK2YrtrXzMDHSa",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sb6LoqgrQgzKvzHH2"
+			},
+			"name": "Biology",
+			"reference": "MG10, B180",
+			"tags": [
+				"Natural Science",
+				"Plant"
+			],
+			"difficulty": "iq/vh",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s1pzMGeTNBzSdxMyP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "srbrKKfl5M7g669cs"
+			},
+			"name": "Blind Fighting",
+			"reference": "MG29, DFA32",
+			"tags": [
+				"Esoteric"
+			],
+			"difficulty": "per/vh",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "starts_with",
+							"qualifier": "weapon master"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "sdUKCdYpFXlfDcHqI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sIFnUEojIsUlx7qhk"
+			},
+			"name": "Blowpipe",
+			"reference": "MG17, DFA83",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s1A1KNc5eVcEdoOSe",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sjE-a4j6eg2QtqXiR"
+			},
+			"name": "Boating",
+			"reference": "MG10, DFA73",
+			"tags": [
+				"Vehicle"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Boating",
+					"specialization": "Motorboat",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Boating",
+					"specialization": "Sailboat",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Boating",
+					"specialization": "Unpowered",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Seamanship",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sTKoWWEWIqgHcXFM2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sFJjexRTguaUFx_dl"
+			},
+			"name": "Bolas",
+			"reference": "MG10, DFA73",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"points": 1
+		},
+		{
+			"id": "shR4IWo1LmVCkROQf",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sYDZCCmi6CWN3HSlo"
+			},
+			"name": "Bow",
+			"reference": "MG5, DFA83",
+			"tags": [
+				"Combat",
+				"Guardmouse",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sk2INQlC5vH_qzlx9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sUMFlX9EbNGNn31gm"
+			},
+			"name": "Brawling",
+			"reference": "MG15, DFA93",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Unarmed"
+			],
+			"difficulty": "dx/e",
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Brawling"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					},
+					"amount": 1,
+					"per_die": true
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sjxY7NBFigcAjSwXD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sm6EZOxbHH6F6GqTQ"
+			},
+			"name": "Breath Control",
+			"reference": "MG16, DFA32",
+			"tags": [
+				"Athletic"
+			],
+			"difficulty": "ht/h",
+			"points": 1
+		},
+		{
+			"id": "sGcfk3DntylvNL40C",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sNjbXhOiMNN9jl_RJ"
+			},
+			"name": "Brewer",
+			"reference": "B216",
+			"reference_highlight": "Professional Skill",
+			"tags": [
+				"Professional",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Cooking",
+					"specialization": "Brewing",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "skksTkuAeMmwFefUp",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sIPa439w__PRt4CT8"
+			},
+			"name": "Broadsword",
+			"reference": "MG7, DFA81",
+			"tags": [
+				"Combat",
+				"Guardmouse",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Force Sword",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Rapier",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Saber",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Shortsword",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed Sword",
+					"modifier": -4
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s0Sn8kajBI4HTIk6W",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sZLnZWB3740TBxm6-"
+			},
+			"name": "Camouflage",
+			"reference": "MG11, DFA73",
+			"tags": [
+				"Exploration",
+				"Military",
+				"Outdoor"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"modifier": -2
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "skXIKFpKvZFz8HjEK",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sDK0NQcN7R8H53sSc"
+			},
+			"name": "Carousing",
+			"reference": "MG27, DFA73",
+			"tags": [
+				"Criminal",
+				"Social",
+				"Street"
+			],
+			"difficulty": "ht/e",
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "seggGfneoZiLjXDQf",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sD3EsxbzE53gj93Ow"
+			},
+			"name": "Carpentry",
+			"reference": "MG11, B183",
+			"tags": [
+				"Craft"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sFu7Ky6F7swAPySOV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sAmWj8wv68nVjwKIM"
+			},
+			"name": "Cartography",
+			"reference": "MG12, DFA74",
+			"tags": [
+				"Exploration",
+				"Humanities",
+				"Outdoor",
+				"Social Sciences"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Geography",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"specialization": "Surveying",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Navigation",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sARUt-yKNFihz5UHs",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sNo8fl03x7a76gaOU"
+			},
+			"name": "Chemistry",
+			"reference": "MG34, B183",
+			"tags": [
+				"Natural Science"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Alchemy",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sNLLcZHqHt_1SUxCw",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s_noq8s2p_bxQytbs"
+			},
+			"name": "Climbing",
+			"reference": "MG20, DFA74",
+			"tags": [
+				"Athletic",
+				"Criminal",
+				"Exploration",
+				"Guardmouse",
+				"Outdoor",
+				"Street"
+			],
+			"difficulty": "dx/a",
+			"encumbrance_penalty_multiplier": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sshdWt5ILT_GUolNE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sZETcI3EbwyhIamKv"
+			},
+			"name": "Cloak",
+			"reference": "MG11, DFA74",
+			"tags": [
+				"Combat",
+				"Guardmouse",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Net",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Shield",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "ShNglXOcyoqQyWIOh",
+			"name": "Connoisseur",
+			"reference": "MG16, DFA74",
+			"children": [
+				{
+					"id": "s3wdyOJnvu5oxdgDB",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s9gY7RC0V8Jdo9cpE"
+					},
+					"name": "Connoisseur",
+					"reference": "MG16, DFA74",
+					"tags": [
+						"Arts",
+						"Entertainment",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "Art",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s2DtZYiI5wZ235Dsv",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s1K_U0THgztbFCNtj"
+					},
+					"name": "Connoisseur",
+					"reference": "MG16, DFA74",
+					"tags": [
+						"Arts",
+						"Entertainment",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "Luxuries",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Savoir-Faire",
+							"modifier": -3
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sOJa6uij8ZjiYj2eF",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sJTFFVKYH-2Xxr-pw"
+					},
+					"name": "Connoisseur",
+					"reference": "MG16, DFA74",
+					"tags": [
+						"Arts",
+						"Entertainment",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "Weapons",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "SNMpX_UeUY2d3hp3e",
+			"name": "Cooking",
+			"reference": "B185",
+			"children": [
+				{
+					"id": "s3ZdJygLRCSx3m6Y5",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sxglmNWmcsR5YcSDw"
+					},
+					"name": "Cooking",
+					"reference": "B185",
+					"tags": [
+						"Everyman"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Housekeeping",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "siMfncxTgd1_LCHBl",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sQ6d6Vd_CsdeNzbiV"
+					},
+					"name": "Cooking",
+					"reference": "B185",
+					"tags": [
+						"Everyman"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Housekeeping",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sWx4oQIMOoia1wqC0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "spcD4n1qGEgtMUX7M"
+					},
+					"name": "Cooking",
+					"reference": "B185",
+					"tags": [
+						"Everyman"
+					],
+					"specialization": "Baking",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Housekeeping",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s5ENf2pLRUmkZ6gwr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sZcWieaQhitPQdZ6m"
+					},
+					"name": "Cooking",
+					"reference": "B185",
+					"tags": [
+						"Everyman"
+					],
+					"specialization": "Beverages",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "sudsXP-C659Drm2vy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s70cKDBsRiMLViRMx"
+			},
+			"name": "Counterfeiting",
+			"reference": "DFA74",
+			"tags": [
+				"Criminal",
+				"Street"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Forgery",
+					"modifier": -2
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sl_82OU4K4uefAjJd",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s2G9OlzNlfKvxYDFo"
+			},
+			"name": "Current Affairs",
+			"reference": "DFA74",
+			"tags": [
+				"Business",
+				"Everyman",
+				"Knowledge",
+				"Social"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Research",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sDJE0wgh9cV3fuwAE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s3kVmce-oqMSkyUPb"
+			},
+			"name": "Dancing",
+			"reference": "DFA75",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "snA9iiiIfAZNc0O2n",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s1GWiEqszAubxZ2YM"
+			},
+			"name": "Detect Lies",
+			"reference": "DFA75",
+			"tags": [
+				"Police",
+				"Social",
+				"Spy"
+			],
+			"difficulty": "per/h",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Body Language",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Psychology",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "su3ah3XYh-A_RM998",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sHBR8-qBolR8VMvGf"
+			},
+			"name": "Diagnosis",
+			"reference": "DFA75",
+			"tags": [
+				"Guardmouse",
+				"Medical"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "First Aid",
+					"modifier": -8
+				},
+				{
+					"type": "skill",
+					"name": "Physician",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Veterinary",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s0Nq9XojxIJ_AWZxb",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sKBtvjjiGTwJHZsqN"
+			},
+			"name": "Diplomacy",
+			"reference": "DFA75",
+			"tags": [
+				"Business",
+				"Police",
+				"Social"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Politics",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "SG2iUsRmuIDgRpsFY",
+			"name": "Disguise",
+			"reference": "DFA75",
+			"children": [
+				{
+					"id": "s5yI6A-Tw_zRbRc2J",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sliWIXKbdefJb-9R7"
+					},
+					"name": "Disguise",
+					"reference": "DFA75",
+					"tags": [
+						"Criminal",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Makeup",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sKt5t7FQwN7Toqhhh",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s76ker5E-2TV8TWhE"
+					},
+					"name": "Disguise",
+					"reference": "DFA75",
+					"tags": [
+						"Criminal",
+						"Spy",
+						"Street"
+					],
+					"specialization": "Animals",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Makeup",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "scL3-olTAPRyNjSkA",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s5odcUEok8qKTgBoF"
+			},
+			"name": "Economics",
+			"reference": "B189",
+			"tags": [
+				"Business",
+				"Humanities",
+				"Social Sciences"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Finance",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Market Analysis",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Merchant",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "ScQIJPzJkWfov6DpT",
+			"name": "Engineer",
+			"reference": "B190",
+			"children": [
+				{
+					"id": "spvqtjrKQr1V4xNNB",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s_QPsaG-MtZBFWSgN"
+					},
+					"name": "Engineer",
+					"reference": "B190",
+					"tags": [
+						"Design",
+						"Engineer",
+						"Invention"
+					],
+					"specialization": "@Field of expertise@",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Armoury",
+							"specialization": "Heavy Weapons",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sxE-rAYApttSFt18g",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s5o7m6a6iCXJOPgYO"
+					},
+					"name": "Engineer",
+					"reference": "B190",
+					"tags": [
+						"Design",
+						"Engineer",
+						"Invention"
+					],
+					"specialization": "Body Armor",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Armory",
+							"specialization": "Body Armor",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sh_CDjDPGRAhvIs9Y",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s10pC5SG3-DVJxORd"
+					},
+					"name": "Engineer",
+					"reference": "B190",
+					"tags": [
+						"Design",
+						"Engineer",
+						"Invention"
+					],
+					"specialization": "Civil",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Architecture",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "suV3-1GUoFUugt8a_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "ss6-XDMsx8WBWJA0q"
+					},
+					"name": "Engineer",
+					"reference": "B190",
+					"tags": [
+						"Design",
+						"Engineer",
+						"Invention"
+					],
+					"specialization": "Combat",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Explosives",
+							"specialization": "Demolition",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sIhOJ2m9Vsfaip--U",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sZw3_uJOvM4h4PoT9"
+					},
+					"name": "Engineer",
+					"reference": "B190",
+					"tags": [
+						"Design",
+						"Engineer",
+						"Invention"
+					],
+					"specialization": "Materials",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Chemistry",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Metallurgy",
+							"modifier": -6
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "prereq_list",
+								"all": false,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "metallurgy"
+										}
+									},
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "chemistry"
+										}
+									}
+								]
+							}
+						]
+					},
+					"points": 1
+				},
+				{
+					"id": "s0eUAeoapweMTLBPH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s5o7m6a6iCXJOPgYO"
+					},
+					"name": "Engineer",
+					"reference": "B190",
+					"tags": [
+						"Design",
+						"Engineer",
+						"Invention"
+					],
+					"specialization": "Melee Weapons",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Armory",
+							"specialization": "Melee Weapons",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sGr4FXEDKP3ZDpaBw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s127ReUqoqfkVY1LS"
+					},
+					"name": "Engineer",
+					"reference": "B190",
+					"tags": [
+						"Design",
+						"Engineer",
+						"Invention"
+					],
+					"specialization": "Mining",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Explosives",
+							"specialization": "Demolition",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Geology",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sa2mmyX-2UoraZW-u",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s5o7m6a6iCXJOPgYO"
+					},
+					"name": "Engineer",
+					"reference": "B190",
+					"tags": [
+						"Design",
+						"Engineer",
+						"Invention"
+					],
+					"specialization": "Missile Weapons",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Armory",
+							"specialization": "Missile Weapons",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sywertcMWZi3sD0d7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s5o7m6a6iCXJOPgYO"
+					},
+					"name": "Engineer",
+					"reference": "B190",
+					"tags": [
+						"Design",
+						"Engineer",
+						"Invention"
+					],
+					"specialization": "Ships",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Mechanic",
+							"specialization": "Ships",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "scYOM4kKTuDTHkLKH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sxZAG2jOCxkvonZX5"
+			},
+			"name": "Escape",
+			"reference": "DFA75",
+			"tags": [
+				"Criminal",
+				"Street"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sTkxh90e2hoimtRJL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sC3Hao70ucDyPFMyx"
+			},
+			"name": "Esoteric Medicine",
+			"reference": "B192,MA56",
+			"tags": [
+				"Esoteric",
+				"Medical"
+			],
+			"difficulty": "per/h",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sBG-wdbZ6bL6Mp86y",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sxvdYLe6aBGDF208V"
+			},
+			"name": "Farming",
+			"reference": "B194",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Biology",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Gardening",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "SXMrR8mIK3hx0agtr",
+			"name": "Fast-Draw",
+			"reference": "DFA76",
+			"children": [
+				{
+					"id": "sJrPR3JsQp0uNrWTH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sY9q_60yrVFk1zB9C"
+					},
+					"name": "Fast-Draw",
+					"reference": "DFA76",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "@Item@",
+					"difficulty": "dx/e",
+					"points": 1
+				},
+				{
+					"id": "sn3swBLbTDd2PtI2Y",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "spl6HsONkP4U_yiGF"
+					},
+					"name": "Fast-Draw",
+					"reference": "DFA76",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Arrow",
+					"difficulty": "dx/e",
+					"points": 1
+				},
+				{
+					"id": "sbqsH4lGB-vJ0yZDi",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sNMgBBvMxAf6BFBVp"
+					},
+					"name": "Fast-Draw",
+					"reference": "DFA76",
+					"tags": [
+						"Combat",
+						"Weapon"
+					],
+					"specialization": "Brew",
+					"difficulty": "dx/e",
+					"points": 1
+				},
+				{
+					"id": "shooVawi3bohvduC4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sbp0ZIqSgDOsmzl0k"
+					},
+					"name": "Fast-Draw",
+					"reference": "DFA76",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Knife",
+					"difficulty": "dx/e",
+					"points": 1
+				},
+				{
+					"id": "s44utwcPdq6tUbtkC",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sewtBLqFyrI5BPm0X"
+					},
+					"name": "Fast-Draw",
+					"reference": "DFA76",
+					"tags": [
+						"Combat",
+						"Weapon"
+					],
+					"specialization": "Scroll",
+					"difficulty": "dx/e",
+					"points": 1
+				},
+				{
+					"id": "sdo7ojkim0Ni3-JIa",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sBJfuSGVIOG2aV5YG"
+					},
+					"name": "Fast-Draw",
+					"reference": "DFA76",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Sword",
+					"difficulty": "dx/e",
+					"points": 1
+				},
+				{
+					"id": "sLs9qEai02778Xg2G",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sfZexpOBE4RZpeXe8"
+					},
+					"name": "Fast-Draw",
+					"reference": "DFA76",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Two-Handed Sword",
+					"difficulty": "dx/e",
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "spBce6UxUMo_-dfJ-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sHxEYw40DSWqj2ZD3"
+			},
+			"name": "Fast-Talk",
+			"reference": "DFA76",
+			"tags": [
+				"Criminal",
+				"Social",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Acting",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sml13zGiDX1s_93Ci",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sk8jngq4i_93uMUrB"
+			},
+			"name": "Filch",
+			"reference": "DFA76",
+			"tags": [
+				"Criminal",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Pickpocket",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Sleight of Hand",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sdjwCr69joPmuakFT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s59NHp3Wau4GDTEeO"
+			},
+			"name": "First Aid",
+			"reference": "DFA76",
+			"tags": [
+				"Everyman",
+				"Guardmouse",
+				"Medical"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Esoteric Medicine"
+				},
+				{
+					"type": "skill",
+					"name": "Physician"
+				},
+				{
+					"type": "skill",
+					"name": "Veterinary",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s-ZLkb-CpOt-A3KD0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sG3-E99nCGihbTn9_"
+			},
+			"name": "Fishing",
+			"reference": "DFA76",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"difficulty": "per/e",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "shhF2_Ji1yUnVJc7v",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s6XXNwVPKmu2l0SjG"
+			},
+			"name": "Flail",
+			"reference": "DFA81",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Axe/Mace",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed Flail",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s9nb7M_uFKcUtjmSu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sYRTFenqR5dpngPHr"
+			},
+			"name": "Forced Entry",
+			"reference": "DFA77",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "dx/e",
+			"points": 1
+		},
+		{
+			"id": "sDvQdzaTMDEf_lOVr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sMRZA1-ZUBf12iVPu"
+			},
+			"name": "Forgery",
+			"reference": "DFA77",
+			"tags": [
+				"Criminal",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Counterfeiting",
+					"modifier": -2
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "S6f-rZtKxgfGIIVjx",
+			"name": "Fortune-Telling",
+			"reference": "B196",
+			"children": [
+				{
+					"id": "sUqZfG1pm-JlAti7_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "scZAN2KsmWIajEzSR"
+					},
+					"name": "Fortune-Telling",
+					"reference": "B196",
+					"tags": [
+						"Social"
+					],
+					"specialization": "Augury",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Fast-Talk",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Occultism",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "shA3uQC1RfYY0i9nz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "scZAN2KsmWIajEzSR"
+					},
+					"name": "Fortune-Telling",
+					"reference": "B196",
+					"tags": [
+						"Social"
+					],
+					"specialization": "Dream Interpretation",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Fast-Talk",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Occultism",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s0rlcsqvIDwMgmEHM",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "scZAN2KsmWIajEzSR"
+					},
+					"name": "Fortune-Telling",
+					"reference": "B196",
+					"tags": [
+						"Social"
+					],
+					"specialization": "Haruspicy",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Fast-Talk",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Occultism",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sOgLARD8vwzb-rGcq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "scZAN2KsmWIajEzSR"
+					},
+					"name": "Fortune-Telling",
+					"reference": "B196",
+					"tags": [
+						"Social"
+					],
+					"specialization": "Osteomancy",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Fast-Talk",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Occultism",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sca8twC2CqG1IHu5c",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "syJI_IgGzZiXfb1qO"
+					},
+					"name": "Fortune-Telling",
+					"reference": "B196",
+					"tags": [
+						"Social"
+					],
+					"specialization": "Tarot",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Fast-Talk",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Occultism",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "sWPtsCal2ddnfIaPT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "shJf8lLKy947H7d0b"
+			},
+			"name": "Gambling",
+			"reference": "DFA77",
+			"tags": [
+				"Criminal",
+				"Social",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"specialization": "Statistics",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sZbLEBU8hTR1ErKap",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sAo8rd_Q17KHFt1tW"
+			},
+			"name": "Garrote",
+			"reference": "DFA77",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sHBoFsBYCzg-5w6iz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "spB65Bj2vTHoTpCYE"
+			},
+			"name": "Geography",
+			"reference": "B198",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Area Knowledge",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Geography",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sCB5GVLVtaAF_BieL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s0fGXPFQBrn-2nCCQ"
+			},
+			"name": "Gesture",
+			"reference": "DFA77",
+			"tags": [
+				"Social"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sI4WKymzmfwwptQ9Z",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sNjbXhOiMNN9jl_RJ"
+			},
+			"name": "Glazier",
+			"reference": "B216",
+			"reference_highlight": "Professional Skill",
+			"tags": [
+				"Craft",
+				"Professional"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Artist",
+					"specialization": "Glassblowing",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sa3SXFzvNHMRP43u-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "scNmo5iFXnzAikCe9"
+			},
+			"name": "Heraldry",
+			"reference": "DFA77",
+			"tags": [
+				"Knowledge",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Savoir-Faire",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "S8yI90WWtJIiCYJLa",
+			"name": "Hidden Lore",
+			"reference": "DFA78",
+			"children": [
+				{
+					"id": "spCVtASC9bRuwfdd2",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "szduoweOKHuXYupsk"
+					},
+					"name": "Hidden Lore",
+					"reference": "DFA78",
+					"tags": [
+						"Knowledge"
+					],
+					"specialization": "@Subject@",
+					"difficulty": "iq/a",
+					"points": 1
+				},
+				{
+					"id": "sRaEyFkE5KOUQQ9Lw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s93dju3_AZjBq4jVs"
+					},
+					"name": "Hidden Lore",
+					"reference": "DFA78",
+					"tags": [
+						"Knowledge"
+					],
+					"specialization": "Demons",
+					"difficulty": "iq/a",
+					"points": 1
+				},
+				{
+					"id": "sTkfpByaXFx2VJitm",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s0-Zk1S2z3CRwT1wJ"
+					},
+					"name": "Hidden Lore",
+					"reference": "DFA78",
+					"tags": [
+						"Knowledge"
+					],
+					"specialization": "Lost Civilizations",
+					"difficulty": "iq/a",
+					"points": 1
+				},
+				{
+					"id": "sEdUiHzjbcLOu9fHi",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s6lOlxM4QoTHqLsiE"
+					},
+					"name": "Hidden Lore",
+					"reference": "DFA78",
+					"tags": [
+						"Knowledge"
+					],
+					"specialization": "Spirits",
+					"difficulty": "iq/a",
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "sYPGU7VPi0C5GtbOP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sP9sehCsobGK78Xe8"
+			},
+			"name": "Hiking",
+			"reference": "DFA78",
+			"tags": [
+				"Athletic",
+				"Exploration",
+				"Guardmouse",
+				"Outdoor"
+			],
+			"difficulty": "ht/a",
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sXm8Hf1tqp52fpW2H",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sRzoU2_LS2s4r51LA"
+			},
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "@Specialty@",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "saX_D63yw9SXWaJ5N",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "slE70WvZeRkRia75D"
+			},
+			"name": "Holdout",
+			"reference": "DFA78",
+			"tags": [
+				"Criminal",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Sleight of Hand",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sRZnSfcOaghYCvXtB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sfbRFVYjdOwhqV3Vi"
+			},
+			"name": "Interrogation",
+			"reference": "DFA79",
+			"tags": [
+				"Military",
+				"Police",
+				"Spy"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Intimidation",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Psychology",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sd8ES2D-id3QNuTYr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sMr2Nh2BPvr-6pRxQ"
+			},
+			"name": "Intimidation",
+			"reference": "DFA79",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Social",
+				"Street"
+			],
+			"difficulty": "will/a",
+			"defaults": [
+				{
+					"type": "will",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Acting",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s1MPkF4lxeUklvD6v",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sGOeKSxjocmNLt7XJ"
+			},
+			"name": "Jeweler",
+			"reference": "B203",
+			"tags": [
+				"Craft"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Smith",
+					"specialization": "Copper",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Smith",
+					"specialization": "Lead \u0026 Tin",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "samsSsuzPoOncbFQx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sYTrvMtG2jRQBtu_P"
+			},
+			"name": "Jitte/Sai",
+			"reference": "DFA81",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Force Sword",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Main-Gauche",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Shortsword",
+					"modifier": -3
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "shIVd8bWLjhwlaMKl",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "suSyUUdWZczFn4d5U"
+			},
+			"name": "Jumping",
+			"reference": "DFA79",
+			"tags": [
+				"Athletic",
+				"Guardmouse"
+			],
+			"difficulty": "dx/e",
+			"points": 1
+		},
+		{
+			"id": "so8Hy8LR4KwVOpol-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sGMuuC-kk-56K3Qf2"
+			},
+			"name": "Knife",
+			"reference": "DFA81",
+			"tags": [
+				"Combat",
+				"Guardmouse",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Force Sword",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Main-Gauche",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Shortsword",
+					"modifier": -3
+				},
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sYcqPeI0wDh9r107V",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s4sDEVZKdD0T0VBnJ"
+			},
+			"name": "Knot-Tying",
+			"reference": "DFA79",
+			"tags": [
+				"Everyman"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Climbing",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Seamanship",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sUOIvxFkmeFguELkC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s0tPCgdAoREgWqZIg"
+			},
+			"name": "Kusari",
+			"reference": "DFA82",
+			"tags": [
+				"Combat",
+				"Guardmouse",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Force Whip",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Monowire Whip",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Whip",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed Flail",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sukTr6kWwpEOsQG-8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "siGeFFoCAvEPuROH-"
+			},
+			"name": "Lasso",
+			"reference": "DFA80",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"points": 1
+		},
+		{
+			"id": "sLnxRURJLrqAHhbRK",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "szeHiRtktcHWqsul8"
+			},
+			"name": "Law",
+			"reference": "B204",
+			"tags": [
+				"Business",
+				"Humanities",
+				"Police",
+				"Social Sciences"
+			],
+			"specialization": "@Settlement@",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s85haZae0wEQF21Zy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s6U6i0W8Oj1FnQT7E"
+			},
+			"name": "Leadership",
+			"reference": "DFA80",
+			"tags": [
+				"Military",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sNUVG_hD66Q2-dkLT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "so0fP9KSXX4yHNCqS"
+			},
+			"name": "Leatherworking",
+			"reference": "B205",
+			"tags": [
+				"Craft"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sPJcP0F7XksegzRt4",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "snd5gURyz8oqypWXS"
+			},
+			"name": "Lifting",
+			"reference": "DFA80",
+			"tags": [
+				"Athletic"
+			],
+			"difficulty": "ht/a",
+			"points": 1
+		},
+		{
+			"id": "sguBuFNrvOzF_F3At",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sQHxZPcbfISu1LNRJ"
+			},
+			"name": "Lip Reading",
+			"reference": "DFA80",
+			"tags": [
+				"Spy"
+			],
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -10
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sNHp4_c3zELEHKa1I",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s7TXAnMYKalDo9ZEs"
+			},
+			"name": "Literature",
+			"reference": "B205",
+			"tags": [
+				"Humanities",
+				"Scholarly",
+				"Social Sciences"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s7KzuZFftC9VAHTB8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sRpMQBA-i4fplBfDJ"
+			},
+			"name": "Lockpicking",
+			"reference": "DFA80",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Spy",
+				"Street",
+				"Technical"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s2ZV9fxe_pFfymgMH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sKl5_DLlGCMU7G7zk"
+			},
+			"name": "Main-Gauche",
+			"reference": "DFA81",
+			"tags": [
+				"Combat",
+				"Guardmouse",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Jitte/Sai",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Knife",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Rapier",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Saber",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Smallsword",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sUjZdjjWlRV00SQfx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sqizWj_DepfDPfbC3"
+			},
+			"name": "Masonry",
+			"reference": "B207",
+			"tags": [
+				"Craft"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sV2SVNM36jCm-PcZU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sGgBbCTe-AwY1nu3W"
+			},
+			"name": "Mathematics",
+			"reference": "B207",
+			"tags": [
+				"Natural Science"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Physics",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sDGPTv8dxOOnsEHDP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sJ-Mdf4Vf_PbzgFBS"
+			},
+			"name": "Merchant",
+			"reference": "DFA82",
+			"tags": [
+				"Business",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Finance",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Market Analysis",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "ssatf0w0d06Qg28C9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "spTsoXZjc2oRCK8Cz"
+			},
+			"name": "Metallurgy",
+			"reference": "B209",
+			"tags": [
+				"Natural Science"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Chemistry",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Jeweler",
+					"modifier": -8
+				},
+				{
+					"type": "skill",
+					"name": "Smith",
+					"modifier": -8
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "SUyAIlST3Wu5XhcGr",
+			"name": "Mimicry",
+			"reference": "DFA83",
+			"children": [
+				{
+					"id": "st7X_UzvN_VFDK4UA",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sasEWTBVDToCkZgd7"
+					},
+					"name": "Mimicry",
+					"reference": "DFA83",
+					"tags": [
+						"Animal",
+						"Arts",
+						"Entertainment",
+						"Exploration",
+						"Outdoor"
+					],
+					"specialization": "Animal Sounds",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Naturalist",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Mimicry",
+							"specialization": "Bird Calls",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sUKSKV39gCC_-pbSi",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sF4QwhcH8Io3d6CX1"
+					},
+					"name": "Mimicry",
+					"reference": "DFA83",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"specialization": "Speech",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "sXu_zJkRhzn2VjyAG",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sBeWwsTrNaEaptPgs"
+			},
+			"name": "Musical Composition",
+			"reference": "DFA83",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Musical Instrument",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Poetry",
+					"modifier": -2
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "Snh_Gc58pO-KGS8QS",
+			"name": "Musical Instrument",
+			"reference": "DFA83",
+			"children": [
+				{
+					"id": "sOwCBamECpno5gsaQ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sR2oibWbTiIkxJrJp"
+					},
+					"name": "Musical Instrument",
+					"reference": "DFA83",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "s9qFe2JNjYeEtYm1J",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sR2oibWbTiIkxJrJp"
+					},
+					"name": "Musical Instrument",
+					"reference": "DFA83",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"specialization": "Drums",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "s1b7TqHkKsptvS4PW",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sR2oibWbTiIkxJrJp"
+					},
+					"name": "Musical Instrument",
+					"reference": "DFA83",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"specialization": "Flute",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "sJWLZjtf278v6Dgmk",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sR2oibWbTiIkxJrJp"
+					},
+					"name": "Musical Instrument",
+					"reference": "DFA83",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"specialization": "Harp",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "sDKIHBNCGWjHru0Ro",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sR2oibWbTiIkxJrJp"
+					},
+					"name": "Musical Instrument",
+					"reference": "DFA83",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"specialization": "Horn",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "saID9FG4-RzhmfDVe",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sR2oibWbTiIkxJrJp"
+					},
+					"name": "Musical Instrument",
+					"reference": "DFA83",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"specialization": "Lute",
+					"difficulty": "iq/h",
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "sSbhFIYnTzwX1QvQZ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sMZGDT1J-tTSqOoqf"
+			},
+			"name": "Naturalist",
+			"reference": "DFA83",
+			"tags": [
+				"Animal",
+				"Exploration",
+				"Guardmouse",
+				"Natural Science",
+				"Outdoor",
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Biology",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "srmxK6HioepOcNv_9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sY7B2-iueQMixijmH"
+			},
+			"name": "Navigation",
+			"reference": "DFA84",
+			"tags": [
+				"Exploration",
+				"Guardmouse",
+				"Outdoor",
+				"Technical",
+				"Vehicle"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Cartography",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Seamanship",
+					"modifier": -5
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sZnNBks738oybkiD3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sZoNkW0Seu6Iy40ZF"
+			},
+			"name": "Net",
+			"reference": "DFA84",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Cloak",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "siYQ1ba7h2CFYtLJI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "svTpWWT9dvgcgBlnd"
+			},
+			"name": "Observation",
+			"reference": "DFA84",
+			"tags": [
+				"Criminal",
+				"Military",
+				"Police",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Shadowing",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "suoaZRgHMl5QjUYNr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sHcmWeTDgGyRDKTdF"
+			},
+			"name": "Occultism",
+			"reference": "DFA84",
+			"tags": [
+				"Occult"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s98HNq5NemYzOhEJp",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s9jNIB0FmoVgdt2ky"
+			},
+			"name": "Parry Missile-Weapons",
+			"reference": "DFA33",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/h",
+			"points": 1
+		},
+		{
+			"id": "shpCZDP8svE15u4BG",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sTCVWPVC9p-A8xSqA"
+			},
+			"name": "Performance",
+			"reference": "DFA84",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Acting",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Public Speaking",
+					"modifier": -2
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sBRfYTNFNKryhL5km",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s6OY3-_51fIBpUIJy"
+			},
+			"name": "Pharmacy",
+			"reference": "DFA85",
+			"tags": [
+				"Design",
+				"Invention",
+				"Medical",
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Biology",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Herb Lore",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -5
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "naturalist"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "sajwaOoR5m8E9A8Wg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sW3Kxrpz-XOleoZOl"
+			},
+			"name": "Philosophy",
+			"reference": "B213",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "@Specialty@",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sbRwdNMEOIgLpAqv_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "snf1C1wltuy8_tanr"
+			},
+			"name": "Physics",
+			"reference": "B213",
+			"tags": [
+				"Natural Science"
+			],
+			"difficulty": "iq/vh",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "S-EYMoWTP1u-A4su_",
+			"name": "Physiology",
+			"reference": "DFA85",
+			"children": [
+				{
+					"id": "sUImD6T5-wzVWfjZv",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "seUvUs272kXMrn8kV"
+					},
+					"name": "Physiology",
+					"reference": "DFA85",
+					"tags": [
+						"Medical",
+						"Natural Science"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Diagnosis",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Physician",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Surgery",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sPSzuhKP_oP358I1M",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s78aEoTl2PodAOKZg"
+					},
+					"name": "Physiology",
+					"reference": "DFA85",
+					"tags": [
+						"Medical",
+						"Natural Science"
+					],
+					"specialization": "Amphibians",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Diagnosis",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Physician",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Surgery",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "ssmv7zI-TOSGqGQtO",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s78aEoTl2PodAOKZg"
+					},
+					"name": "Physiology",
+					"reference": "DFA85",
+					"tags": [
+						"Medical",
+						"Natural Science"
+					],
+					"specialization": "Arthropods",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Diagnosis",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Physician",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Surgery",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s2FNGC9Q1rlYUtINc",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sHtMGKXgEs3fccdDs"
+					},
+					"name": "Physiology",
+					"reference": "DFA85",
+					"tags": [
+						"Medical",
+						"Natural Science"
+					],
+					"specialization": "Avians",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Diagnosis",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Physician",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Surgery",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sT1pQB8jsRojlt1mT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s78aEoTl2PodAOKZg"
+					},
+					"name": "Physiology",
+					"reference": "DFA85",
+					"tags": [
+						"Medical",
+						"Natural Science"
+					],
+					"specialization": "Fish",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Diagnosis",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Physician",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Surgery",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sHQjxUG-7QY1GMN-8",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sS7e5O92FHxMh6YMG"
+					},
+					"name": "Physiology",
+					"reference": "DFA85",
+					"tags": [
+						"Medical",
+						"Natural Science"
+					],
+					"specialization": "Mammals",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Diagnosis",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Physician",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Surgery",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sPshCQSB8hEF-FY8w",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sninxx38w0NwPYxEY"
+					},
+					"name": "Physiology",
+					"reference": "DFA85",
+					"tags": [
+						"Medical",
+						"Natural Science"
+					],
+					"specialization": "Reptiles",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Diagnosis",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Physician",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Surgery",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "s1_rgzH07pyX3DIjd",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s8woV_CN7MpqWhKeR"
+			},
+			"name": "Pickpocket",
+			"reference": "DFA85",
+			"tags": [
+				"Criminal",
+				"Street"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Filch",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Sleight of Hand",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sDio-Cgj6UQxbaqGx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "st_dFfcYZMqJ0x2X4"
+			},
+			"name": "Poetry",
+			"reference": "DFA85",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Writing",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "stjtpmIN24Mmw-_uw",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sdCxwV_3hVKSqFI_D"
+			},
+			"name": "Poisons",
+			"reference": "DFA85",
+			"tags": [
+				"Criminal",
+				"Medical",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Chemistry",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Pharmacy",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Physician",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "st5p29VG7snW0Xk4m",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s2TRfOszdn6Fj48XX"
+			},
+			"name": "Polearm",
+			"reference": "DFA81",
+			"tags": [
+				"Combat",
+				"Guardmouse",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Spear",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Staff",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed Axe/Mace",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sI1kNdXF3N0_9LCyl",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sOnnzVQLqxW-ZYzn5"
+			},
+			"name": "Propaganda",
+			"reference": "DFA86",
+			"tags": [
+				"Business",
+				"Military",
+				"Social",
+				"Spy"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Merchant",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Psychology",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sn3zPTo_DT5elOH0V",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sCJnE65Cw1V7mPVjX"
+			},
+			"name": "Prospecting",
+			"reference": "DFA86",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Geology",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "SGOVdbh44RtSjetwB",
+			"name": "Psychology",
+			"reference": "DFA86",
+			"children": [
+				{
+					"id": "skSJPFHFmaQ6QImek",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sBBc8Wnwoz4U2-6b8"
+					},
+					"name": "Psychology",
+					"reference": "DFA86",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Sociology",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "slfk6cgOl_rkBroHw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sRIpwO4cRfNcyPoxA"
+					},
+					"name": "Psychology",
+					"reference": "DFA86",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"specialization": "Ferrets",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Sociology",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "srH3Ggiw2eQv6CsjL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s2VRslPIZ_xcE4GSj"
+					},
+					"name": "Psychology",
+					"reference": "DFA86",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"specialization": "Hares",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Sociology",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sOfA6TG98bcV9juRw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s2VRslPIZ_xcE4GSj"
+					},
+					"name": "Psychology",
+					"reference": "DFA86",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"specialization": "Mice",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Sociology",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "svrLsGt3RqsbQWVO3",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sRIpwO4cRfNcyPoxA"
+					},
+					"name": "Psychology",
+					"reference": "DFA86",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"specialization": "Rabbits",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Sociology",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sE2ofrC0NM3Lz8czI",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sBBc8Wnwoz4U2-6b8"
+					},
+					"name": "Psychology",
+					"reference": "DFA86",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"specialization": "Rats",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Sociology",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sYDI-6roufRJT7g26",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sRIpwO4cRfNcyPoxA"
+					},
+					"name": "Psychology",
+					"reference": "DFA86",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"specialization": "Squirrels",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Sociology",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s2KZVBGAMvzffm8Dl",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sRIpwO4cRfNcyPoxA"
+					},
+					"name": "Psychology",
+					"reference": "DFA86",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"specialization": "Weasels",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Sociology",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "sO1dv7DlSnkaephPT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "suNSfuNWmbFctebp-"
+			},
+			"name": "Public Speaking",
+			"reference": "DFA86",
+			"tags": [
+				"Business",
+				"Scholarly",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Acting",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Performance",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Politics",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "srU40yheiE0NqeVrb",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sIzhGG9-301PPDuRu"
+			},
+			"name": "Rapier",
+			"reference": "DFA81",
+			"tags": [
+				"Combat",
+				"Guardmouse",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Broadsword",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Main-Gauche",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Saber",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Smallsword",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sMrH8qEQvAONNTgNH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sYSyBf8Oq9-Gn9dPn"
+			},
+			"name": "Research",
+			"reference": "DFA86",
+			"tags": [
+				"Scholarly",
+				"Spy"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Writing",
+					"modifier": -3
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "Illiteracy"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "S-uk0RyHifOm5edBL",
+			"name": "Riding",
+			"reference": "DFA87",
+			"children": [
+				{
+					"id": "sFVYigEJL_XYjgbAo",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sWbDCV2vyN4WxxovU"
+					},
+					"name": "Riding",
+					"reference": "DFA87",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Animal Handling",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sHA_xbKv3Ws9VYXi_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sgorQVrs_WSUmrLDI"
+					},
+					"name": "Riding",
+					"reference": "DFA87",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Beetle",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Animal Handling",
+							"specialization": "Beetle",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "svxqpoaKDVKjsZn-i",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sd1l8K1hIHriVLA67"
+					},
+					"name": "Riding",
+					"reference": "DFA87",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Crow",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Animal Handling",
+							"specialization": "Crow",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s1jleOptLq4N6w47f",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sU257QMN_ho_RHkiv"
+					},
+					"name": "Riding",
+					"reference": "DFA87",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Hare",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Animal Handling",
+							"specialization": "Hare",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s7BG8scoeG_999otR",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sisQl5NtplCWwDQiC"
+					},
+					"name": "Riding",
+					"reference": "DFA87",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Sparrow",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Animal Handling",
+							"specialization": "Sparrow",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sZHrGx7MhpIhfRGQ_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sgorQVrs_WSUmrLDI"
+					},
+					"name": "Riding",
+					"reference": "DFA87",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Turtle",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Animal Handling",
+							"specialization": "Turtle",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "s5cVLK0szjXeaBsQF",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sIQzmwfTiPgBNF7eD"
+			},
+			"name": "Running",
+			"reference": "DFA87",
+			"tags": [
+				"Athletic",
+				"Guardmouse"
+			],
+			"difficulty": "ht/a",
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sHsIbH1iaPoQZ8cG5",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "smMdtUOUAPQA6C9-Z"
+			},
+			"name": "Saber",
+			"reference": "DFA81",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Broadsword",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Shortswort",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Main-Gauche",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Rapier",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Smallsword",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "szg0Na8rksOhxW0Sx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sWH4lgAIKHRw533bR"
+			},
+			"name": "Savoir-Faire",
+			"reference": "DFA87",
+			"tags": [
+				"Business",
+				"Knowledge",
+				"Social"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "snnTDVwO4409vXgX5",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "svvcgYfqQ_YmPwvLg"
+			},
+			"name": "Scrounging",
+			"reference": "DFA88",
+			"tags": [
+				"Criminal",
+				"Street"
+			],
+			"difficulty": "per/e",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sBmWNhfmOmXp3OOg-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sYFMwBBxQ-cmtYHmi"
+			},
+			"name": "Seamanship",
+			"reference": "DFA88",
+			"tags": [
+				"Vehicle"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sfdvDumj4PyDGDi7W",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s6XVV_CP08wpVXHkg"
+			},
+			"name": "Search",
+			"reference": "DFA88",
+			"tags": [
+				"Police",
+				"Spy"
+			],
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Criminology",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sb2pwQY6n9HzzNOGx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "smwvG7uvdgf3cJC56"
+			},
+			"name": "Sewing",
+			"reference": "B219",
+			"tags": [
+				"Craft",
+				"Everyman"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sv0WFN_xmtmeHuwME",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sFUunF4AukFGnIB8z"
+			},
+			"name": "Sex Appeal",
+			"reference": "DFA88",
+			"tags": [
+				"Social"
+			],
+			"difficulty": "ht/a",
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sSXij1CYkqilSoHtS",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sFvt-3VkevZwkf0uk"
+			},
+			"name": "Shadowing",
+			"reference": "DFA88",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Observation",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Stealth",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "SzPCrNxx-tpDeM2zB",
+			"name": "Shield",
+			"reference": "DFA88",
+			"children": [
+				{
+					"id": "s76-j7dKfnIYKbJr1",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sb31vE_obEUqvCSW1"
+					},
+					"name": "Shield",
+					"reference": "DFA88",
+					"tags": [
+						"Combat",
+						"Guardmouse",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Buckler",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"modifier": -2
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sYcfMEpgx9upEqam_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sxrJ0547O4bP-EuZX"
+					},
+					"name": "Shield",
+					"reference": "DFA88",
+					"tags": [
+						"Combat",
+						"Guardmouse",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Shield",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"modifier": -2
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "sKbTFb4nnYykX1NSy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sREf0R4fH6zX2LRi2"
+			},
+			"name": "Shortsword",
+			"reference": "DFA81",
+			"tags": [
+				"Combat",
+				"Guardmouse",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Broadsword",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Force Sword",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Jitte/Sai",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Knife",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Saber",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Smallsword",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Tonfa",
+					"modifier": -3
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s1cbx3appIbKFa7B6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s7YZY5L7fStA8i6cQ"
+			},
+			"name": "Singing",
+			"reference": "DFA89",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"difficulty": "ht/e",
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s7_ghMPtO_SIeoVL1",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s5h-X2wL8GwPIiuhb"
+			},
+			"name": "Skiing",
+			"reference": "DFA89",
+			"tags": [
+				"Athletic",
+				"Exploration",
+				"Outdoor"
+			],
+			"difficulty": "ht/h",
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sTI9gfy7WbjEgeBuI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "siu1HBesg5UEGmw-j"
+			},
+			"name": "Sleight of Hand",
+			"reference": "DFA89",
+			"tags": [
+				"Arts",
+				"Criminal",
+				"Entertainment",
+				"Street"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Filch",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s5PJsSIjD_gYa3opE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sShSlwZ4dPx-_E_wX"
+			},
+			"name": "Sling",
+			"reference": "DFA83",
+			"tags": [
+				"Combat",
+				"Guardmouse",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sZ2poOpF4W8tDvnsS",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "shd2T3Rmivpbf6QJ_"
+			},
+			"name": "Smallsword",
+			"reference": "DFA81",
+			"tags": [
+				"Combat",
+				"Guardmouse",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Shortsword",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Main-Gauche",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Rapier",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Saber",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "Sj0KBw09YqHwhDuQk",
+			"name": "Smith",
+			"reference": "B221",
+			"children": [
+				{
+					"id": "sq1cNA-EdACD5vqtJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sY3BnNFwh6AfULK78"
+					},
+					"name": "Smith",
+					"reference": "B221",
+					"tags": [
+						"Craft"
+					],
+					"specialization": "Copper",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Jeweler",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smith",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sWo0yTmHWxeZCPzaq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sPzbISx1YLymsXhzT"
+					},
+					"name": "Smith",
+					"reference": "B221",
+					"tags": [
+						"Craft"
+					],
+					"specialization": "Iron",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Smith",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "smIhkr5aj3wvdo8es",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "slk6a6Ok33wn9L3ct"
+					},
+					"name": "Smith",
+					"reference": "B221",
+					"tags": [
+						"Craft"
+					],
+					"specialization": "Lead \u0026 Tin",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Jeweler",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smith",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "s48gGbZuAL6o-jt3-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "szmlj4f_mXeUfRJEP"
+			},
+			"name": "Smuggling",
+			"reference": "DFA89",
+			"tags": [
+				"Criminal",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s_1-SoDkQAtCDdNik",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "szf-0DrUH5ef3Cw0E"
+			},
+			"name": "Sociology",
+			"reference": "B221",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Anthropology",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Psychology",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sVRoy1uMdM_4uhOdU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sNk63TpccCvsiXKd0"
+			},
+			"name": "Spear",
+			"reference": "DFA81",
+			"tags": [
+				"Combat",
+				"Guardmouse",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Polearm",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Staff",
+					"modifier": -2
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "saDFJIPeNXKb5Yrx2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sMa_w6SbyAhh9y3Bl"
+			},
+			"name": "Spear Thrower",
+			"reference": "DFA83",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Thrown Weapon",
+					"specialization": "Spear",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sRBaV2CxbZx3xlU4-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sjt9rwP25CIFBw-QH"
+			},
+			"name": "Speed-Reading",
+			"reference": "DFA89",
+			"tags": [
+				"Scholarly"
+			],
+			"difficulty": "iq/a",
+			"points": 1
+		},
+		{
+			"id": "sv_TMXWHVY3itGVF2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "soilUSeitMyIlPAtg"
+			},
+			"name": "Staff",
+			"reference": "DFA81",
+			"tags": [
+				"Combat",
+				"Guardmouse",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Polearm",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Spear",
+					"modifier": -2
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s21lIELcgcxOyMqyO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "stWUM31sKZ3luEMy2"
+			},
+			"name": "Stealth",
+			"reference": "DFA89",
+			"tags": [
+				"Criminal",
+				"Guardmouse",
+				"Police",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "dx/a",
+			"encumbrance_penalty_multiplier": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sXR4wLh1mRxz_OiwO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s0pHY2syssWuCG-qz"
+			},
+			"name": "Strategy",
+			"reference": "DFA90",
+			"tags": [
+				"Military"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Intelligence Analysis",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Tactics",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sDc2pcXh18YW3255Q",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "su--hvhfgXX1hdu1b"
+			},
+			"name": "Streetwise",
+			"reference": "DFA90",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Social",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sP17EF3JxS_IR7CF-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sGh3GER1SZtvucXxe"
+			},
+			"name": "Surgery",
+			"reference": "DFA90",
+			"tags": [
+				"Medical"
+			],
+			"difficulty": "iq/vh",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "First Aid",
+					"modifier": -12
+				},
+				{
+					"type": "skill",
+					"name": "Physician",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Physiology",
+					"modifier": -8
+				},
+				{
+					"type": "skill",
+					"name": "Veterinary",
+					"modifier": -5
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "first aid"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "physician"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "SnakqZWrG8V9PygEL",
+			"name": "Survival",
+			"reference": "DFA90",
+			"children": [
+				{
+					"id": "sf0TuPioHgOsflmWr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sufMXklhL_DULnwUL"
+					},
+					"name": "Survival",
+					"reference": "DFA90",
+					"tags": [
+						"Exploration",
+						"Outdoor"
+					],
+					"specialization": "@Environment@",
+					"difficulty": "per/a",
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Naturalist",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sLSctlWy7g21s6ytB",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s4aln9Gc_vs6hIpmG"
+					},
+					"name": "Survival",
+					"reference": "DFA90",
+					"tags": [
+						"Exploration",
+						"Guardmouse",
+						"Outdoor"
+					],
+					"specialization": "Arctic",
+					"difficulty": "per/a",
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Naturalist",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sTJbKOmmO0LEGXtDY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "szPW4iOeooiXKBRuX"
+					},
+					"name": "Survival",
+					"reference": "DFA90",
+					"tags": [
+						"Exploration",
+						"Outdoor"
+					],
+					"specialization": "Desert",
+					"difficulty": "per/a",
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Naturalist",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s8H9DZ0pzWG1d-Jdi",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "szPW4iOeooiXKBRuX"
+					},
+					"name": "Survival",
+					"reference": "DFA90",
+					"tags": [
+						"Exploration",
+						"Guardmouse",
+						"Outdoor"
+					],
+					"specialization": "Island/Beach",
+					"difficulty": "per/a",
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Naturalist",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "szjrhrGGIbqOG-jJP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "szPW4iOeooiXKBRuX"
+					},
+					"name": "Survival",
+					"reference": "DFA90",
+					"tags": [
+						"Exploration",
+						"Outdoor"
+					],
+					"specialization": "Jungle",
+					"difficulty": "per/a",
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Naturalist",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s-K51FwR60UFOyfSQ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "szPW4iOeooiXKBRuX"
+					},
+					"name": "Survival",
+					"reference": "DFA90",
+					"tags": [
+						"Exploration",
+						"Outdoor"
+					],
+					"specialization": "Mountain",
+					"difficulty": "per/a",
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Naturalist",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s2POzozHavgFXntfI",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "szPW4iOeooiXKBRuX"
+					},
+					"name": "Survival",
+					"reference": "DFA90",
+					"tags": [
+						"Exploration",
+						"Outdoor"
+					],
+					"specialization": "Plains",
+					"difficulty": "per/a",
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Naturalist",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s1CY93_Ly4b6RO3u5",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "szPW4iOeooiXKBRuX"
+					},
+					"name": "Survival",
+					"reference": "DFA90",
+					"tags": [
+						"Exploration",
+						"Outdoor"
+					],
+					"specialization": "Swampland",
+					"difficulty": "per/a",
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Naturalist",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s3soE9uWCPSioDyhe",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "szPW4iOeooiXKBRuX"
+					},
+					"name": "Survival",
+					"reference": "DFA90",
+					"tags": [
+						"Exploration",
+						"Guardmouse",
+						"Outdoor"
+					],
+					"specialization": "Woodlands",
+					"difficulty": "per/a",
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Naturalist",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "sOyMGV7JtcOg1qICd",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sK3qkLzqKpXsXZsdn"
+			},
+			"name": "Swimming",
+			"reference": "DFA90",
+			"tags": [
+				"Athletic",
+				"Exploration",
+				"Outdoor"
+			],
+			"difficulty": "ht/e",
+			"encumbrance_penalty_multiplier": 2,
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s-QqKZPRFvj7xGsJG",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sqbg3yPHHTT0fHqmM"
+			},
+			"name": "Tactics",
+			"reference": "DFA91",
+			"tags": [
+				"Military",
+				"Police"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Strategy",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sDpbmj9YAp7869R2Q",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sNjbXhOiMNN9jl_RJ"
+			},
+			"name": "Tailor",
+			"reference": "B216",
+			"reference_highlight": "Professional Skill",
+			"tags": [
+				"Craft",
+				"Professional"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Sewing",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s_JHfg7VZNG3ZdGiU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sn9OTSgO-Jdi56lMa"
+			},
+			"name": "Teaching",
+			"reference": "DFA91",
+			"tags": [
+				"Guardmouse",
+				"Scholarly",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sj09V8wFeR_qepEnT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sQK-KUH0dR_mN9MQP"
+			},
+			"name": "Throwing",
+			"reference": "DFA91",
+			"tags": [
+				"Athletic",
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Dropping",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "SwKdbDF7DAl7t00Gn",
+			"name": "Thrown Weapon",
+			"reference": "DFA91",
+			"children": [
+				{
+					"id": "sKuivK8ixNS3XdOcL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sfIBMIcJimmn5pfKb"
+					},
+					"name": "Thrown Weapon",
+					"reference": "DFA91",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sNr-3Tt9giRufg6SA",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s4m9kK3YxR976CoPq"
+					},
+					"name": "Thrown Weapon",
+					"reference": "DFA91",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Axe/Mace",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sHPwVppu36zimxD3Q",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sYUO1vNflndTvzMrZ"
+					},
+					"name": "Thrown Weapon",
+					"reference": "DFA91",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Dart",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Throwing",
+							"modifier": -2
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sDXDyHZf9vTiX7GPY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "szmD99yJ2Es1Pz073"
+					},
+					"name": "Thrown Weapon",
+					"reference": "DFA91",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Harpoon",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Spear",
+							"modifier": -2
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sNqhxK6kiK_UTQkmP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sSg3_t4o1EY_D2rUk"
+					},
+					"name": "Thrown Weapon",
+					"reference": "DFA91",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Knife",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "spEpDGgpnRTusCZEi",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "se0Y7kYJUaeXFj5Ns"
+					},
+					"name": "Thrown Weapon",
+					"reference": "DFA91",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Spear",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Spear Thrower",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Harpoon",
+							"modifier": -2
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sHjptUX_FEix5XstS",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s4rogZ8xmgXgQVGPl"
+					},
+					"name": "Thrown Weapon",
+					"reference": "DFA91",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Stick",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "scsKVFDvAGhUxiqHg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s-qaex6gJlE3JswZv"
+			},
+			"name": "Tonfa",
+			"reference": "DFA82",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Shortsword",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sd1BNcdYXaxVbmDf5",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sDMrCpmUtQNn3Zd9d"
+			},
+			"name": "Tracking",
+			"reference": "DFA92",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "swwPpL2D9EaMNLhGv",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "swvLN9P0plvDUXQaI"
+			},
+			"name": "Traps",
+			"reference": "DFA92",
+			"tags": [
+				"Criminal",
+				"Military",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Lockpicking",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s6dVX1Q-c-BRr-0Q_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sRxrEmc3lfEEy4VAa"
+			},
+			"name": "Two-Handed Axe/Mace",
+			"reference": "DFA81",
+			"tags": [
+				"Combat",
+				"Guardmouse",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Axe/Mace",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Polearm",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed Flail",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "setxF6VK5klGi8ZHg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sZFEG08s5VXd1ZIMn"
+			},
+			"name": "Two-Handed Flail",
+			"reference": "DFA81",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Flail",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Kusari",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed Axe/Mace",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s3mcsfjGHvWMnaCM5",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "snAFDxOB3UqelcxN5"
+			},
+			"name": "Two-Handed Sword",
+			"reference": "DFA82",
+			"tags": [
+				"Combat",
+				"Guardmouse",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Broadsword",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Force Sword",
+					"modifier": -4
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s9PSnUn237ZR8IdUT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sVZ-LBm5Azv2yoGD5"
+			},
+			"name": "Urban Survival",
+			"reference": "DFA94",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Street"
+			],
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sdWGGQvo4DB_CbljQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "saUwoycDfZev9u_Jd"
+			},
+			"name": "Ventriloquism",
+			"reference": "DFA94",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "sxH7bzUqo6e46_n-h",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sOt0ouAuX_84rlANE"
+			},
+			"name": "Veterinary",
+			"reference": "DFA94",
+			"tags": [
+				"Animal",
+				"Medical"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Animal Handling",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Esoteric Medicine",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Surgery",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "srPjIAZ66br8knJXA",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "ssI3x02A9luuseRDy"
+			},
+			"name": "Weather Sense",
+			"reference": "DFA94",
+			"tags": [
+				"Everyman",
+				"Exploration",
+				"Guardmouse",
+				"Outdoor"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sEqoHy9uhMvsb6WBH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s2u7PEdv1s5_cIKdV"
+			},
+			"name": "Whip",
+			"reference": "DFA82",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Force Whip",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Kusari",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Monowire Whip",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sBhPsYub7YxwLW4ZI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s6iSa3lbnEODwEzdw"
+			},
+			"name": "Wrestling",
+			"reference": "MG14, DFA93",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Unarmed"
+			],
+			"difficulty": "dx/a",
+			"points": 1
+		},
+		{
+			"id": "sk8cereQS9r_EzG6C",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "slGB9sfhyga7dcVS4"
+			},
+			"name": "Writing",
+			"reference": "DFA94",
+			"tags": [
+				"Arts",
+				"Entertainment",
+				"Scholarly"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		}
+	]
+}

@@ -1,0 +1,803 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "trKjmJNH7N77qKXEU",
+			"name": "Alerta",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tER-VT9jYG0qkIOeH",
+			"name": "Alto",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tR2b8R7_wmd9aYgPh",
+			"name": "Astuto",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "ti-Jcpq1hid4wmjNZ",
+			"name": "Audaz",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tpLFDAsVYwtin2ihN",
+			"name": "Bajo",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "trrpdu7YR45oY8KGM",
+			"name": "Buena Vista",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tVhmzSEd1Tn0lvBmJ",
+			"name": "Callado",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tNUuCqZ3bncwhQJGn",
+			"name": "Calmado",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tk_OtPpIP8Z75dxXR",
+			"name": "Cola Larga",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tz0FxD8go-BS7oZhh",
+			"name": "Compasivo",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "ti1g0zI5OGnHVnO9T",
+			"name": "Curioso",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tb5Z13DNPsjjyBc1u",
+			"name": "Decidido",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tQXKGqrsvKzmk0UtT",
+			"name": "Defensor",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "txkxFW4AQr59QF_b9",
+			"name": "Delgado",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tDjc9OL9X2n5WJQfe",
+			"name": "Dientes Afilados",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tcNgEuiVFm65WmHTD",
+			"name": "Duro",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tbNBNYFmVHBWBe5lu",
+			"name": "Escéptico",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tYRSpnxQlh4_1ViQT",
+			"name": "Espabilado",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tG-c2W0WxYM2aMV99",
+			"name": "Estoico",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tKvguBmlAUMmgnuJm",
+			"name": "Extrovertido",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tWG_C1WwiNPSthX8M",
+			"name": "Fogoso",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "ts9TMqRQ63NRi6_PT",
+			"name": "Generoso",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "t9h7XkFCU-uMNjMZ1",
+			"name": "Gordo",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tynHHUJF6DJJZwNx0",
+			"name": "Gruñón",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tZwmj7QVnvWMeyG10",
+			"name": "Grácil",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tKTyL7QnnoX2Ets6w",
+			"name": "Guardaespaldas",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tZ_fiCBWdL1NByKty",
+			"name": "Hastiado",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tlJ3kx4_uiWzNAPFj",
+			"name": "Hocico de Lobo",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tl3dfqUuqy-IZnAmH",
+			"name": "Honrado por la Guardia",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tspK9RRIynhIKifZa",
+			"name": "Independiente",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tMG2dFgwOoXOErduc",
+			"name": "Inocente",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tbDsXdPRMOTJ5iWWE",
+			"name": "Inquisitivo",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tUoFI-sXiH3RWAe8R",
+			"name": "Intrépido",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tDX9dN2fs8MJDyDkZ",
+			"name": "Joven",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tHn1cl6JnVyrbm6ip",
+			"name": "Ligero",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tzrAe8LbtNTexF5hI",
+			"name": "Listo",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tzHzEN2fXk0Yte3Sg",
+			"name": "Líder",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tHrFbP-N_vJ0kdq9h",
+			"name": "Madrugador",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "td0gie0yMEYuVu2IX",
+			"name": "Motivado",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "t6rr_rI3fSUAt_LOJ",
+			"name": "Nocturno",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tDoPSYBhOc-QTArK_",
+			"name": "Oído Agudo",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tmJ3P09U1AQcpIeWJ",
+			"name": "Perdido",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tkLiAAhBTyPWLxZmz",
+			"name": "Racional",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "t-GpEkLfnaZV9epoa",
+			"name": "Reflexivo",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tK6m-aUZBhz8YnKaZ",
+			"name": "Sabio",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "t6nPHP-cnP0donrH-",
+			"name": "Secuelas",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "txkGpPV6pqevhd_GQ",
+			"name": "Sentido de la Orientación",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tqt49nkQGHq16Q_yP",
+			"name": "Sentido del Clima",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tdDLQLfMxRRSvIXdk",
+			"name": "Suspicaz",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tonQLO6OqlUL1-LSy",
+			"name": "Temeroso",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tUWXvYIwVBZA3rVjw",
+			"name": "Tenaz",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tPA1vK-PR4VZ4qfbp",
+			"name": "Tolerante",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "t83C8HUvM1u62cZDN",
+			"name": "Trabajador",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tj9eodZm-4bIGhlaB",
+			"name": "Valiente",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tJyRx0tTp7UwbnELv",
+			"name": "Viejo",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "trn5JP4u4_TKBvcCx",
+			"name": "Zarpas Firmes",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "t_Zu6mriFj3YBvuoi",
+			"name": "Zarpas Grandes",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1
+			}
+		}
+	]
+}

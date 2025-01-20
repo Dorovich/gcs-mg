@@ -1,0 +1,455 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "skLCac99uEX9KRV5B",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "s2iyDM3YKg4sR--CD"
+			},
+			"name": "Animals",
+			"tags": [
+				"Animal",
+				"Medical",
+				"Outdoor"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sa1Jyh0GUNSr244Oc",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "sSjMAynAV4fAMzjjx"
+			},
+			"name": "Antisocial",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Social",
+				"Street"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "will",
+					"modifier": -6
+				},
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s4DTusNXKjPkWzo3q",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "sMVuTAXASxxX_pskp"
+			},
+			"name": "Artist",
+			"tags": [
+				"Arts",
+				"Craft",
+				"Entertainment",
+				"Social"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sRnd3LWnFnQo20EVX",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "sGslIoGSQB8qkAOgB"
+			},
+			"name": "Athletics",
+			"tags": [
+				"Athletic",
+				"Exploration"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -5
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sUB4jvoolCs0lFx9f",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "sYznntA9UbwJz3lFN"
+			},
+			"name": "Business",
+			"tags": [
+				"Business",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sAdbWBLOoG5nawBBE",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "sKKNJhvoLyra-dnVT"
+			},
+			"name": "Covert Ops",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "dx",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s16vTxSC2RJsVDSxw",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "sQnbjN4H5GPrPkAJG"
+			},
+			"name": "Craft",
+			"tags": [
+				"Craft",
+				"Maintenance",
+				"Repair"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s4HaRzGthwuyswluy",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "sArZ--79Bn4U33RJd"
+			},
+			"name": "Engineer",
+			"tags": [
+				"Design",
+				"Invention"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sPlF5AGnsqcp1O39p",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "sH6Xw92LQWaVkEfiy"
+			},
+			"name": "Lore",
+			"tags": [
+				"Knowledge"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sv1Htcea1UleS66yH",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "swsccyDqu8LPO9yyp"
+			},
+			"name": "Medic",
+			"tags": [
+				"Animal",
+				"Design",
+				"Invention",
+				"Medical",
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sz8J2vgryEEB4HiFF",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "sgLvN1uf799gbWV6N"
+			},
+			"name": "Melee Weapons",
+			"tags": [
+				"Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "svORYovqCLp3L1_In",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "sqzAzEGYcohKEEfe7"
+			},
+			"name": "Missile Weapons",
+			"tags": [
+				"Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sOkZMSPzrsGUbaZhC",
+			"name": "Navigation",
+			"tags": [
+				"Exploration",
+				"Outdoor",
+				"Technical"
+			],
+			"difficulty": "iq/a",
+			"points": 1
+		},
+		{
+			"id": "sJT_WXqSyPvuCSmKR",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "sTrG_SbT3Q6cmDVDw"
+			},
+			"name": "Occult",
+			"tags": [
+				"Knowledge",
+				"Occult"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sO46XGzsMvRaoAucp",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "sqAVtKDukLCLOVEmI"
+			},
+			"name": "Science",
+			"tags": [
+				"Natural Science",
+				"Plant",
+				"Technical"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sZWu3ezHEOlrWv0To",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "s0iUaaVMKPWqMUCqU"
+			},
+			"name": "Social",
+			"tags": [
+				"Humanities",
+				"Social",
+				"Social Sciences",
+				"Spy"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "will",
+					"modifier": -6
+				},
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "seJyc8DXLkImSV0Zh",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "sn_ZFpijV1-IvnMQj"
+			},
+			"name": "Strategist",
+			"tags": [
+				"Military",
+				"Police"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sGK5q-zFFJHMtwk3Y",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "svNpdTCtMcT4i9PVz"
+			},
+			"name": "Survivalist",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s9WFY-Bw1VBpkbidB",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "sw3IF69P4qNRdAJAp"
+			},
+			"name": "Unarmed",
+			"tags": [
+				"Athletic",
+				"Combat"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sR61oG3NPIcyjA_XM",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Deber del Mechit/Habilidades.skl",
+				"id": "sFbs-AW-GlXL6s9k8"
+			},
+			"name": "Vehicles",
+			"tags": [
+				"Vehicle"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		}
+	]
+}
