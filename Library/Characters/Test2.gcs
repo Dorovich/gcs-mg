@@ -86,6 +86,13 @@
 				"cost_per_point": 2
 			},
 			{
+				"id": "grit",
+				"type": "integer_ref",
+				"placement": "secondary",
+				"name": "Grit",
+				"attribute_base": "$ht/2+3"
+			},
+			{
 				"id": "senses",
 				"type": "secondary_separator",
 				"name": "Senses"
@@ -531,6 +538,14 @@
 			"adj": 0,
 			"calc": {
 				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "grit",
+			"adj": 0,
+			"calc": {
+				"value": 8,
 				"points": 0
 			}
 		},
@@ -1395,7 +1410,7 @@
 		}
 	],
 	"created_date": "2025-01-19T17:37:32+01:00",
-	"modified_date": "2025-01-19T21:35:54+01:00",
+	"modified_date": "2025-01-23T02:29:52+01:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

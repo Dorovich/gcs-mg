@@ -51,6 +51,13 @@
 			"cost_per_point": 2
 		},
 		{
+			"id": "grit",
+			"type": "integer_ref",
+			"placement": "secondary",
+			"name": "Grit",
+			"attribute_base": "$ht/2+3"
+		},
+		{
 			"id": "senses",
 			"type": "secondary_separator",
 			"name": "Senses"
