@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "Av2XzEFKaao8DIJTk",
-	"total_points": 100,
+	"total_points": 108,
 	"points_record": [
 		{
 			"when": "2025-01-20T00:40:54+01:00",
-			"points": 100,
+			"points": 108,
 			"reason": "Initial points"
 		}
 	],
@@ -291,6 +291,18 @@
 			"name": "Mouse",
 			"roll": "3d",
 			"locations": [
+				{
+					"id": "ears",
+					"choice_name": "Ears",
+					"table_name": "Ears",
+					"hit_penalty": -3,
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
 				{
 					"id": "eye",
 					"choice_name": "Eyes",
@@ -755,6 +767,24 @@
 			"calc": {
 				"points": 0
 			}
+		},
+		{
+			"id": "t_VZEdqSqIprApbGN",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tz-USDL9B_KrrVqDi"
+			},
+			"name": "Knack (@topic@)",
+			"notes": "Usable once per session. Treat as Luck (B66) for a specific situation the character is naturally good at.",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"base_points": 3,
+			"calc": {
+				"points": 3
+			}
 		}
 	],
 	"skills": [
@@ -1066,7 +1096,7 @@
 		}
 	],
 	"created_date": "2025-01-20T00:40:54+01:00",
-	"modified_date": "2025-01-26T04:27:58+01:00",
+	"modified_date": "2025-01-26T06:20:25+01:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

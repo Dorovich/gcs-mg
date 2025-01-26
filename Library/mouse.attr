@@ -51,10 +51,10 @@
 			"cost_per_point": 2
 		},
 		{
-			"id": "grit",
+			"id": "wound_accumulation",
 			"type": "integer_ref",
 			"placement": "secondary",
-			"name": "Grit",
+			"name": "Wound Accum.",
 			"attribute_base": "$ht/2+3"
 		},
 		{

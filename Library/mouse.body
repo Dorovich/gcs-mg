@@ -4,6 +4,18 @@
 	"roll": "3d",
 	"locations": [
 		{
+			"id": "ears",
+			"choice_name": "Ears",
+			"table_name": "Ears",
+			"hit_penalty": -3,
+			"calc": {
+				"roll_range": "-",
+				"dr": {
+					"all": 0
+				}
+			}
+		},
+		{
 			"id": "eye",
 			"choice_name": "Eyes",
 			"table_name": "Eyes",
