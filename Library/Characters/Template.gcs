@@ -776,7 +776,7 @@
 				"id": "tz-USDL9B_KrrVqDi"
 			},
 			"name": "Knack (@topic@)",
-			"notes": "Usable once per session. Treat as Luck (B66) for a specific situation the character is naturally good at.",
+			"notes": "Usable once per session. Treat as Luck (B66) for a specific topic the character is naturally “talented” at.",
 			"tags": [
 				"Advantage",
 				"Mental"
@@ -1092,11 +1092,11 @@
 	"notes": [
 		{
 			"id": "nkuOoZPNcjCoF_e8p",
-			"text": "**Mouse**: You have fur (Fur, B101), a tail (Tail, TT2:12), a snout (Born Biter, MA115) and whiskers (Vibraton Sense (Air), B96). Divide BL and all item weights by 1000 to use grams."
+			"text": "Divide BL and all item weights by 1000 to use grams."
 		}
 	],
 	"created_date": "2025-01-20T00:40:54+01:00",
-	"modified_date": "2025-01-26T06:20:25+01:00",
+	"modified_date": "2025-01-27T00:24:28+01:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
