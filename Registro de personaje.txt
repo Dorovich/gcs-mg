@@ -1,16 +1,14 @@
 MOUSE GUARD: REGISTRO DE PERSONAJE
 
-== Información Básica =================
-
 Nombre		?
-Patrulla	?
-Rango		?
 Edad		?
-Color Pelaje	?
+Rango		?
+Patrulla	?
+Pelaje		?
 Altura		10cm
 Peso		25g
 
-== Atributos ==========================
+== Atributos ===========================
 
 Fuerza (ST)		10
 Destreza (DX)		10
@@ -27,7 +25,7 @@ Esquivar		8
 Estocada Básica		1d-2
 Blandida Básica		1d
 
-== Habilidades ========================
+== Habilidades =========================
 
 NOMBRE			SL	PTS
 Escalada		9	1
@@ -36,12 +34,12 @@ Correr			9	1
 Sigilo			9	1
 Supervivencia (Bosque)	9	1
 
-== Rasgos =============================
+== Rasgos ==============================
 
 NOMBRE				PTS
 Don (?)				3
 
-== Ataques ============================
+== Ataques =============================
 
 ARMA		SL 	DAÑO
 Puñetazo	10/8	1d-3 cr
@@ -49,26 +47,34 @@ Patada		8	1d-2 cr
 Mordisco	10	1d-3 cr
 Embestida	10	1d-4 cr
 
-== Heridas ============================
+== Heridas =============================
+
+DAÑO	SEVERIDAD	CURACIÓN
+--	-7 Ninguno	--
+1	-6 Rasguño 	1 día
+--	-5 Menor 	1.5 días
+2	-4 Menor 	2 días
+3	-3 Menor 	5 días
+4	-2 Mayor 	7 días
+7	-1 Tambaleo 	10 días
+9	 0 Lisiado 	2 semanas
+13	 1 Lisiado 	3 semanas
+19	 2 Mortal 	5 semanas
+25	 3 Mortal 	7 semanas
+37	 4 Fatal 	--
+61	 5 Fatal 	--
+85	 6 Aniquilado 	--
+
+Acumulación de Heridas	8
 
 -
 -
 -
 
-Acumulación Heridas	8
+== Inventario ===========================
 
-SEVERIDAD	DAÑO
--7 Ninguno	--
--6 Rasguño 	1
--5 Menor 	--
--4 Menor 	2
--3 Menor 	3
--2 Mayor 	4
--1 Tambaleo 	7
- 0 Lisiado 	9
- 1 Lisiado 	13
- 2 Mortal 	19
- 3 Mortal 	25
- 4 Fatal 	37
- 5 Fatal 	61
- 6 Aniquilado 	85
+- Capa ? (RT 2, DR 1)
+-
+-
+-
+-
