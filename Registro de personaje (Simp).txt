@@ -1,0 +1,71 @@
+MOUSE GUARD: REGISTRO DE PERSONAJE
+
+Nombre		?
+Edad		?
+Pelaje		?
+Rango		?
+Patrulla	?
+
+== Atributos ===========================
+
+Fuerza (ST)		10
+Destreza (DX)		10
+Inteligencia (IQ)	10
+Salud (HT)		10
+
+Voluntad		10
+Percepción		10
+Puntos de Fatiga	10/10
+Movimiento		5
+Esquivar		8
+Daño Estocada		1d-2
+Daño Blandida		1d
+
+== Habilidades =========================
+
+NOMBRE			SL	PTS
+
+== Rasgos ==============================
+
+NOMBRE				PTS
+Don (?)				3
+
+== Ataques =============================
+
+ARMA		SL 	DAÑO
+Puñetazo	10/8	1d-3 cr
+Patada		8	1d-2 cr
+Mordisco	10	1d-3 cr
+Embestida	10	1d-4 cr
+
+== Heridas =============================
+
+SEVERIDAD	DAÑO	CURACIÓN (DÍAS)
+-7 Ninguno	--	--
+-6 Rasguño 	1	1
+-5 Menor 	--	1.5
+-4 Menor 	2	2
+-3 Menor 	3	5
+-2 Mayor 	4	7
+-1 Tambaleo 	7	10
+ 0 Lisiado 	9	14
+ 1 Lisiado 	13	21
+ 2 Mortal 	19	35
+ 3 Mortal 	25	49
+ 4 Fatal 	37	--
+ 5 Fatal 	61	--
+ 6 Aniquilado 	85	--
+
+Acumulación de Heridas	8
+
+-
+-
+-
+
+== Inventario ===========================
+
+- Capa ? (RT 2, DR 1)
+-
+-
+-
+-
