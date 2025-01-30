@@ -767,24 +767,6 @@
 			"calc": {
 				"points": 0
 			}
-		},
-		{
-			"id": "t_VZEdqSqIprApbGN",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tz-USDL9B_KrrVqDi"
-			},
-			"name": "Knack (@topic@)",
-			"notes": "Usable once per session. Treat as Luck (B66) for a specific topic the character is naturally “talented” at.",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"base_points": 3,
-			"calc": {
-				"points": 3
-			}
 		}
 	],
 	"skills": [

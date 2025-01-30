@@ -291,112 +291,6 @@
 			}
 		},
 		{
-			"id": "tH6yrNXsZqIhl0KWP",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tBp8Q-gJeFHzopeuI"
-			},
-			"name": "Flight",
-			"reference": "B56,P50,PSI14",
-			"notes": "Air Move is Basic Speed x 2 (drop all fractions)",
-			"tags": [
-				"Advantage",
-				"Exotic",
-				"Physical"
-			],
-			"modifiers": [
-				{
-					"id": "mn1nwYBQ-U1lk_20m",
-					"name": "Cannot Hover",
-					"reference": "B56",
-					"cost": -15,
-					"disabled": true
-				},
-				{
-					"id": "mk8GhZeepACkub9t1",
-					"name": "Controlled Gliding",
-					"reference": "B56",
-					"cost": -45,
-					"disabled": true
-				},
-				{
-					"id": "mGhrFCWqhAl1XxnSy",
-					"name": "Gliding",
-					"reference": "B56",
-					"cost": -50,
-					"disabled": true
-				},
-				{
-					"id": "mTz-La4WRJJDG7r7r",
-					"name": "Low Ceiling",
-					"reference": "B56",
-					"notes": "30'",
-					"cost": -10,
-					"disabled": true
-				},
-				{
-					"id": "mf0-EfWBKJWnLJhWi",
-					"name": "Low Ceiling",
-					"reference": "B56",
-					"notes": "10'",
-					"cost": -20,
-					"disabled": true
-				},
-				{
-					"id": "mmJpYw4hVQSijwAkE",
-					"name": "Low Ceiling",
-					"reference": "B56",
-					"notes": "5'",
-					"cost": -25,
-					"disabled": true
-				},
-				{
-					"id": "mUma-SsOo_CP5MkTm",
-					"name": "Small Wings",
-					"reference": "B56",
-					"cost": -10,
-					"disabled": true
-				},
-				{
-					"id": "mtSd1E6TnLO8hsAM5",
-					"name": "Winged",
-					"reference": "B56",
-					"cost": -25
-				},
-				{
-					"id": "mnbLoeR6ZhKDW5PZ3",
-					"name": "Encumbrance-Limited (No encumbrance)",
-					"reference": "FFWF12",
-					"reference_highlight": "Encumbrance-Limited",
-					"notes": "Can only glide at best when overburdened",
-					"cost": -15,
-					"disabled": true
-				},
-				{
-					"id": "m0EKIwBYi6YjmODDO",
-					"name": "Encumbrance-Limited (Light encumbrance)",
-					"reference": "FFWF12",
-					"reference_highlight": "Encumbrance-Limited",
-					"notes": "Can only glide at best when overburdened",
-					"cost": -10
-				},
-				{
-					"id": "mABDkII-DZjD9iPIi",
-					"name": "Encumbrance-Limited (Medium encumbrance)",
-					"reference": "FFWF12",
-					"reference_highlight": "Encumbrance-Limited",
-					"notes": "Can only glide at best when overburdened",
-					"cost": -5,
-					"disabled": true
-				}
-			],
-			"base_points": 40,
-			"calc": {
-				"points": 26
-			}
-		},
-		{
 			"id": "tUvnjt_KwKK5dcV2u",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -8213,6 +8107,112 @@
 			}
 		},
 		{
+			"id": "tH6yrNXsZqIhl0KWP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tBp8Q-gJeFHzopeuI"
+			},
+			"name": "Flight",
+			"reference": "B56,P50,PSI14",
+			"notes": "Air Move is Basic Speed x 2 (drop all fractions)",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mn1nwYBQ-U1lk_20m",
+					"name": "Cannot Hover",
+					"reference": "B56",
+					"cost": -15,
+					"disabled": true
+				},
+				{
+					"id": "mk8GhZeepACkub9t1",
+					"name": "Controlled Gliding",
+					"reference": "B56",
+					"cost": -45,
+					"disabled": true
+				},
+				{
+					"id": "mGhrFCWqhAl1XxnSy",
+					"name": "Gliding",
+					"reference": "B56",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "mTz-La4WRJJDG7r7r",
+					"name": "Low Ceiling",
+					"reference": "B56",
+					"notes": "30'",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mf0-EfWBKJWnLJhWi",
+					"name": "Low Ceiling",
+					"reference": "B56",
+					"notes": "10'",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "mmJpYw4hVQSijwAkE",
+					"name": "Low Ceiling",
+					"reference": "B56",
+					"notes": "5'",
+					"cost": -25,
+					"disabled": true
+				},
+				{
+					"id": "mUma-SsOo_CP5MkTm",
+					"name": "Small Wings",
+					"reference": "B56",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "mtSd1E6TnLO8hsAM5",
+					"name": "Winged",
+					"reference": "B56",
+					"cost": -25
+				},
+				{
+					"id": "mnbLoeR6ZhKDW5PZ3",
+					"name": "Encumbrance-Limited (No encumbrance)",
+					"reference": "FFWF12",
+					"reference_highlight": "Encumbrance-Limited",
+					"notes": "Can only glide at best when overburdened",
+					"cost": -15,
+					"disabled": true
+				},
+				{
+					"id": "m0EKIwBYi6YjmODDO",
+					"name": "Encumbrance-Limited (Light encumbrance)",
+					"reference": "FFWF12",
+					"reference_highlight": "Encumbrance-Limited",
+					"notes": "Can only glide at best when overburdened",
+					"cost": -10
+				},
+				{
+					"id": "mABDkII-DZjD9iPIi",
+					"name": "Encumbrance-Limited (Medium encumbrance)",
+					"reference": "FFWF12",
+					"reference_highlight": "Encumbrance-Limited",
+					"notes": "Can only glide at best when overburdened",
+					"cost": -5,
+					"disabled": true
+				}
+			],
+			"base_points": 40,
+			"calc": {
+				"points": 26
+			}
+		},
+		{
 			"id": "tWwT5u3RDkWEKweaa",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -11162,6 +11162,24 @@
 			"base_points": -5,
 			"calc": {
 				"points": -5
+			}
+		},
+		{
+			"id": "tDOZEaz7rkwMfZIur",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tz-USDL9B_KrrVqDi"
+			},
+			"name": "Knack (@topic@)",
+			"notes": "Usable once per session. Treat as Luck (B66) for a specific topic the character is naturally “talented” at.",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"base_points": 3,
+			"calc": {
+				"points": 3
 			}
 		},
 		{
