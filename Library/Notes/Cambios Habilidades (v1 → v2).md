@@ -5,3 +5,4 @@
 - **Armas melé, varias**: Ver https://onlythepartsyouneed.blogspot.com/2020/05/gurps-alternate-melee-weapon-skills.html
 - **Limpieza (Cleaning)**: Nueva habilidad.
 - **Veterinaria (Veterinary)**: Ahora usar las habilidades médicas estándar (Diagnosis, Farmacia, Cirugía...) junto con las especialidades de Fisiología y Trato con animales adecuadas.
+- **Kusari**: Ahora se llama Sedal y Anzuelo (Line and Hook).
