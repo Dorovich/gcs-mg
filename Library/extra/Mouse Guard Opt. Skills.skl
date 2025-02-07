@@ -184,6 +184,33 @@
 				}
 			],
 			"points": 1
+		},
+		{
+			"id": "spIoIzbOYxHRI15g2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sM7zEW0oDYHNZZuWo"
+			},
+			"name": "Packing",
+			"reference": "B212",
+			"tags": [
+				"Animal"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Animal Handling",
+					"specialization": "Equines",
+					"modifier": -5
+				}
+			],
+			"points": 1
 		}
 	]
 }

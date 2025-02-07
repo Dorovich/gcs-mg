@@ -1151,6 +1151,28 @@
 			"points": 1
 		},
 		{
+			"id": "sv0WFN_xmtmeHuwME",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sFUunF4AukFGnIB8z"
+			},
+			"name": "Charm",
+			"reference": "DFA88",
+			"reference_highlight": "Sex Appeal",
+			"tags": [
+				"Social"
+			],
+			"difficulty": "ht/a",
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
 			"id": "sARUt-yKNFihz5UHs",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1275,6 +1297,46 @@
 					"specialization": "Art",
 					"difficulty": "iq/a",
 					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sTclR0H-RRbwdvla9",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sAxAvgXzFYH44iN0P"
+					},
+					"name": "Connoisseur",
+					"reference": "B185,MA56",
+					"tags": [
+						"Arts",
+						"Entertainment",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "Literature",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Literature",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Poetry",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Writing",
+							"modifier": -3
+						},
 						{
 							"type": "iq",
 							"modifier": -5
@@ -3074,50 +3136,6 @@
 			"points": 1
 		},
 		{
-			"id": "sUOIvxFkmeFguELkC",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
-				"id": "s0tPCgdAoREgWqZIg"
-			},
-			"name": "Line and Hook",
-			"reference": "DFA82",
-			"tags": [
-				"Combat",
-				"Guardmouse",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/h",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Force Whip",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Monowire Whip",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Whip",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Two-Handed Flail",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
 			"id": "sukTr6kWwpEOsQG-8",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -3218,6 +3236,50 @@
 			"points": 1
 		},
 		{
+			"id": "sUOIvxFkmeFguELkC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s0tPCgdAoREgWqZIg"
+			},
+			"name": "Line and Hook",
+			"reference": "DFA82",
+			"tags": [
+				"Combat",
+				"Guardmouse",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Force Whip",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Monowire Whip",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Whip",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed Flail",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
 			"id": "sguBuFNrvOzF_F3At",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -3234,29 +3296,6 @@
 				{
 					"type": "per",
 					"modifier": -10
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sNHp4_c3zELEHKa1I",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s7TXAnMYKalDo9ZEs"
-			},
-			"name": "Literature",
-			"reference": "B205",
-			"tags": [
-				"Humanities",
-				"Scholarly",
-				"Social Sciences"
-			],
-			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
 				}
 			],
 			"points": 1
@@ -5095,27 +5134,6 @@
 				{
 					"type": "dx",
 					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "sv0WFN_xmtmeHuwME",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
-				"id": "sFUunF4AukFGnIB8z"
-			},
-			"name": "Sex Appeal",
-			"reference": "DFA88",
-			"tags": [
-				"Social"
-			],
-			"difficulty": "ht/a",
-			"defaults": [
-				{
-					"type": "ht",
-					"modifier": -3
 				}
 			],
 			"points": 1

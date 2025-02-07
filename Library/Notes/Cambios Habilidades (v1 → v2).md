@@ -6,3 +6,7 @@
 - **Limpieza (Cleaning)**: Nueva habilidad.
 - **Veterinaria (Veterinary)**: Ahora usar las habilidades médicas estándar (Diagnosis, Farmacia, Cirugía...) junto con las especialidades de Fisiología y Trato con animales adecuadas.
 - **Kusari**: Ahora se llama Sedal y Anzuelo (Line and Hook).
+- **Literatura (Literature)**: Ahora es una especialidad de Connoisseur.
+- **Atracción sexual (Sex appeal)**: Ahora se llama Encanto (Charm).
+
+# Ideas de cambios
