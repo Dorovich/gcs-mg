@@ -1,0 +1,1607 @@
+{
+	"version": 5,
+	"id": "BI-8pSwS-pZPCd0XF",
+	"traits": [
+		{
+			"id": "TxmwutW8J9b9S2nbm",
+			"name": "Disadvantages (optional)",
+			"template_picker": {
+				"type": "points",
+				"qualifier": {
+					"compare": "at_most",
+					"qualifier": 20
+				}
+			},
+			"children": [
+				{
+					"id": "tdhoigPTiRjOXXsmY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tbB8FlaUVuRanGu-T"
+					},
+					"name": "Absent-Mindedness",
+					"reference": "B122",
+					"notes": "Once adrift in your own thoughts, you must roll against Perception-5 in order to notice any event short of personal physical injury",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -15,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to all IQ and IQ-based skill rolls, save those for the task you are currently concentrating on",
+							"amount": -5
+						}
+					],
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "t2RbyXATxWV4B3fea",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "ttwfuD5y7jvTNPd7f"
+					},
+					"name": "Bad Smell",
+					"reference": "B124",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -10,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from most people and animals (although pests or carrion-eating scavengers might be attracted to you!)",
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "t9jYSFjvWd8ccxvMH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tnrtPQ0mWF4k75plo"
+					},
+					"name": "Bad Temper",
+					"reference": "B124",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "ttcCnTI5ROILFx-eR",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tELmv9bNG_8o75sYZ"
+					},
+					"name": "Berserk",
+					"reference": "B124",
+					"notes": "Make a self-control roll any time you suffer damage over 1/4 your HP in the space of one second, and whenever you witness equivalent harm to a loved one",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "m3aIzIlnPyU_eS4Gn",
+							"name": "Battle Rage",
+							"cost": 50,
+							"disabled": true
+						}
+					],
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tXuQDC8xpm0kvwWda",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tmRX0o0iO20zWIVyo"
+					},
+					"name": "Bloodlust",
+					"reference": "B125",
+					"notes": "You must make a self-control roll whenever you need to accept a surrender, evade a sentry, take a prisoner, etc.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tXiMTi4Cc_dlpPO1M",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tNG1o64IqmaaNJPg1"
+					},
+					"name": "Charitable",
+					"reference": "B125",
+					"notes": "Make a self-control roll in any situation where you could render aid or are specifically asked for help, but should resist the urge",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "t1VxbsIcJjj_7Bl-g",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tzBDG0xUlT_dh7FuY"
+					},
+					"name": "Chummy",
+					"reference": "B126",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "to others",
+							"amount": 2
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to IQ-based skills when alone",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tvxhmMPX-wRSpWcFr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tEPlPRVY1z8clGFZ1"
+					},
+					"name": "Code of Honor (Gentleman's)",
+					"reference": "B127",
+					"notes": "Never break your word. Never ignore an insult to yourself, a lady, or your flag; insults may only be wiped out by an apology or a duel (not necessarily to the death!). Never take advantage of an opponent in any way; weapons and circumstances must be equal (except in open war). This only applies between gentlemen (that is, those who you consider to be gentlemen).",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tk996xreAiQhmWcLN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "txSrmgLB0M36uR802"
+					},
+					"name": "Code of Honor (Soldier's)",
+					"reference": "B127",
+					"notes": "An officer should be tough but fair, lead from the front, and look out for his men; an enlisted man should look out for his buddies and take care of his equipment. Every soldier should be willing to fight and die for the honor of his patrol, service, and the Guard; follow orders; obey the “rules of war”; treat an honorable enemy with respect (a dishonorable enemy deserves a stab); and wear the cloak with pride.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tVGHJrIGF-ZCoGzwL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "trdRnHewvO9QjUZDJ"
+					},
+					"name": "Combat Paralysis",
+					"reference": "B127",
+					"notes": "In any situation in which personal harm seems imminent, make a HT roll. Do not roll until the instant you need to fight, run, pull the trigger, or whatever. Any roll over 13 is a failure, even if you have HT 14+. On a success, you can act normally. On a failure, you are mentally stunned. ",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Combat Reflexes"
+								}
+							}
+						]
+					},
+					"base_points": -15,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "fright_check",
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "tm6YKqmOMjx1SoHC5",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tsHSzoJhgVSPSXqNY"
+					},
+					"name": "Cowardice",
+					"reference": "B129",
+					"notes": "Make a self-control roll any time you are called on to risk physical danger. Roll at -5 if you must risk death.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tocbjbLhVjhIVh_31",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t2O8gMxbRPpAWLej9"
+					},
+					"name": "Curious",
+					"reference": "B129",
+					"notes": "Make a self-control roll when presented with an interesting item or situation",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "t-Z8VxEhgfRqz3KkN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tDK9FvKn-O3nj-U0j"
+					},
+					"name": "Dyslexia",
+					"reference": "B134",
+					"notes": "You have a written comprehension level of \"None\" for all languages, which cannot be improved",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tFFx7EMKormsas4b8",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tYHaB3nA17KP6h1DZ"
+					},
+					"name": "Gluttony",
+					"reference": "B137",
+					"notes": "Make a self-control roll when presented with a tempting morsel or good wine that, for some reason, you should resist. If you fail, you partake – regardless of the consequences.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tk4BNZnBQZX2Dwr8N",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tvF5dIQf3Jrwb_KXv"
+					},
+					"name": "Greed",
+					"reference": "B137",
+					"notes": "Make a self-control roll any time riches are offered – as payment for fair work, gains from adventure, spoils of crime, or just bait. If you fail, you do whatever it takes to get the payoff.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "t5Gq5SRNK_M5jjb-U",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tUHvsAnxBrL6XEzEn"
+					},
+					"name": "Guilt Complex",
+					"reference": "B137",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "ttBJ66mNwHQer_RN7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tY_y_Y29sMnSLYjwS"
+					},
+					"name": "Gullibility",
+					"reference": "B137",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "detect lies"
+								}
+							}
+						]
+					},
+					"cr": 12,
+					"base_points": -10,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "merchant"
+							},
+							"amount": -3
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tTYQ2gQkrFQ-ukejq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t7x0UhMbIv9VWYd8n"
+					},
+					"name": "Hidebound",
+					"reference": "B138",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "on any task that requires creativity or invention, including most rolls against Artist skill, all Engineer rolls for new inventions, and all skill rolls made to use the Gadgeteer advantage",
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tVttOSGPrd0d-9WFp",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t7pCgXTVkswkTjOZO"
+					},
+					"name": "Honesty",
+					"reference": "B138",
+					"notes": "Make a self-control roll when faced with the “need” to break unreasonable laws; if you fail, you must obey the law, whatever the consequences. If you manage to resist your urges and break the law, make a second self-control roll afterward. If you fail, you must turn yourself in to the authorities!",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tOYzp-X_pAHYrFmuL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tM8LVZ-8-HpvEFsPi"
+					},
+					"name": "Incurious",
+					"reference": "B140",
+					"notes": "Make a self-control roll when confronted with something strange. If you fail, you ignore it!",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "to new things",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "te_DNPjVglQWtGtOU",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tGc0aok6RyP6uSDca"
+					},
+					"name": "Indecisive",
+					"reference": "B140",
+					"notes": "Make a self-control roll whenever a choice confronts you, modified downward by 1 for each alternative you can see. If you fail, you do nothing.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tvl8W9p3ZEcp0_wSf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tNNZgqAtiUMQ_dZs6"
+					},
+					"name": "Jealousy",
+					"reference": "B140",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -10,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "toward those you are jealous of (may be as much as -4, at GM's discretion)",
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tTfuSnZL2HdhAplAy",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tG1q2hcai2DaeRlhm"
+					},
+					"name": "Kleptomania",
+					"reference": "B141",
+					"notes": "Make a self-control roll whenever you are presented with a chance to steal, at up to -3 if the item is especially interesting to you (not necessarily valuable, unless you are poor or have Greed). If you fail, you must try to steal it. You may keep or sell stolen items, but you may not return or discard them.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "tswXOuCRi-5J-CkqN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tuYiQV8SE62EPDnuX"
+					},
+					"name": "Klutz",
+					"reference": "B141",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": 13
+								},
+								"which": "dx"
+							}
+						]
+					},
+					"modifiers": [
+						{
+							"id": "m4KU_SgT7bnlNMmR9",
+							"name": "Total",
+							"reference": "B141",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tHtdks3-nGRP-tppX",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tnD52D6dhwXRMkPs5"
+					},
+					"name": "Loner",
+					"reference": "B142",
+					"notes": "Make a self-control roll whenever anyone lingers nearby, watches over your shoulder, etc. If you fail, you lash out at that person just as if you had Bad Temper.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr_adj": "reaction_penalty",
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tOtbJ0ueOxu6R8Ti4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tQsgCJSqiGP4g4fkG"
+					},
+					"name": "Low Pain Threshold",
+					"reference": "B142",
+					"notes": "Double the shock from any injury. Whenever you take a wound that does more than 1 HP of damage, you must make a Will roll to avoid crying out.",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "high pain threshold"
+								}
+							}
+						]
+					},
+					"base_points": -10,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from \"macho\" individuals",
+							"amount": -1
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to resist knockdown, stunning, and physical torture",
+							"amount": -4
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tGSA4yWrf5PpFeoMU",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tfujsOp4WL4ZholTv"
+					},
+					"name": "Mild Shyness",
+					"reference": "B154",
+					"notes": "You are uneasy with strangers, especially assertive or attractive ones.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Acting"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Carousing"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Diplomacy"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Fast-Talk"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Intimidation"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Leadership"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Merchant"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Panhandling"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Performance"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Politics"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Public Speaking"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Savoir-Faire"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Sex Appeal"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Streetwise"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Teaching"
+							},
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tEMI88SVZkRJPabis",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tzWQ90ARlX5DcAAu7"
+					},
+					"name": "Nightmares",
+					"reference": "B144",
+					"notes": "Make a self-control roll each morning upon awakening. If you fail, you suffered nightmares; this costs you 1 FP that you can only recover through sleep. On a roll of 17 or 18, you are left shaking, and are at -1 to all skill and Perception rolls for the entire day.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tL8lgJIkCy7szN1Z0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tAFhfFoZosiPCFUhy"
+					},
+					"name": "No Sense of Humor",
+					"reference": "B146",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -10,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others in any situation where No Sense of Humor becomes evident",
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tDL8M_GspRoLzMAsG",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tPbL1_rekOzkM86wz"
+					},
+					"name": "Overconfidence",
+					"reference": "B148",
+					"notes": "You must make a self-control roll any time the GM feels you show an unreasonable degree of caution. If you fail, you must go ahead as though you were able to handle the situation!",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from young or naive individuals who believe you are as good as you say you are",
+							"amount": 2
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "from experienced NPCs",
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tknAe3z7uAVrVRdZP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tV_f_75HmwzWOPhuu"
+					},
+					"name": "Pacifism: Reluctant Killer",
+					"reference": "B148",
+					"notes": "You are psychologically unprepared to kill people. Whenever you make a deadly attack (e.g., with a knife or a gun) against an obvious person whose face is visible to you, you are at -4 to hit and may not Aim. If you cannot see the foe’s face (due to a mask, darkness, or distance, or because you attacked from behind), the penalty is only -2, save in close combat. You have no penalty to attack a vehicle (even an occupied one), an opponent you do not believe is a person (including things with Horrific or Monstrous appearance), or a target you can’t actually see (e.g., a set of map coordinates or a blip on a radar screen). If you kill a recognizable person, the effect on you is the same as for Pacifism: Cannot Kill. You have no problem with your allies killing; you may even supply ammo, loaded weapons, and encouragement! You just can’t do the killing yourself.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "mObbK0nGmeUYFK1HK",
+							"name": "Species-Specific",
+							"reference": "UT32",
+							"cost": -80,
+							"disabled": true
+						}
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "t6nKv-rZQToqXaKh7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "thSMVzJ590v7gAD8d"
+					},
+					"name": "Pacifism: Self-Defense Only",
+					"reference": "B148",
+					"notes": "You only fight to defend yourself or those in your care, using only as much force as necessary (no pre-emptive strikes allowed!). You must do your best to discourage others from starting fights.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "myO_PkjRZp4Z7cyCc",
+							"name": "Species-Specific",
+							"reference": "UT32",
+							"cost": -80,
+							"disabled": true
+						}
+					],
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "tUwOURU_-YWOPXF41",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tYWjKdrALVt_raSxk"
+					},
+					"name": "Paranoia",
+					"reference": "B148",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -10,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": -2
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "toward any stranger and any “legitimate” reaction penalty (e.g., for an unfriendly race or nationality) is doubled",
+							"amount": -4
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "T5kFG1wR6UOa9DrS-",
+					"name": "Phobia",
+					"template_picker": {
+						"type": "count",
+						"qualifier": {
+							"compare": "is",
+							"qualifier": 1
+						}
+					},
+					"children": [
+						{
+							"id": "t4DvJeLv7mrBXGajg",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tEO6O06rHnIkHPOmM"
+							},
+							"name": "Acrophobia (Heights)",
+							"reference": "B150",
+							"notes": "You may not voluntarily go more than 15 feet above ground, unless you are inside a building and away from windows. If there is some chance of an actual fall, self-control rolls are at -5.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "t4R3oHlAKMGL7FyeK",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tx8ZOfGNA3np_ivia"
+							},
+							"name": "Aichmophobia (Sharp Things)",
+							"reference": "B150",
+							"notes": "You are afraid of anything pointed. Swords, spears, knives, and needles all give you fits. Trying to use a sharp weapon, or being threatened with one, requires a self-control roll at -2.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -15,
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "tPxhleLfiEpqZVa5N",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tjabBEbQzLMhSX59r"
+							},
+							"name": "Arachnophobia (Spiders)",
+							"reference": "B150",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -5,
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "t5MsdqJolknnOOxCK",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tcPz4czZWl6IBoVSi"
+							},
+							"name": "Autophobia (Being Alone)",
+							"reference": "B149",
+							"notes": "You cannot stand to be alone, and do anything in your power to avoid it.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -15,
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "t4suLA6eNjfPwBZX_",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tzt3FQiPe2cmVzpVT"
+							},
+							"name": "Brontophobia (Loud Noises)",
+							"reference": "B150",
+							"notes": "You avoid any situation where loud noises are likely. A sudden loud noise requires an immediate self-control roll. A thunderstorm is a traumatic experience for you!",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "txr5qSYKniqySA5yh",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tWpr7NCMkHBwsQMNQ"
+							},
+							"name": "Claustrophobia (Enclosed Spaces)",
+							"reference": "B149",
+							"notes": "You are uncomfortable any time you can’t see the sky – or at least a very high ceiling. In a small room or vehicle, you feel the walls closing in on you... You need air! This is a dangerous fear for someone who plans to go underground.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -15,
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "tXl8egUhSkfRe4I-M",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tXFf9MSQ3FMT2psO8"
+							},
+							"name": "Demophobia (Crowds)",
+							"reference": "B149",
+							"notes": "Any group of over a dozen people sets off this fear unless they are all well known to you. The self-control roll is at -1 for over 25 people, -2 for a crowd of 100 or more, -3 for 1,000, -4 for 10,000, and so on.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -15,
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "tEvvqplBzSx6DU-DP",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tTeeNp4aWCjsLvUGJ"
+							},
+							"name": "Entomophobia (Insects)",
+							"reference": "B150",
+							"notes": "You are afraid of all “bugs.” Large or poisonous ones give -3 to self-control rolls. Very large ones, or large numbers, give -6.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "tvlViSBiB1ctfRhXr",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tXxzGDPLXkpHMSLSK"
+							},
+							"name": "Heliophobia (Sun)",
+							"reference": "B150",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -15,
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "tjL9XbK5NFLw3LhUQ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tCEOuCUPPWTbOE7ei"
+							},
+							"name": "Hemophobia (Blood)",
+							"reference": "B149",
+							"notes": "The sight of blood gives you the screaming willies! You need to make a self-control roll during most combats...",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "trUAqmTWYhUnqSowP",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tToKVITWIFSZIRkXK"
+							},
+							"name": "Herpetophobia (Reptiles)",
+							"reference": "B150",
+							"notes": "You come unglued at the thought of reptiles, amphibians, and similar scaly slimies. A very large reptile, or a poisonous one, gives -2 to self-control rolls; a horde of reptiles (such as a snake pit) gives -4.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "tn8lZBv3IaB30yxKz",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tYggvuZw_KmnKdpZ0"
+							},
+							"name": "Mysophobia (Dirt)",
+							"reference": "B149",
+							"notes": "You are deathly afraid of infection, or just of dirt and filth. Make a self-control roll when you must do something that might get you dirty. Roll at -5 to eat any unaccustomed food. You should act as “finicky” as possible.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "t-_OqWeubTvA6sRWI",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tIWYdBAI7sQ-IyQE7"
+							},
+							"name": "Necrophobia (Death)",
+							"reference": "B149",
+							"notes": "You are terrified by the idea of death. Make a self-control roll in the presence of any dead body (animals don’t count, but portions of human bodies do). Roll at -4 if the body is that of someone you know, or -6 if the body is unnaturally animated in some way. A ghost (or apparent ghost) also requires a roll at -6.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "t8VuxymiGcTUZs0AD",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tK3S6AFjeQgu4gPRi"
+							},
+							"name": "Pyrophobia (Fire)",
+							"reference": "B150",
+							"notes": "Even a burning cigarette bothers you if it comes within five yards.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -5,
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "t0TUoKXb4hqGgmk29",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "txLXo2_xfezKSblJZ"
+							},
+							"name": "Scotophobia (Darkness)",
+							"reference": "B149",
+							"notes": "A common fear, but crippling. You should avoid being underground if possible; if something happens to your flashlight or torch, you might well lose your mind before you can relight it.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -15,
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "tXB6px4jx0WA9CNG1",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tXAOOm_5NKenasI4n"
+							},
+							"name": "Thalassophobia (Oceans)",
+							"reference": "B150",
+							"notes": "You are afraid of any large body of water. Ocean travel, or even air travel over the ocean, is basically impossible for you, and encounters with aquatic monsters are also upsetting.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "twmPFRZ8MP-yAjWhi",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tretZ6xRq46CLvbPu"
+							},
+							"name": "Xenophobia (Strange and Unknown Things)",
+							"reference": "B150",
+							"notes": "You are upset by any sort of strange circumstances, and in particular by strange people. Make a self-control roll when surrounded by people of another race or nationality; roll at -3 if the people are not human. If you lose control, you might well attack strangers out of fear.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -15,
+							"calc": {
+								"points": -15
+							}
+						}
+					],
+					"calc": {
+						"points": -195
+					}
+				},
+				{
+					"id": "t50E5drpqFmiVBGjT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tYdqy1uPSGI8VqvLV"
+					},
+					"name": "Selfish",
+					"reference": "B153",
+					"notes": "Make a self-control roll whenever you experience a clear social slight or “snub.” On a failure, you lash out at the offending party just as if you had Bad Temper.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others when your Selfishness surfaces",
+							"amount": -3
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tsajygZXnDXRPwOCO",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "twYBwZGOG4EPwmpOx"
+					},
+					"name": "Slow Riser",
+					"reference": "B155",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "on all self-control rolls one hour after you awaken from any sleep longer than a one-hour nap",
+							"amount": -2
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to IQ and IQ-based skills one hour after you awaken from any sleep longer than a one-hour nap",
+							"amount": -1
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "additional penalty whenever the GM assesses attribute penalties for missed sleep",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tpQlyFbwXNTfwF92f",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t4gqkFmqABx7dLjkS"
+					},
+					"name": "Stubbornness",
+					"reference": "B157",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tGUvVFHXhgInnTU6P",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t-2sTLqD5b68AuEhY"
+					},
+					"name": "Stuttering",
+					"reference": "B157",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -10,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "diplomacy"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast-talk"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "performance"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "public speaking"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sex appeal"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "singing"
+							},
+							"amount": -2
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "from others where conversation is required",
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tUz_bsATBfmw9BSuu",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqyAIJKZUTPhxkhbU"
+					},
+					"name": "Truthfulness",
+					"reference": "B159",
+					"notes": "Make a self-control roll whenever you must keep silent about an uncomfortable truth (lying by omission). Roll at -5 if you actually have to tell a falsehood! If you fail, you blurt out the truth, or stumble so much that your lie is obvious.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast-talk"
+							},
+							"amount": -5
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "t9DiqFM_9YN6Cm03Z",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tItKCGaV9UN_W1pVs"
+					},
+					"name": "Unfit",
+					"reference": "B160",
+					"notes": "You lose FP at twice the normal rate",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to all HT rolls to remain conscious, avoid death, resist disease or poison, etc",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "t1Y4KZ50lNlHu9l01",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t9lxfCn84bo3idpX9"
+					},
+					"name": "Unluckiness",
+					"reference": "B160",
+					"notes": "Once per play session, the GM will arbitrarily and maliciously make something go wrong for you.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				}
+			],
+			"calc": {
+				"points": -540
+			}
+		}
+	]
+}

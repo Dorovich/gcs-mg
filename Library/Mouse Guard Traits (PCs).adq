@@ -77,7 +77,7 @@
 				"Mental",
 				"Physical"
 			],
-			"base_points": 15,
+			"base_points": 10,
 			"features": [
 				{
 					"type": "skill_bonus",
@@ -129,7 +129,7 @@
 				}
 			],
 			"calc": {
-				"points": 15
+				"points": 10
 			}
 		},
 		{
