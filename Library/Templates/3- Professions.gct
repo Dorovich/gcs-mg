@@ -9,7 +9,7 @@
 				"type": "count",
 				"qualifier": {
 					"compare": "is",
-					"qualifier": 1
+					"qualifier": 2
 				}
 			},
 			"children": [
@@ -550,6 +550,13 @@
 						{
 							"id": "SiyG6s4wJzNn_D4A6",
 							"name": "Specialty",
+							"template_picker": {
+								"type": "count",
+								"qualifier": {
+									"compare": "is",
+									"qualifier": 1
+								}
+							},
 							"children": [
 								{
 									"id": "sOBPmtyG_6EOuvMGU",
@@ -5836,6 +5843,12 @@
 					]
 				}
 			]
+		}
+	],
+	"notes": [
+		{
+			"id": "nZH5JQspdC91oldUk",
+			"text": "**Professions**: Pick a main one (4 points per skill) and a hobby one (2 points per skill). Both must be different professions."
 		}
 	]
 }

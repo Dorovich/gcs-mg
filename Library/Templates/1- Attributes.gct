@@ -16,6 +16,7 @@
 				{
 					"id": "TkNmJfo4DvV8Rm4im",
 					"name": "Hardy",
+					"notes": "Stronger and more robust than average.",
 					"children": [
 						{
 							"id": "tDScj7G0_k-IXInPr",
@@ -107,6 +108,7 @@
 				{
 					"id": "TBh5AMdqH1K2BkBc-",
 					"name": "Nimble",
+					"notes": "Quicker and more agile than average.",
 					"children": [
 						{
 							"id": "tKf-xzWwlhKPPhXS1",
@@ -211,6 +213,7 @@
 				{
 					"id": "T5TZO_uqrcIRE8Gcf",
 					"name": "Sharp",
+					"notes": "Craftier and more aware than average.",
 					"children": [
 						{
 							"id": "tx9gEXHQD95SjP3P_",

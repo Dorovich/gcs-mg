@@ -1,0 +1,677 @@
+{
+	"version": 5,
+	"id": "BVzkMEknlFwuxvQ5i",
+	"traits": [
+		{
+			"id": "taS-n3WXcT8Y1M_YR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tz-USDL9B_KrrVqDi"
+			},
+			"name": "Knack (@topic@)",
+			"notes": "Usable once per hour. Treat as Luck (B66) for a specific topic the character is naturally “talented” at.",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"calc": {
+				"points": 0
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "sKgelWsB0dbi15amx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s_noq8s2p_bxQytbs"
+			},
+			"name": "Climbing",
+			"reference": "MG20, DFA74",
+			"tags": [
+				"Athletic",
+				"Criminal",
+				"Exploration",
+				"Guardmouse",
+				"Outdoor",
+				"Street"
+			],
+			"difficulty": "dx/a",
+			"encumbrance_penalty_multiplier": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "dx",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			}
+		},
+		{
+			"id": "s_r161XOP2Y7_6DY9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s59NHp3Wau4GDTEeO"
+			},
+			"name": "First Aid",
+			"reference": "DFA76",
+			"tags": [
+				"Everyman",
+				"Guardmouse",
+				"Medical"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Esoteric Medicine"
+				},
+				{
+					"type": "skill",
+					"name": "Physician"
+				},
+				{
+					"type": "skill",
+					"name": "Veterinary",
+					"modifier": -4
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -4,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			}
+		},
+		{
+			"id": "s9DLJNmOlczUKOUrz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sIQzmwfTiPgBNF7eD"
+			},
+			"name": "Running",
+			"reference": "DFA87",
+			"tags": [
+				"Athletic",
+				"Guardmouse"
+			],
+			"difficulty": "ht/a",
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -5
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "ht",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			}
+		},
+		{
+			"id": "sh67yiPfA-aYR-JHJ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "stWUM31sKZ3luEMy2"
+			},
+			"name": "Stealth",
+			"reference": "DFA89",
+			"tags": [
+				"Criminal",
+				"Guardmouse",
+				"Police",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "dx/a",
+			"encumbrance_penalty_multiplier": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			}
+		},
+		{
+			"id": "sYyEmHctw8L759Svv",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "szPW4iOeooiXKBRuX"
+			},
+			"name": "Survival",
+			"reference": "DFA90",
+			"tags": [
+				"Exploration",
+				"Guardmouse",
+				"Outdoor"
+			],
+			"specialization": "Woodlands",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"modifier": -3
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "per",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			}
+		},
+		{
+			"id": "Slx4pBtQwsgA-epT0",
+			"name": "Weapon of choice",
+			"template_picker": {
+				"type": "count",
+				"qualifier": {
+					"compare": "is",
+					"qualifier": 1
+				}
+			},
+			"children": [
+				{
+					"id": "sdZou0ER36DjEwX-H",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sJWXHIqO1bo3Y5r62"
+					},
+					"name": "Axe/Mace",
+					"reference": "MG6, DFA81",
+					"tags": [
+						"Combat",
+						"Guardmouse",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Flail",
+							"modifier": -4
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "sWHlnMBx6Lc4VeSn-",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sYDZCCmi6CWN3HSlo"
+					},
+					"name": "Bow",
+					"reference": "MG5, DFA83",
+					"tags": [
+						"Combat",
+						"Guardmouse",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "swBGa69QeEZeKGA_0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "snAFDxOB3UqelcxN5"
+					},
+					"name": "Greatsword",
+					"reference": "DFA82",
+					"tags": [
+						"Combat",
+						"Guardmouse",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Longsword",
+							"modifier": -2
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "sMTfS94cfyb1XJJ7M",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sGMuuC-kk-56K3Qf2"
+					},
+					"name": "Knife",
+					"reference": "DFA81",
+					"tags": [
+						"Combat",
+						"Guardmouse",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Longsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Greatsword",
+							"modifier": -6
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "sUmflis2BoaQicRZl",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s0tPCgdAoREgWqZIg"
+					},
+					"name": "Line and Hook",
+					"reference": "DFA82",
+					"tags": [
+						"Combat",
+						"Guardmouse",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/h",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Force Whip",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Monowire Whip",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Whip",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "sW3nF2cNDrSUwjgT-",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "snAFDxOB3UqelcxN5"
+					},
+					"name": "Longsword",
+					"reference": "DFA82",
+					"tags": [
+						"Combat",
+						"Guardmouse",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Greatsword",
+							"modifier": -2
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "s_0rjtWdLgLCI_cxm",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s2TRfOszdn6Fj48XX"
+					},
+					"name": "Polearm",
+					"reference": "DFA81",
+					"tags": [
+						"Combat",
+						"Guardmouse",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -4
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "shlpGAtZtKKkt6hmU",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sb31vE_obEUqvCSW1"
+					},
+					"name": "Shield",
+					"reference": "DFA88",
+					"tags": [
+						"Combat",
+						"Guardmouse",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Buckler",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"modifier": -2
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "sFsXg3Bp5uJCAq_Wd",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sxrJ0547O4bP-EuZX"
+					},
+					"name": "Shield",
+					"reference": "DFA88",
+					"tags": [
+						"Combat",
+						"Guardmouse",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Shield",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"modifier": -2
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "sObabmlq-NmBX34ke",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sREf0R4fH6zX2LRi2"
+					},
+					"name": "Shortsword",
+					"reference": "DFA81",
+					"tags": [
+						"Combat",
+						"Guardmouse",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Longsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Greatsword",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "s4cchsz8GjMrOViba",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sShSlwZ4dPx-_E_wX"
+					},
+					"name": "Sling",
+					"reference": "DFA83",
+					"tags": [
+						"Combat",
+						"Guardmouse",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/h",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "svboAZZwe5rbMjp_G",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sNk63TpccCvsiXKd0"
+					},
+					"name": "Spear",
+					"reference": "DFA81",
+					"tags": [
+						"Combat",
+						"Guardmouse",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "s9nK9Oq2i4t1QKCDV",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "soilUSeitMyIlPAtg"
+					},
+					"name": "Staff",
+					"reference": "DFA81",
+					"tags": [
+						"Combat",
+						"Guardmouse",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -2
+						}
+					],
+					"points": 2
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"id": "nzdu6XlP7sxr0oROF",
+			"text": "**Defaults**: If one of these skills is already known, add 1 point (the one given by default) to its total points."
+		}
+	]
+}
