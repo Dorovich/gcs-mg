@@ -1359,6 +1359,37 @@
 							"points": 4
 						},
 						{
+							"id": "sCSBo8tQ5IwUOgMpD",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+								"id": "sMZGDT1J-tTSqOoqf"
+							},
+							"name": "Naturalist",
+							"reference": "DFA83",
+							"tags": [
+								"Animal",
+								"Exploration",
+								"Guardmouse",
+								"Natural Science",
+								"Outdoor",
+								"Plant"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Biology",
+									"modifier": -3
+								}
+							],
+							"points": 4
+						},
+						{
 							"id": "sW3WU2RA19Jn6-bvt",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
@@ -1769,7 +1800,7 @@
 								"type": "count",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": 2
+									"qualifier": 1
 								}
 							},
 							"children": [
@@ -2252,7 +2283,7 @@
 								"type": "count",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": 2
+									"qualifier": 1
 								}
 							},
 							"children": [
@@ -3326,44 +3357,6 @@
 									}
 								]
 							},
-							"points": 4
-						},
-						{
-							"id": "sJrUWrA3uVfyeNtKF",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
-								"id": "sS7e5O92FHxMh6YMG"
-							},
-							"name": "Physiology",
-							"reference": "DFA85",
-							"tags": [
-								"Medical",
-								"Natural Science"
-							],
-							"specialization": "Mammals",
-							"difficulty": "iq/h",
-							"defaults": [
-								{
-									"type": "iq",
-									"modifier": -6
-								},
-								{
-									"type": "skill",
-									"name": "Diagnosis",
-									"modifier": -5
-								},
-								{
-									"type": "skill",
-									"name": "Physician",
-									"modifier": -5
-								},
-								{
-									"type": "skill",
-									"name": "Surgery",
-									"modifier": -5
-								}
-							],
 							"points": 4
 						},
 						{
@@ -4697,32 +4690,6 @@
 							"points": 4
 						},
 						{
-							"id": "sLYIwC7sw8Q16hWrr",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Skills.skl",
-								"id": "s5o7m6a6iCXJOPgYO"
-							},
-							"name": "Engineer",
-							"reference": "B190",
-							"tags": [
-								"Design",
-								"Engineer",
-								"Invention"
-							],
-							"specialization": "Ships",
-							"difficulty": "iq/h",
-							"defaults": [
-								{
-									"type": "skill",
-									"name": "Mechanic",
-									"specialization": "Ships",
-									"modifier": -6
-								}
-							],
-							"points": 4
-						},
-						{
 							"id": "sNAiW6RWpjD125lVw",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
@@ -5579,37 +5546,6 @@
 							"points": 4
 						},
 						{
-							"id": "s3Y4AubIx2XgqLQqb",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Skills.skl",
-								"id": "sGgBbCTe-AwY1nu3W"
-							},
-							"name": "Mathematics",
-							"reference": "B207",
-							"tags": [
-								"Natural Science"
-							],
-							"difficulty": "iq/h",
-							"defaults": [
-								{
-									"type": "iq",
-									"modifier": -6
-								},
-								{
-									"type": "skill",
-									"name": "Physics",
-									"modifier": -5
-								},
-								{
-									"type": "skill",
-									"name": "Engineer",
-									"modifier": -5
-								}
-							],
-							"points": 4
-						},
-						{
 							"id": "svcJPh_kMkGlqSe_m",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
@@ -5843,12 +5779,6 @@
 					]
 				}
 			]
-		}
-	],
-	"notes": [
-		{
-			"id": "nZH5JQspdC91oldUk",
-			"text": "**Professions**: Pick a main one (4 points per skill) and a hobby one (2 points per skill). Both must be different professions."
 		}
 	]
 }

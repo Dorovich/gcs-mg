@@ -18,62 +18,75 @@
 					"name": "Barkstone",
 					"children": [
 						{
-							"id": "sE6t5m293uoiVjFYe",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Skills.skl",
-								"id": "s38HO2qYj0r9TPpp9"
+							"id": "S-v1pB81Vctt0_21n",
+							"name": "Artist Specialty",
+							"template_picker": {
+								"type": "count",
+								"qualifier": {
+									"compare": "is",
+									"qualifier": 1
+								}
 							},
-							"name": "Artist",
-							"reference": "MG9, B179",
-							"tags": [
-								"Arts",
-								"Craft",
-								"Entertainment"
-							],
-							"specialization": "Glassblowing",
-							"difficulty": "iq/h",
-							"defaults": [
+							"children": [
 								{
-									"type": "iq",
-									"modifier": -6
+									"id": "sE6t5m293uoiVjFYe",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "s38HO2qYj0r9TPpp9"
+									},
+									"name": "Artist",
+									"reference": "MG9, B179",
+									"tags": [
+										"Arts",
+										"Craft",
+										"Entertainment"
+									],
+									"specialization": "Glassblowing",
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Artist",
+											"modifier": -6
+										}
+									],
+									"points": 1
 								},
 								{
-									"type": "skill",
+									"id": "sv_TYlRJM1gMyUV3j",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "skVQStZ2N2L_MyNFv"
+									},
 									"name": "Artist",
-									"modifier": -6
+									"reference": "MG9, B179",
+									"tags": [
+										"Arts",
+										"Craft",
+										"Entertainment"
+									],
+									"specialization": "Pottery",
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Artist",
+											"modifier": -6
+										}
+									],
+									"points": 1
 								}
-							],
-							"points": 1
-						},
-						{
-							"id": "sv_TYlRJM1gMyUV3j",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Skills.skl",
-								"id": "skVQStZ2N2L_MyNFv"
-							},
-							"name": "Artist",
-							"reference": "MG9, B179",
-							"tags": [
-								"Arts",
-								"Craft",
-								"Entertainment"
-							],
-							"specialization": "Pottery",
-							"difficulty": "iq/h",
-							"defaults": [
-								{
-									"type": "iq",
-									"modifier": -6
-								},
-								{
-									"type": "skill",
-									"name": "Artist",
-									"modifier": -6
-								}
-							],
-							"points": 1
+							]
 						},
 						{
 							"id": "sfxyOZRbXTIrdxDih",
@@ -633,96 +646,177 @@
 					"name": "Sprucetuck",
 					"children": [
 						{
-							"id": "svyQg7Mb0Ka_1NHGB",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Skills.skl",
-								"id": "sb6LoqgrQgzKvzHH2"
-							},
-							"name": "Biology",
-							"reference": "MG10, B180",
-							"tags": [
-								"Natural Science",
-								"Plant"
-							],
-							"difficulty": "iq/vh",
-							"defaults": [
-								{
-									"type": "iq",
-									"modifier": -6
-								},
-								{
-									"type": "skill",
-									"name": "Naturalist",
-									"modifier": -6
+							"id": "S_eFNqVbDQVbaNHNt",
+							"name": "Science Specialty",
+							"template_picker": {
+								"type": "count",
+								"qualifier": {
+									"compare": "is",
+									"qualifier": 2
 								}
-							],
-							"points": 1
-						},
-						{
-							"id": "sh1AjqaYp5XOAMcum",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Skills.skl",
-								"id": "sNo8fl03x7a76gaOU"
 							},
-							"name": "Chemistry",
-							"reference": "MG34, B183",
-							"tags": [
-								"Natural Science"
-							],
-							"difficulty": "iq/h",
-							"defaults": [
+							"children": [
 								{
-									"type": "iq",
-									"modifier": -6
-								},
-								{
-									"type": "skill",
-									"name": "Alchemy",
-									"modifier": -3
-								}
-							],
-							"points": 1
-						},
-						{
-							"id": "sqpYhYdWkpFhCDvCJ",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Skills.skl",
-								"id": "snf1C1wltuy8_tanr"
-							},
-							"name": "Physics",
-							"reference": "B213",
-							"tags": [
-								"Natural Science"
-							],
-							"difficulty": "iq/vh",
-							"defaults": [
-								{
-									"type": "iq",
-									"modifier": -6
-								}
-							],
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"when_tl": {
-									"compare": "at_least",
-									"qualifier": 5
-								},
-								"prereqs": [
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "mathematics"
+									"id": "smS7yqDL0z_WH65p9",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "spB65Bj2vTHoTpCYE"
+									},
+									"name": "Geography",
+									"reference": "B198",
+									"tags": [
+										"Humanities",
+										"Social Sciences"
+									],
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Area Knowledge",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Geography",
+											"modifier": -5
 										}
-									}
-								]
-							},
-							"points": 1
+									],
+									"points": 1
+								},
+								{
+									"id": "sTcgtPlrbxpZ2ACW_",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "sGgBbCTe-AwY1nu3W"
+									},
+									"name": "Mathematics",
+									"reference": "B207",
+									"tags": [
+										"Natural Science"
+									],
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Physics",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Engineer",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sJ1AEVKQ95X46PRfO",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "spTsoXZjc2oRCK8Cz"
+									},
+									"name": "Metallurgy",
+									"reference": "B209",
+									"tags": [
+										"Natural Science"
+									],
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Chemistry",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Jeweler",
+											"modifier": -8
+										},
+										{
+											"type": "skill",
+											"name": "Smith",
+											"modifier": -8
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sh1AjqaYp5XOAMcum",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "sNo8fl03x7a76gaOU"
+									},
+									"name": "Chemistry",
+									"reference": "MG34, B183",
+									"tags": [
+										"Natural Science"
+									],
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Alchemy",
+											"modifier": -3
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sqpYhYdWkpFhCDvCJ",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "snf1C1wltuy8_tanr"
+									},
+									"name": "Physics",
+									"reference": "B213",
+									"tags": [
+										"Natural Science"
+									],
+									"difficulty": "iq/vh",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										}
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"when_tl": {
+											"compare": "at_least",
+											"qualifier": 5
+										},
+										"prereqs": [
+											{
+												"type": "skill_prereq",
+												"has": true,
+												"name": {
+													"compare": "is",
+													"qualifier": "mathematics"
+												}
+											}
+										]
+									},
+									"points": 1
+								}
+							]
 						}
 					]
 				}

@@ -1,25 +1,6 @@
 {
 	"version": 5,
 	"id": "BVzkMEknlFwuxvQ5i",
-	"traits": [
-		{
-			"id": "taS-n3WXcT8Y1M_YR",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tz-USDL9B_KrrVqDi"
-			},
-			"name": "Knack (@topic@)",
-			"notes": "Usable once per hour. Treat as Luck (B66) for a specific topic the character is naturally “talented” at.",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"calc": {
-				"points": 0
-			}
-		}
-	],
 	"skills": [
 		{
 			"id": "Slx4pBtQwsgA-epT0",
@@ -482,12 +463,6 @@
 					"points": 2
 				}
 			]
-		}
-	],
-	"notes": [
-		{
-			"id": "nzdu6XlP7sxr0oROF",
-			"text": "**Defaults**: If one of these skills is already known, add 1 point (the one given by default) to its total points."
 		}
 	]
 }

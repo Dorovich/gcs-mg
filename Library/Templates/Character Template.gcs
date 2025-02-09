@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "Av2XzEFKaao8DIJTk",
-	"total_points": 105,
+	"total_points": 100,
 	"points_record": [
 		{
 			"when": "2025-01-20T00:40:54+01:00",
-			"points": 105,
+			"points": 100,
 			"reason": "Initial points"
 		}
 	],
@@ -767,212 +767,188 @@
 			"calc": {
 				"points": 0
 			}
+		},
+		{
+			"id": "tjh5ryyr9X5XMXFnD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tz-USDL9B_KrrVqDi"
+			},
+			"name": "Knack (@topic@)",
+			"notes": "Usable once per hour. Treat as Luck (B66) for a specific topic the character is naturally “talented” at.",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"calc": {
+				"points": 0
+			}
 		}
 	],
 	"skills": [
 		{
-			"id": "sfXE8Yy21JzaKKnky",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
-				"id": "s_noq8s2p_bxQytbs"
-			},
-			"name": "Climbing",
-			"reference": "MG20, DFA74",
-			"tags": [
-				"Athletic",
-				"Criminal",
-				"Exploration",
-				"Guardmouse",
-				"Outdoor",
-				"Street"
-			],
-			"difficulty": "dx/a",
-			"encumbrance_penalty_multiplier": 1,
-			"defaults": [
+			"id": "SmuiuAHDsxt2hEw7o",
+			"name": "Innate Skills (Mouse)",
+			"children": [
 				{
-					"type": "dx",
-					"modifier": -5
-				}
-			],
-			"points": 1,
-			"defaulted_from": {
-				"type": "dx",
-				"modifier": -5,
-				"level": 5,
-				"adjusted_level": 5,
-				"points": -5
-			},
-			"calc": {
-				"level": 9,
-				"rsl": "DX-1"
-			}
-		},
-		{
-			"id": "sarvzjZzaj8xolF6f",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
-				"id": "s59NHp3Wau4GDTEeO"
-			},
-			"name": "First Aid",
-			"reference": "DFA76",
-			"tags": [
-				"Everyman",
-				"Guardmouse",
-				"Medical"
-			],
-			"difficulty": "iq/e",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -4
+					"id": "sDHU00nhx122AuY3s",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s_noq8s2p_bxQytbs"
+					},
+					"name": "Climbing",
+					"reference": "MG20, DFA74",
+					"tags": [
+						"Athletic",
+						"Criminal",
+						"Exploration",
+						"Guardmouse",
+						"Outdoor",
+						"Street"
+					],
+					"difficulty": "dx/a",
+					"encumbrance_penalty_multiplier": 1,
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 1,
+					"defaulted_from": {
+						"type": "dx",
+						"modifier": -5,
+						"level": 5,
+						"adjusted_level": 5,
+						"points": -5
+					},
+					"calc": {
+						"level": 9,
+						"rsl": "DX-1"
+					}
 				},
 				{
-					"type": "skill",
-					"name": "Esoteric Medicine"
+					"id": "s8HtxqHj2VhqlaIvb",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sIQzmwfTiPgBNF7eD"
+					},
+					"name": "Running",
+					"reference": "DFA87",
+					"tags": [
+						"Athletic",
+						"Guardmouse"
+					],
+					"difficulty": "ht/a",
+					"defaults": [
+						{
+							"type": "ht",
+							"modifier": -5
+						}
+					],
+					"points": 1,
+					"defaulted_from": {
+						"type": "ht",
+						"modifier": -5,
+						"level": 5,
+						"adjusted_level": 5,
+						"points": -5
+					},
+					"calc": {
+						"level": 9,
+						"rsl": "HT-1"
+					}
 				},
 				{
-					"type": "skill",
-					"name": "Physician"
+					"id": "sJXADndafUMoO3JDR",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "stWUM31sKZ3luEMy2"
+					},
+					"name": "Stealth",
+					"reference": "DFA89",
+					"tags": [
+						"Criminal",
+						"Guardmouse",
+						"Police",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "dx/a",
+					"encumbrance_penalty_multiplier": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 1,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -5,
+						"level": 5,
+						"adjusted_level": 5,
+						"points": -5
+					},
+					"calc": {
+						"level": 9,
+						"rsl": "DX-1"
+					}
 				},
 				{
-					"type": "skill",
-					"name": "Veterinary",
-					"modifier": -4
-				}
-			],
-			"points": 1,
-			"defaulted_from": {
-				"type": "iq",
-				"modifier": -4,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
-			},
-			"calc": {
-				"level": 10,
-				"rsl": "IQ+0"
-			}
-		},
-		{
-			"id": "s16js40hb9RmIqFJT",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
-				"id": "sIQzmwfTiPgBNF7eD"
-			},
-			"name": "Running",
-			"reference": "DFA87",
-			"tags": [
-				"Athletic",
-				"Guardmouse"
-			],
-			"difficulty": "ht/a",
-			"defaults": [
-				{
-					"type": "ht",
-					"modifier": -5
-				}
-			],
-			"points": 1,
-			"defaulted_from": {
-				"type": "ht",
-				"modifier": -5,
-				"level": 5,
-				"adjusted_level": 5,
-				"points": -5
-			},
-			"calc": {
-				"level": 9,
-				"rsl": "HT-1"
-			}
-		},
-		{
-			"id": "s1Ex3N8OF7KPSSO5E",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
-				"id": "stWUM31sKZ3luEMy2"
-			},
-			"name": "Stealth",
-			"reference": "DFA89",
-			"tags": [
-				"Criminal",
-				"Guardmouse",
-				"Police",
-				"Spy",
-				"Street"
-			],
-			"difficulty": "dx/a",
-			"encumbrance_penalty_multiplier": 1,
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "dx",
-					"modifier": -5
-				}
-			],
-			"points": 1,
-			"defaulted_from": {
-				"type": "iq",
-				"modifier": -5,
-				"level": 5,
-				"adjusted_level": 5,
-				"points": -5
-			},
-			"calc": {
-				"level": 9,
-				"rsl": "DX-1"
-			}
-		},
-		{
-			"id": "ssKysb1uOd8xFSepB",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
-				"id": "szPW4iOeooiXKBRuX"
-			},
-			"name": "Survival",
-			"reference": "DFA90",
-			"tags": [
-				"Exploration",
-				"Guardmouse",
-				"Outdoor"
-			],
-			"specialization": "Woodlands",
-			"difficulty": "per/a",
-			"defaults": [
-				{
-					"type": "per",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Naturalist",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
+					"id": "sxyLuAzDMpAx0CuzG",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "szPW4iOeooiXKBRuX"
+					},
 					"name": "Survival",
-					"modifier": -3
+					"reference": "DFA90",
+					"tags": [
+						"Exploration",
+						"Guardmouse",
+						"Outdoor"
+					],
+					"specialization": "Woodlands",
+					"difficulty": "per/a",
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Naturalist",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"modifier": -3
+						}
+					],
+					"points": 1,
+					"defaulted_from": {
+						"type": "per",
+						"modifier": -5,
+						"level": 5,
+						"adjusted_level": 5,
+						"points": -5
+					},
+					"calc": {
+						"level": 9,
+						"rsl": "Per-1"
+					}
 				}
-			],
-			"points": 1,
-			"defaulted_from": {
-				"type": "per",
-				"modifier": -5,
-				"level": 5,
-				"adjusted_level": 5,
-				"points": -5
-			},
-			"calc": {
-				"level": 9,
-				"rsl": "Per-1"
-			}
+			]
 		}
 	],
 	"equipment": [
@@ -1078,7 +1054,7 @@
 		}
 	],
 	"created_date": "2025-01-20T00:40:54+01:00",
-	"modified_date": "2025-02-07T13:37:44+01:00",
+	"modified_date": "2025-02-08T04:33:23+01:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
