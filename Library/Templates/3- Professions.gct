@@ -5,6 +5,7 @@
 		{
 			"id": "SUj8DpO8oPLRIkqFj",
 			"name": "Profession",
+			"notes": "Randomly: 1d30",
 			"template_picker": {
 				"type": "count",
 				"qualifier": {
@@ -434,6 +435,155 @@
 									"points": 4
 								}
 							]
+						}
+					]
+				},
+				{
+					"id": "SdZ_QD92pttQX86Mk",
+					"name": "Baker",
+					"children": [
+						{
+							"id": "sc3emnm6cyB957NPR",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "spcD4n1qGEgtMUX7M"
+							},
+							"name": "Cooking",
+							"reference": "B185",
+							"tags": [
+								"Everyman"
+							],
+							"specialization": "Baking",
+							"difficulty": "iq/e",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Housekeeping",
+									"modifier": -5
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sUmp-CERHZUmlg4-2",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sxvdYLe6aBGDF208V"
+							},
+							"name": "Farming",
+							"reference": "B194",
+							"tags": [
+								"Plant"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Biology",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Gardening",
+									"modifier": -3
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sdXiO0uO11ziPvfNO",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+								"id": "sJ-Mdf4Vf_PbzgFBS"
+							},
+							"name": "Merchant",
+							"reference": "DFA82",
+							"tags": [
+								"Business",
+								"Social"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Finance",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Market Analysis",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sF9L19Y8h06q6eSof",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+								"id": "sMZGDT1J-tTSqOoqf"
+							},
+							"name": "Naturalist",
+							"reference": "DFA83",
+							"tags": [
+								"Animal",
+								"Exploration",
+								"Guardmouse",
+								"Natural Science",
+								"Outdoor",
+								"Plant"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Biology",
+									"modifier": -3
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sxo4JHyK6st0m6-iB",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sx1CDkGBR830IZrmz"
+							},
+							"name": "Professional Skill",
+							"reference": "B215",
+							"tags": [
+								"Knowledge"
+							],
+							"specialization": "Baker",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"points": 1
 						}
 					]
 				},

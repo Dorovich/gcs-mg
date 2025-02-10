@@ -5,6 +5,7 @@
 		{
 			"id": "TjAk2qp-gktuneZ2D",
 			"name": "Advantages",
+			"notes": "Randomly: 1d20",
 			"template_picker": {
 				"type": "count",
 				"qualifier": {
@@ -13,75 +14,6 @@
 				}
 			},
 			"children": [
-				{
-					"id": "tHnBTuwqUpc1uxPJP",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tM6z7Mx6e2V4VvUR4"
-					},
-					"name": "Absolute Direction",
-					"reference": "B34",
-					"tags": [
-						"Advantage",
-						"Mental",
-						"Physical"
-					],
-					"base_points": 10,
-					"features": [
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "body sense"
-							},
-							"amount": 3
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "navigation"
-							},
-							"specialization": {
-								"compare": "is",
-								"qualifier": "air"
-							},
-							"amount": 3
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "navigation"
-							},
-							"specialization": {
-								"compare": "is",
-								"qualifier": "land"
-							},
-							"amount": 3
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "navigation"
-							},
-							"specialization": {
-								"compare": "is",
-								"qualifier": "sea"
-							},
-							"amount": 3
-						}
-					],
-					"calc": {
-						"points": 10
-					}
-				},
 				{
 					"id": "TQRhFiykDZ1bL_4Ak",
 					"name": "Acrobat",
@@ -828,6 +760,159 @@
 					}
 				},
 				{
+					"id": "THRopLG-mjmM0_L9H",
+					"name": "Deep Recall",
+					"children": [
+						{
+							"id": "tHnBTuwqUpc1uxPJP",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tM6z7Mx6e2V4VvUR4"
+							},
+							"name": "Absolute Direction",
+							"reference": "B34",
+							"tags": [
+								"Advantage",
+								"Mental",
+								"Physical"
+							],
+							"base_points": 10,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "body sense"
+									},
+									"amount": 3
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "air"
+									},
+									"amount": 3
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "land"
+									},
+									"amount": 3
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "sea"
+									},
+									"amount": 3
+								}
+							],
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "t97OS2uiT-68di0uQ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tW-eAzIKBWa5Yc9cI"
+							},
+							"name": "Eidetic Memory",
+							"reference": "B51",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "mSeUqRGe6bR4jnu0p",
+									"name": "Photographic",
+									"reference": "B51",
+									"cost": 5,
+									"cost_type": "points",
+									"disabled": true
+								}
+							],
+							"base_points": 5,
+							"calc": {
+								"points": 5
+							}
+						}
+					],
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"id": "tonJJmD7wYddulgQ6",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tTr0n87UXk6YrVoKR"
+					},
+					"name": "Discriminatory Hearing",
+					"reference": "B49,P47",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mm2SidesyE6MZdntq",
+							"name": "Only underwater",
+							"reference": "B49",
+							"cost": -30,
+							"disabled": true
+						},
+						{
+							"id": "m09tC_CuMdmzPIFlL",
+							"name": "Profiling",
+							"reference": "P47",
+							"cost": 50,
+							"disabled": true
+						}
+					],
+					"base_points": 15,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to Shadowing skill when following a noisy target",
+							"amount": 4
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "on any task that utilizes hearing",
+							"amount": 4
+						}
+					],
+					"calc": {
+						"points": 15
+					}
+				},
+				{
 					"id": "tnckNT-93tjhahX7L",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -876,34 +961,6 @@
 					],
 					"calc": {
 						"points": 15
-					}
-				},
-				{
-					"id": "t97OS2uiT-68di0uQ",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tW-eAzIKBWa5Yc9cI"
-					},
-					"name": "Eidetic Memory",
-					"reference": "B51",
-					"tags": [
-						"Advantage",
-						"Mental"
-					],
-					"modifiers": [
-						{
-							"id": "mSeUqRGe6bR4jnu0p",
-							"name": "Photographic",
-							"reference": "B51",
-							"cost": 5,
-							"cost_type": "points",
-							"disabled": true
-						}
-					],
-					"base_points": 5,
-					"calc": {
-						"points": 5
 					}
 				},
 				{
@@ -1162,6 +1219,70 @@
 					}
 				},
 				{
+					"id": "TixlbVleeg--dkat5",
+					"name": "Inspired Mind",
+					"children": [
+						{
+							"id": "tZrIlypbc3Bft5nYA",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tUzmcuTXRq35xQ-rB"
+							},
+							"name": "Single-Minded",
+							"reference": "B85",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"base_points": 5,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to rolls for any lengthy mental task you concentrate on to the exclusion of other activities, if the GM feels such focus would be beneficial",
+									"amount": 3
+								},
+								{
+									"type": "conditional_modifier",
+									"situation": "to all rolls to notice interruptions while obsessed with a task",
+									"amount": -5
+								}
+							],
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "tIuPnm63r_O0eQJRS",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tDPqnU1ciDF13F4kZ"
+							},
+							"name": "Versatile",
+							"reference": "B96",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"base_points": 5,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "on any task that requires creativity or invention, including most rolls against Artist skill and all Engineer rolls for new inventions",
+									"amount": 1
+								}
+							],
+							"calc": {
+								"points": 5
+							}
+						}
+					],
+					"calc": {
+						"points": 10
+					}
+				},
+				{
 					"id": "tYsJk9IfqsemybzL3",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -1208,9 +1329,9 @@
 							],
 							"points_per_level": 2,
 							"can_level": true,
-							"levels": 1,
+							"levels": 2,
 							"calc": {
-								"points": 2
+								"points": 4
 							}
 						},
 						{
@@ -1235,7 +1356,7 @@
 						}
 					],
 					"calc": {
-						"points": 4
+						"points": 6
 					}
 				},
 				{
@@ -1306,36 +1427,6 @@
 					"levels": 1,
 					"calc": {
 						"points": 15
-					}
-				},
-				{
-					"id": "tZrIlypbc3Bft5nYA",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tUzmcuTXRq35xQ-rB"
-					},
-					"name": "Single-Minded",
-					"reference": "B85",
-					"tags": [
-						"Advantage",
-						"Mental"
-					],
-					"base_points": 5,
-					"features": [
-						{
-							"type": "conditional_modifier",
-							"situation": "to rolls for any lengthy mental task you concentrate on to the exclusion of other activities, if the GM feels such focus would be beneficial",
-							"amount": 3
-						},
-						{
-							"type": "conditional_modifier",
-							"situation": "to all rolls to notice interruptions while obsessed with a task",
-							"amount": -5
-						}
-					],
-					"calc": {
-						"points": 5
 					}
 				},
 				{
@@ -1491,6 +1582,13 @@
 							"calc": {
 								"points": 10
 							}
+						},
+						{
+							"id": "TKIPo0oJNjaTEPXfk",
+							"name": "Trait Container",
+							"calc": {
+								"points": 0
+							}
 						}
 					],
 					"calc": {
@@ -1524,35 +1622,10 @@
 					"calc": {
 						"points": 15
 					}
-				},
-				{
-					"id": "tIuPnm63r_O0eQJRS",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "tDPqnU1ciDF13F4kZ"
-					},
-					"name": "Versatile",
-					"reference": "B96",
-					"tags": [
-						"Advantage",
-						"Mental"
-					],
-					"base_points": 5,
-					"features": [
-						{
-							"type": "conditional_modifier",
-							"situation": "on any task that requires creativity or invention, including most rolls against Artist skill and all Engineer rolls for new inventions",
-							"amount": 1
-						}
-					],
-					"calc": {
-						"points": 5
-					}
 				}
 			],
 			"calc": {
-				"points": 243
+				"points": 260
 			}
 		}
 	]
