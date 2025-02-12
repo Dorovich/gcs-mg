@@ -781,8 +781,9 @@
 				"Advantage",
 				"Mental"
 			],
+			"base_points": 3,
 			"calc": {
-				"points": 0
+				"points": 3
 			}
 		}
 	],
@@ -827,6 +828,53 @@
 					"calc": {
 						"level": 9,
 						"rsl": "DX-1"
+					}
+				},
+				{
+					"id": "syvoSzUuh9RMWGm3V",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s59NHp3Wau4GDTEeO"
+					},
+					"name": "First Aid",
+					"reference": "DFA76",
+					"tags": [
+						"Everyman",
+						"Guardmouse",
+						"Medical"
+					],
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Esoteric Medicine"
+						},
+						{
+							"type": "skill",
+							"name": "Physician"
+						},
+						{
+							"type": "skill",
+							"name": "Veterinary",
+							"modifier": -4
+						}
+					],
+					"points": 1,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -4,
+						"level": 6,
+						"adjusted_level": 6,
+						"points": -6
+					},
+					"calc": {
+						"level": 10,
+						"rsl": "IQ+0"
 					}
 				},
 				{
@@ -1054,7 +1102,7 @@
 		}
 	],
 	"created_date": "2025-01-20T00:40:54+01:00",
-	"modified_date": "2025-02-08T04:33:23+01:00",
+	"modified_date": "2025-02-12T17:25:32+01:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

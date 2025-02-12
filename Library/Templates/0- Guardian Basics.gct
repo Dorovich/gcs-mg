@@ -5,6 +5,7 @@
 		{
 			"id": "Slx4pBtQwsgA-epT0",
 			"name": "Weapon of choice",
+			"notes": "Randomly: 1d12",
 			"template_picker": {
 				"type": "count",
 				"qualifier": {
@@ -111,7 +112,7 @@
 					"points": 2
 				},
 				{
-					"id": "sMTfS94cfyb1XJJ7M",
+					"id": "sYdS6XoV6TDIbDHhj",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
@@ -267,36 +268,6 @@
 							"type": "skill",
 							"name": "Two-Handed Axe/Mace",
 							"modifier": -4
-						}
-					],
-					"points": 2
-				},
-				{
-					"id": "shlpGAtZtKKkt6hmU",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
-						"id": "sb31vE_obEUqvCSW1"
-					},
-					"name": "Shield",
-					"reference": "DFA88",
-					"tags": [
-						"Combat",
-						"Guardmouse",
-						"Melee Combat",
-						"Weapon"
-					],
-					"specialization": "Buckler",
-					"difficulty": "dx/e",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Shield",
-							"modifier": -2
 						}
 					],
 					"points": 2
