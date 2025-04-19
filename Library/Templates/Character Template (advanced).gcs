@@ -91,14 +91,6 @@
 				"cost_per_point": 5
 			},
 			{
-				"id": "fright_check",
-				"type": "integer",
-				"placement": "hidden",
-				"name": "Fright Check",
-				"attribute_base": "$will",
-				"cost_per_point": 2
-			},
-			{
 				"id": "senses",
 				"type": "secondary_separator",
 				"name": "Senses"
@@ -283,6 +275,42 @@
 						"expression": "$hp"
 					}
 				]
+			},
+			{
+				"id": "checks",
+				"type": "secondary_separator",
+				"name": "Checks"
+			},
+			{
+				"id": "fright_check",
+				"type": "integer",
+				"name": "Fear",
+				"attribute_base": "$will",
+				"cost_per_point": 2
+			},
+			{
+				"id": "break_check",
+				"type": "integer_ref",
+				"name": "Break",
+				"attribute_base": "$ht"
+			},
+			{
+				"id": "pain_check",
+				"type": "integer_ref",
+				"name": "Pain",
+				"attribute_base": "$ht"
+			},
+			{
+				"id": "fatigue_check",
+				"type": "integer_ref",
+				"name": "Fatigue",
+				"attribute_base": "$ht"
+			},
+			{
+				"id": "death_check",
+				"type": "integer_ref",
+				"name": "Death",
+				"attribute_base": "$ht"
 			}
 		],
 		"body_type": {
@@ -560,14 +588,6 @@
 			}
 		},
 		{
-			"attr_id": "fright_check",
-			"adj": 0,
-			"calc": {
-				"value": 10,
-				"points": 0
-			}
-		},
-		{
 			"attr_id": "senses",
 			"adj": 0
 		},
@@ -646,6 +666,50 @@
 			"calc": {
 				"value": 10,
 				"current": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "checks",
+			"adj": 0
+		},
+		{
+			"attr_id": "fright_check",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "break_check",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "pain_check",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "fatigue_check",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "death_check",
+			"adj": 0,
+			"calc": {
+				"value": 10,
 				"points": 0
 			}
 		}
@@ -1103,7 +1167,7 @@
 		}
 	],
 	"created_date": "2025-01-20T00:40:54+01:00",
-	"modified_date": "2025-04-18T21:21:16+02:00",
+	"modified_date": "2025-04-18T22:39:21+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

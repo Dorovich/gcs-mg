@@ -3,6 +3,191 @@
 	"id": "BVzkMEknlFwuxvQ5i",
 	"skills": [
 		{
+			"id": "SoRCmkoJHvhqlVlSK",
+			"name": "Social skill of choice",
+			"notes": "Randomly: 1d6",
+			"template_picker": {
+				"type": "count",
+				"qualifier": {
+					"compare": "is",
+					"qualifier": 1
+				}
+			},
+			"children": [
+				{
+					"id": "sI1y2BNX1rVi8OU8w",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sKBtvjjiGTwJHZsqN"
+					},
+					"name": "Diplomacy",
+					"reference": "DFA75",
+					"tags": [
+						"Business",
+						"Police",
+						"Social"
+					],
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Politics",
+							"modifier": -6
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "sddfGdrsFuWLq-Ikl",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sHxEYw40DSWqj2ZD3"
+					},
+					"name": "Fast-Talk",
+					"reference": "DFA76",
+					"tags": [
+						"Criminal",
+						"Social",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -5
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "sPldR7LUhmaw8CRci",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sMr2Nh2BPvr-6pRxQ"
+					},
+					"name": "Intimidation",
+					"reference": "DFA79",
+					"tags": [
+						"Criminal",
+						"Police",
+						"Social",
+						"Street"
+					],
+					"difficulty": "will/a",
+					"defaults": [
+						{
+							"type": "will",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -3
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "sOz1hrosTIwQrNx9d",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "suNSfuNWmbFctebp-"
+					},
+					"name": "Public Speaking",
+					"reference": "DFA86",
+					"tags": [
+						"Business",
+						"Scholarly",
+						"Social"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Performance",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Politics",
+							"modifier": -5
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "sUXufNin63scyt47q",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "sWH4lgAIKHRw533bR"
+					},
+					"name": "Savoir-Faire",
+					"reference": "DFA87",
+					"tags": [
+						"Business",
+						"Knowledge",
+						"Social"
+					],
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "swb0_2HCaqxAgCit7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "su--hvhfgXX1hdu1b"
+					},
+					"name": "Streetwise",
+					"reference": "DFA90",
+					"tags": [
+						"Criminal",
+						"Police",
+						"Social",
+						"Street"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 2
+				}
+			]
+		},
+		{
 			"id": "Slx4pBtQwsgA-epT0",
 			"name": "Weapon of choice",
 			"notes": "Randomly: 1d12",
