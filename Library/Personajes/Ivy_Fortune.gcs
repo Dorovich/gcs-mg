@@ -10,7 +10,8 @@
 		}
 	],
 	"profile": {
-		"name": "Ivy",
+		"name": "Ivy Fortune",
+		"age": "26",
 		"hair": "Cream",
 		"gender": "Female",
 		"height": "3.6\"",
@@ -290,21 +291,15 @@
 				"cost_per_point": 2
 			},
 			{
-				"id": "break_check",
-				"type": "integer_ref",
-				"name": "Break",
-				"attribute_base": "$ht"
-			},
-			{
 				"id": "pain_check",
 				"type": "integer_ref",
 				"name": "Pain",
 				"attribute_base": "$ht"
 			},
 			{
-				"id": "fatigue_check",
+				"id": "fainting_check",
 				"type": "integer_ref",
-				"name": "Fatigue",
+				"name": "Fainting",
 				"attribute_base": "$ht"
 			},
 			{
@@ -683,14 +678,6 @@
 			}
 		},
 		{
-			"attr_id": "break_check",
-			"adj": 0,
-			"calc": {
-				"value": 10,
-				"points": 0
-			}
-		},
-		{
 			"attr_id": "pain_check",
 			"adj": 0,
 			"calc": {
@@ -699,7 +686,7 @@
 			}
 		},
 		{
-			"attr_id": "fatigue_check",
+			"attr_id": "fainting_check",
 			"adj": 0,
 			"calc": {
 				"value": 10,
@@ -847,9 +834,9 @@
 				"Advantage",
 				"Mental"
 			],
-			"base_points": 1,
+			"base_points": 2,
 			"calc": {
-				"points": 1
+				"points": 2
 			}
 		},
 		{
@@ -1089,7 +1076,7 @@
 							"modifier": -5
 						}
 					],
-					"points": 1,
+					"points": 2,
 					"defaulted_from": {
 						"type": "dx",
 						"modifier": -5,
@@ -1098,55 +1085,8 @@
 						"points": -6
 					},
 					"calc": {
-						"level": 10,
-						"rsl": "DX-1"
-					}
-				},
-				{
-					"id": "syvoSzUuh9RMWGm3V",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
-						"id": "s59NHp3Wau4GDTEeO"
-					},
-					"name": "First Aid",
-					"reference": "DFA76",
-					"tags": [
-						"Everyman",
-						"Guardmouse",
-						"Medical"
-					],
-					"difficulty": "iq/e",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Esoteric Medicine"
-						},
-						{
-							"type": "skill",
-							"name": "Physician"
-						},
-						{
-							"type": "skill",
-							"name": "Veterinary",
-							"modifier": -4
-						}
-					],
-					"points": 1,
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -4,
-						"level": 7,
-						"adjusted_level": 7,
-						"points": -7
-					},
-					"calc": {
 						"level": 11,
-						"rsl": "IQ+0"
+						"rsl": "DX+0"
 					}
 				},
 				{
@@ -1169,7 +1109,7 @@
 							"modifier": -5
 						}
 					],
-					"points": 4,
+					"points": 2,
 					"defaulted_from": {
 						"type": "ht",
 						"modifier": -5,
@@ -1178,8 +1118,8 @@
 						"points": -5
 					},
 					"calc": {
-						"level": 11,
-						"rsl": "HT+1"
+						"level": 10,
+						"rsl": "HT+0"
 					}
 				},
 				{
@@ -1270,6 +1210,53 @@
 					}
 				}
 			]
+		},
+		{
+			"id": "syvoSzUuh9RMWGm3V",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s59NHp3Wau4GDTEeO"
+			},
+			"name": "First Aid",
+			"reference": "DFA76",
+			"tags": [
+				"Everyman",
+				"Guardmouse",
+				"Medical"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Esoteric Medicine"
+				},
+				{
+					"type": "skill",
+					"name": "Physician"
+				},
+				{
+					"type": "skill",
+					"name": "Veterinary",
+					"modifier": -4
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -4,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"calc": {
+				"level": 11,
+				"rsl": "IQ+0"
+			}
 		},
 		{
 			"id": "sfgRJgezeuqQKbVui",
@@ -2183,7 +2170,7 @@
 		}
 	],
 	"created_date": "2025-04-19T04:43:17+02:00",
-	"modified_date": "2025-04-19T04:55:05+02:00",
+	"modified_date": "2025-04-20T16:40:13+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

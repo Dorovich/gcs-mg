@@ -291,21 +291,15 @@
 				"cost_per_point": 2
 			},
 			{
-				"id": "break_check",
-				"type": "integer_ref",
-				"name": "Break",
-				"attribute_base": "$ht"
-			},
-			{
 				"id": "pain_check",
 				"type": "integer_ref",
 				"name": "Pain",
 				"attribute_base": "$ht"
 			},
 			{
-				"id": "fatigue_check",
+				"id": "fainting_check",
 				"type": "integer_ref",
-				"name": "Fatigue",
+				"name": "Fainting",
 				"attribute_base": "$ht"
 			},
 			{
@@ -684,14 +678,6 @@
 			}
 		},
 		{
-			"attr_id": "break_check",
-			"adj": 0,
-			"calc": {
-				"value": 10,
-				"points": 0
-			}
-		},
-		{
 			"attr_id": "pain_check",
 			"adj": 0,
 			"calc": {
@@ -700,7 +686,7 @@
 			}
 		},
 		{
-			"attr_id": "fatigue_check",
+			"attr_id": "fainting_check",
 			"adj": 0,
 			"calc": {
 				"value": 10,
@@ -848,9 +834,9 @@
 				"Advantage",
 				"Mental"
 			],
-			"base_points": 1,
+			"base_points": 2,
 			"calc": {
-				"points": 1
+				"points": 2
 			}
 		},
 		{
@@ -1100,7 +1086,7 @@
 							"modifier": -5
 						}
 					],
-					"points": 1,
+					"points": 2,
 					"defaulted_from": {
 						"type": "dx",
 						"modifier": -5,
@@ -1109,8 +1095,8 @@
 						"points": -5
 					},
 					"calc": {
-						"level": 9,
-						"rsl": "DX-1"
+						"level": 10,
+						"rsl": "DX+0"
 					}
 				},
 				{
@@ -1133,7 +1119,7 @@
 							"modifier": -5
 						}
 					],
-					"points": 4,
+					"points": 2,
 					"defaulted_from": {
 						"type": "ht",
 						"modifier": -5,
@@ -1142,8 +1128,8 @@
 						"points": -5
 					},
 					"calc": {
-						"level": 11,
-						"rsl": "HT+1"
+						"level": 10,
+						"rsl": "HT+0"
 					}
 				},
 				{
@@ -2385,7 +2371,7 @@
 		}
 	],
 	"created_date": "2025-04-18T23:08:59+02:00",
-	"modified_date": "2025-04-19T00:37:33+02:00",
+	"modified_date": "2025-04-20T16:39:32+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
