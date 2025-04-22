@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "AReupDDU_Sc-b6h7R",
-	"total_points": 100,
+	"total_points": 110,
 	"points_record": [
 		{
 			"when": "2025-01-20T00:40:54+01:00",
-			"points": 100,
+			"points": 110,
 			"reason": "Initial points"
 		}
 	],
@@ -91,6 +91,14 @@
 				"full_name": "Perception",
 				"attribute_base": "10",
 				"cost_per_point": 5
+			},
+			{
+				"id": "fright_check",
+				"type": "integer",
+				"placement": "hidden",
+				"name": "Fright Check",
+				"attribute_base": "$will",
+				"cost_per_point": 2
 			},
 			{
 				"id": "senses",
@@ -279,34 +287,16 @@
 				]
 			},
 			{
-				"id": "checks",
-				"type": "secondary_separator",
-				"name": "Checks"
-			},
-			{
-				"id": "fright_check",
-				"type": "integer",
-				"name": "Fear",
-				"attribute_base": "$will",
-				"cost_per_point": 2
-			},
-			{
-				"id": "pain_check",
-				"type": "integer_ref",
-				"name": "Pain",
-				"attribute_base": "$ht"
-			},
-			{
-				"id": "fainting_check",
-				"type": "integer_ref",
-				"name": "Fainting",
-				"attribute_base": "$ht"
-			},
-			{
-				"id": "death_check",
-				"type": "integer_ref",
-				"name": "Death",
-				"attribute_base": "$ht"
+				"id": "luck_points",
+				"type": "pool_ref",
+				"name": "Luck",
+				"attribute_base": "5",
+				"thresholds": [
+					{
+						"state": "",
+						"expression": "0"
+					}
+				]
 			}
 		],
 		"body_type": {
@@ -584,6 +574,14 @@
 			}
 		},
 		{
+			"attr_id": "fright_check",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
 			"attr_id": "senses",
 			"adj": 0
 		},
@@ -666,50 +664,23 @@
 			}
 		},
 		{
-			"attr_id": "checks",
-			"adj": 0
-		},
-		{
-			"attr_id": "fright_check",
+			"attr_id": "luck_points",
 			"adj": 0,
 			"calc": {
-				"value": 10,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "pain_check",
-			"adj": 0,
-			"calc": {
-				"value": 10,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "fainting_check",
-			"adj": 0,
-			"calc": {
-				"value": 10,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "death_check",
-			"adj": 0,
-			"calc": {
-				"value": 10,
+				"value": 5,
+				"current": 5,
 				"points": 0
 			}
 		}
 	],
 	"traits": [
 		{
-			"id": "tqcn5dt9bCbShhTtp",
+			"id": "t6yCPiB4FOZm6rZYb",
 			"name": "Natural Attacks",
 			"reference": "B271",
 			"weapons": [
 				{
-					"id": "wVm_xfsH0lwalTYAE",
+					"id": "w_kINl9Q2Qv0Fy2pq",
 					"damage": {
 						"type": "cr",
 						"st": "thr",
@@ -732,7 +703,32 @@
 					}
 				},
 				{
-					"id": "wforHifgzwsiW2kgU",
+					"id": "wypjganxwTHx897df",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "1d-3 cr",
+						"parry": "8"
+					}
+				},
+				{
+					"id": "w9Y0rpGU9P16Z9KHK",
 					"damage": {
 						"type": "cr",
 						"st": "thr",
@@ -751,26 +747,25 @@
 					}
 				},
 				{
-					"id": "w-3ACk8xaftHeHgZ9",
+					"id": "wlFz57xgzDqdiPy7k",
 					"damage": {
 						"type": "cr",
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Punch",
-					"reach": "C",
-					"parry": "0",
+					"usage": "Low Kick",
+					"reach": "C,1",
 					"defaults": [
 						{
 							"type": "dx"
 						},
 						{
 							"type": "skill",
-							"name": "Boxing"
+							"name": "Brawling"
 						},
 						{
 							"type": "skill",
-							"name": "Brawling"
+							"name": "Kicking"
 						},
 						{
 							"type": "skill",
@@ -779,64 +774,12 @@
 					],
 					"calc": {
 						"level": 10,
-						"damage": "1d-3 cr",
-						"parry": "8"
-					}
-				},
-				{
-					"id": "wi3TwF6NmtNEx5__J",
-					"damage": {
-						"type": "cr",
-						"st": "thr"
-					},
-					"usage": "Kick",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Brawling",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
-						{
-							"type": "skill",
-							"name": "Karate",
-							"modifier": -2
-						}
-					],
-					"calc": {
-						"level": 8,
-						"damage": "1d-2 cr"
+						"damage": "1d-3 cr"
 					}
 				}
 			],
 			"calc": {
 				"points": 0
-			}
-		},
-		{
-			"id": "tjh5ryyr9X5XMXFnD",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tz-USDL9B_KrrVqDi"
-			},
-			"name": "Knack (Medicine)",
-			"notes": "Usable once per hour. Treat as Luck (B66) for a specific topic the character is naturally “talented” at.",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"base_points": 2,
-			"calc": {
-				"points": 2
 			}
 		},
 		{
@@ -2078,7 +2021,7 @@
 					"weight": "0.25 lb",
 					"weapons": [
 						{
-							"id": "w8B72-vLHg2P-QipH",
+							"id": "wsbTcEf9Bwu7FZRKC",
 							"damage": {
 								"type": "imp",
 								"st": "thr",
@@ -2124,54 +2067,7 @@
 							}
 						},
 						{
-							"id": "wVvzBD2jshHXlVUfR",
-							"damage": {
-								"type": "imp",
-								"st": "thr",
-								"base": "-1"
-							},
-							"strength": "5",
-							"usage": "Main-Gauche",
-							"reach": "C",
-							"parry": "0F",
-							"defaults": [
-								{
-									"type": "dx",
-									"modifier": -5
-								},
-								{
-									"type": "skill",
-									"name": "Main-Gauche"
-								},
-								{
-									"type": "skill",
-									"name": "Jitte/Sai",
-									"modifier": -4
-								},
-								{
-									"type": "skill",
-									"name": "Knife",
-									"modifier": -4
-								},
-								{
-									"type": "skill",
-									"name": "Rapier",
-									"modifier": -3
-								},
-								{
-									"type": "skill",
-									"name": "Smallsword",
-									"modifier": -3
-								}
-							],
-							"calc": {
-								"level": 5,
-								"damage": "1d-3 imp",
-								"parry": "5F"
-							}
-						},
-						{
-							"id": "WdrvC5rmFNnuq8Vbw",
+							"id": "Wx75U7pqu3zN54q9R",
 							"damage": {
 								"type": "imp",
 								"st": "thr",
@@ -2371,7 +2267,7 @@
 		}
 	],
 	"created_date": "2025-04-18T23:08:59+02:00",
-	"modified_date": "2025-04-20T16:39:32+02:00",
+	"modified_date": "2025-04-21T20:08:08+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
