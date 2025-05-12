@@ -12,8 +12,8 @@
 	"profile": {
 		"name": "@character name@",
 		"hair": "@fur@",
-		"height": "3.6\"",
-		"weight": "0.05 lb",
+		"height": "5'4.8\"",
+		"weight": "50 lb",
 		"player_name": "@player name@",
 		"title": "@guard rank@",
 		"organization": "@patrol name@",
@@ -288,11 +288,11 @@
 				"id": "luck_points",
 				"type": "pool_ref",
 				"name": "Luck",
-				"attribute_base": "5",
+				"attribute_base": "3",
 				"thresholds": [
 					{
 						"state": "",
-						"expression": ""
+						"expression": "0"
 					}
 				]
 			}
@@ -307,54 +307,59 @@
 					"table_name": "Head",
 					"slots": 2,
 					"hit_penalty": -2,
-					"description": "Check MOS: (0-2) Random, (3-4) Random on head, (5+) Choose on head.",
-					"sub_table": {
-						"roll": "1d",
-						"locations": [
-							{
-								"id": "skull",
-								"choice_name": "Skull",
-								"table_name": "Skull",
-								"slots": 2,
-								"hit_penalty": -2,
-								"dr_bonus": 2,
-								"calc": {
-									"roll_range": "1-2",
-									"dr": {
-										"all": 2
-									}
-								}
-							},
-							{
-								"id": "face",
-								"choice_name": "Face",
-								"table_name": "Face",
-								"slots": 2,
-								"hit_penalty": -2,
-								"calc": {
-									"roll_range": "3-4",
-									"dr": {
-										"all": 0
-									}
-								}
-							},
-							{
-								"id": "neck",
-								"choice_name": "Neck",
-								"table_name": "Neck",
-								"slots": 2,
-								"hit_penalty": -2,
-								"calc": {
-									"roll_range": "5-6",
-									"dr": {
-										"all": 0
-									}
-								}
-							}
-						]
-					},
+					"description": "MoS: (0-2) Random, (3-4) Random on head, (5+) Choose on head.",
 					"calc": {
 						"roll_range": "2-3",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "skull",
+					"choice_name": "Skull",
+					"table_name": "Skull",
+					"hit_penalty": -2,
+					"dr_bonus": 2,
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 2
+						}
+					}
+				},
+				{
+					"id": "face",
+					"choice_name": "Face",
+					"table_name": "Face",
+					"hit_penalty": -2,
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "neck",
+					"choice_name": "Neck",
+					"table_name": "Neck",
+					"hit_penalty": -2,
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "eyes",
+					"choice_name": "Eyes",
+					"table_name": "Eyes",
+					"hit_penalty": -3,
+					"description": "Requires MoS 7+.",
+					"calc": {
+						"roll_range": "-",
 						"dr": {
 							"all": 0
 						}
@@ -366,41 +371,22 @@
 					"table_name": "Arms",
 					"slots": 2,
 					"hit_penalty": -1,
-					"description": "Check MOS: (0-1) Random, (2+) Random on arm.",
-					"sub_table": {
-						"roll": "1d",
-						"locations": [
-							{
-								"id": "front_paw",
-								"choice_name": "Paw",
-								"table_name": "Paw",
-								"slots": 1,
-								"hit_penalty": -2,
-								"description": "Check MOS: (0-1) Random, (2) Limb, (3+) Chosen hand.",
-								"calc": {
-									"roll_range": "1",
-									"dr": {
-										"all": 0
-									}
-								}
-							},
-							{
-								"id": "alimb",
-								"choice_name": "Limb",
-								"table_name": "Limb",
-								"slots": 5,
-								"hit_penalty": -1,
-								"calc": {
-									"roll_range": "2-6",
-									"dr": {
-										"all": 0
-									}
-								}
-							}
-						]
-					},
+					"description": "MoS: (0-1) Random, (2+) Random on arm.",
 					"calc": {
 						"roll_range": "4-5",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "front_paws",
+					"choice_name": "Front Paws",
+					"table_name": "F. Paws",
+					"hit_penalty": -2,
+					"description": "MoS: (0-1) Random, (2) Random on arm, (3+) Chosen paw.",
+					"calc": {
+						"roll_range": "-",
 						"dr": {
 							"all": 0
 						}
@@ -411,38 +397,33 @@
 					"choice_name": "Torso",
 					"table_name": "Torso",
 					"slots": 3,
-					"description": "Check MOS: (0-1) Random, (2-4) Random on torso, (5+) Vitals, choose.",
-					"sub_table": {
-						"roll": "1d",
-						"locations": [
-							{
-								"id": "vitals",
-								"choice_name": "Vitals",
-								"table_name": "Vitals",
-								"slots": 1,
-								"calc": {
-									"roll_range": "1",
-									"dr": {
-										"all": 0
-									}
-								}
-							},
-							{
-								"id": "torso2",
-								"choice_name": "Torso",
-								"table_name": "Torso",
-								"slots": 5,
-								"calc": {
-									"roll_range": "2-6",
-									"dr": {
-										"all": 0
-									}
-								}
-							}
-						]
-					},
+					"description": "MoS: (0-1) Random, (2-4) Random on torso, (5+) Vitals, choose.",
 					"calc": {
 						"roll_range": "6-8",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "vitals",
+					"choice_name": "Vitals",
+					"table_name": "Vitals",
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "groin",
+					"choice_name": "Groin",
+					"table_name": "Groin",
+					"hit_penalty": -1,
+					"description": "Requires MoS 2+.",
+					"calc": {
+						"roll_range": "-",
 						"dr": {
 							"all": 0
 						}
@@ -452,57 +433,37 @@
 					"id": "legs",
 					"choice_name": "Legs",
 					"table_name": "Legs",
-					"slots": 2,
+					"slots": 4,
 					"hit_penalty": -1,
-					"description": "Check MOS: (0-1) Random, (2+) Random on leg.",
+					"description": "MoS: (0-1) Random, (2+) Random on leg. On a 11 or 12 there is 2/6 to hit the foot.",
 					"calc": {
-						"roll_range": "9-10",
+						"roll_range": "9-12",
 						"dr": {
 							"all": 0
 						}
 					}
 				},
 				{
-					"id": "legs_low",
-					"choice_name": "Legs",
-					"table_name": "Legs",
-					"slots": 2,
-					"hit_penalty": -1,
-					"description": "Check MOS: (0-1) Random, (2+) Random on leg.",
-					"sub_table": {
-						"roll": "1d",
-						"locations": [
-							{
-								"id": "hind_paw",
-								"choice_name": "Paw",
-								"table_name": "Paw",
-								"slots": 1,
-								"hit_penalty": -2,
-								"description": "Check MOS: (0-1) Random, (2) Limb, (3+) Chosen foot.",
-								"calc": {
-									"roll_range": "1",
-									"dr": {
-										"all": 0
-									}
-								}
-							},
-							{
-								"id": "legs_low2",
-								"choice_name": "Limb",
-								"table_name": "Limb",
-								"slots": 5,
-								"hit_penalty": -1,
-								"calc": {
-									"roll_range": "2-6",
-									"dr": {
-										"all": 0
-									}
-								}
-							}
-						]
-					},
+					"id": "hind_paws",
+					"choice_name": "Hind Paws",
+					"table_name": "H. Paws",
+					"hit_penalty": -2,
+					"description": "MoS: (0-1) Random, (2) Random on leg, (3+) Chosen foot.",
 					"calc": {
-						"roll_range": "11-12",
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "tail",
+					"choice_name": "Tail",
+					"table_name": "Tail",
+					"hit_penalty": -3,
+					"description": "Requires MoS 3+.",
+					"calc": {
+						"roll_range": "-",
 						"dr": {
 							"all": 0
 						}
@@ -510,9 +471,9 @@
 				}
 			]
 		},
-		"damage_progression": "basic_set",
-		"default_length_units": "cm",
-		"default_weight_units": "g",
+		"damage_progression": "knowing_your_own_strength",
+		"default_length_units": "m",
+		"default_weight_units": "kg",
 		"user_description_display": "tooltip",
 		"modifiers_display": "inline",
 		"notes_display": "inline",
@@ -665,49 +626,25 @@
 			"attr_id": "luck_points",
 			"adj": 0,
 			"calc": {
-				"value": 5,
-				"current": 5,
+				"value": 3,
+				"current": 3,
 				"points": 0
 			}
 		}
 	],
 	"traits": [
 		{
-			"id": "tqcn5dt9bCbShhTtp",
+			"id": "t1f-r0c2xOPRThS9r",
 			"name": "Natural Attacks",
 			"reference": "B271",
 			"weapons": [
 				{
-					"id": "wGnM-K6cQhbk7nIH7",
+					"id": "waaC89Vncay1od6C9",
 					"damage": {
 						"type": "cr",
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Bite",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						}
-					],
-					"calc": {
-						"level": 10,
-						"damage": "1d-3 cr"
-					}
-				},
-				{
-					"id": "whCF6RBoBOU-1oRAC",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Punch",
 					"reach": "C",
 					"parry": "0",
 					"defaults": [
@@ -724,56 +661,6 @@
 						"damage": "1d-3 cr",
 						"parry": "8"
 					}
-				},
-				{
-					"id": "wF1ouG6eQaPId3xCx",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-2"
-					},
-					"usage": "Slam",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "dx"
-						}
-					],
-					"calc": {
-						"level": 10,
-						"damage": "1d-4 cr"
-					}
-				},
-				{
-					"id": "wwyUWywv2QZ9GhduQ",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Low Kick",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"level": 10,
-						"damage": "1d-3 cr"
-					}
 				}
 			],
 			"calc": {
@@ -783,255 +670,217 @@
 	],
 	"skills": [
 		{
-			"id": "SmuiuAHDsxt2hEw7o",
-			"name": "Innate Skills (Mouse)",
-			"children": [
+			"id": "sDHU00nhx122AuY3s",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s_noq8s2p_bxQytbs"
+			},
+			"name": "Climbing",
+			"reference": "MG20, DFA74",
+			"tags": [
+				"Athletic",
+				"Criminal",
+				"Exploration",
+				"Guardmouse",
+				"Outdoor",
+				"Street"
+			],
+			"difficulty": "dx/a",
+			"encumbrance_penalty_multiplier": 1,
+			"defaults": [
 				{
-					"id": "sDHU00nhx122AuY3s",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
-						"id": "s_noq8s2p_bxQytbs"
-					},
-					"name": "Climbing",
-					"reference": "MG20, DFA74",
-					"tags": [
-						"Athletic",
-						"Criminal",
-						"Exploration",
-						"Guardmouse",
-						"Outdoor",
-						"Street"
-					],
-					"difficulty": "dx/a",
-					"encumbrance_penalty_multiplier": 1,
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -5
-						}
-					],
-					"points": 2,
-					"defaulted_from": {
-						"type": "dx",
-						"modifier": -5,
-						"level": 5,
-						"adjusted_level": 5,
-						"points": -5
-					},
-					"calc": {
-						"level": 10,
-						"rsl": "DX+0"
-					}
-				},
-				{
-					"id": "s8HtxqHj2VhqlaIvb",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
-						"id": "sIQzmwfTiPgBNF7eD"
-					},
-					"name": "Running",
-					"reference": "DFA87",
-					"tags": [
-						"Athletic",
-						"Guardmouse"
-					],
-					"difficulty": "ht/a",
-					"defaults": [
-						{
-							"type": "ht",
-							"modifier": -5
-						}
-					],
-					"points": 2,
-					"defaulted_from": {
-						"type": "ht",
-						"modifier": -5,
-						"level": 5,
-						"adjusted_level": 5,
-						"points": -5
-					},
-					"calc": {
-						"level": 10,
-						"rsl": "HT+0"
-					}
-				},
-				{
-					"id": "sJXADndafUMoO3JDR",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
-						"id": "stWUM31sKZ3luEMy2"
-					},
-					"name": "Stealth",
-					"reference": "DFA89",
-					"tags": [
-						"Criminal",
-						"Guardmouse",
-						"Police",
-						"Spy",
-						"Street"
-					],
-					"difficulty": "dx/a",
-					"encumbrance_penalty_multiplier": 1,
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "dx",
-							"modifier": -5
-						}
-					],
-					"points": 2,
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -5,
-						"level": 5,
-						"adjusted_level": 5,
-						"points": -5
-					},
-					"calc": {
-						"level": 10,
-						"rsl": "DX+0"
-					}
-				},
-				{
-					"id": "sxyLuAzDMpAx0CuzG",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
-						"id": "szPW4iOeooiXKBRuX"
-					},
-					"name": "Survival",
-					"reference": "DFA90",
-					"tags": [
-						"Exploration",
-						"Guardmouse",
-						"Outdoor"
-					],
-					"specialization": "Woodlands",
-					"difficulty": "per/a",
-					"defaults": [
-						{
-							"type": "per",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Naturalist",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Survival",
-							"modifier": -3
-						}
-					],
-					"points": 2,
-					"defaulted_from": {
-						"type": "per",
-						"modifier": -5,
-						"level": 5,
-						"adjusted_level": 5,
-						"points": -5
-					},
-					"calc": {
-						"level": 10,
-						"rsl": "PE+0"
-					}
+					"type": "dx",
+					"modifier": -5
 				}
-			]
+			],
+			"points": 2,
+			"defaulted_from": {
+				"type": "dx",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"calc": {
+				"level": 10,
+				"rsl": "DX+0"
+			}
+		},
+		{
+			"id": "s-v_Zi7GsGwTPro5x",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "s59NHp3Wau4GDTEeO"
+			},
+			"name": "First Aid",
+			"reference": "DFA76",
+			"tags": [
+				"Everyman",
+				"Guardmouse",
+				"Medical"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Esoteric Medicine"
+				},
+				{
+					"type": "skill",
+					"name": "Physician"
+				},
+				{
+					"type": "skill",
+					"name": "Veterinary",
+					"modifier": -4
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -4,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"calc": {
+				"level": 10,
+				"rsl": "IQ+0"
+			}
+		},
+		{
+			"id": "s8HtxqHj2VhqlaIvb",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "sIQzmwfTiPgBNF7eD"
+			},
+			"name": "Running",
+			"reference": "DFA87",
+			"tags": [
+				"Athletic",
+				"Guardmouse"
+			],
+			"difficulty": "ht/a",
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -5
+				}
+			],
+			"points": 2,
+			"defaulted_from": {
+				"type": "ht",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"calc": {
+				"level": 10,
+				"rsl": "HT+0"
+			}
+		},
+		{
+			"id": "sJXADndafUMoO3JDR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "stWUM31sKZ3luEMy2"
+			},
+			"name": "Stealth",
+			"reference": "DFA89",
+			"tags": [
+				"Criminal",
+				"Guardmouse",
+				"Police",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "dx/a",
+			"encumbrance_penalty_multiplier": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 2,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"calc": {
+				"level": 10,
+				"rsl": "DX+0"
+			}
+		},
+		{
+			"id": "sxyLuAzDMpAx0CuzG",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+				"id": "szPW4iOeooiXKBRuX"
+			},
+			"name": "Survival",
+			"reference": "DFA90",
+			"tags": [
+				"Exploration",
+				"Guardmouse",
+				"Outdoor"
+			],
+			"specialization": "Woodlands",
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"modifier": -3
+				}
+			],
+			"points": 2,
+			"defaulted_from": {
+				"type": "per",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"calc": {
+				"level": 10,
+				"rsl": "PE+0"
+			}
 		}
 	],
 	"equipment": [
 		{
-			"id": "eBI6oDq5M-1ZoEuQt",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Equipment.eqp",
-				"id": "edigqhD0-4jkKif75"
-			},
-			"description": "Light Cloak, @color@",
-			"reference": "DFA107",
-			"tags": [
-				"Clothing"
-			],
+			"id": "et5FqY9IXDh_Xke3q",
+			"description": "Guardian Cape, @color@",
+			"legality_class": "4",
 			"value": 20,
 			"weight": "1 lb",
-			"weapons": [
-				{
-					"id": "wUwLWQNoEILlak8JP",
-					"damage": {
-						"type": "-"
-					},
-					"usage": "Grapple",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Cloak"
-						},
-						{
-							"type": "skill",
-							"name": "Net",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Shield",
-							"modifier": -4
-						},
-						{
-							"type": "dx",
-							"modifier": -5
-						}
-					],
-					"calc": {
-						"level": 5,
-						"damage": "-"
-					}
-				},
-				{
-					"id": "W2KdojXu7pLDzbMsL",
-					"damage": {
-						"type": "Special"
-					},
-					"strength": "5",
-					"usage": "Thrown",
-					"accuracy": "1",
-					"range": "2",
-					"rate_of_fire": "1",
-					"shots": "T",
-					"bulk": "-4",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Cloak"
-						},
-						{
-							"type": "skill",
-							"name": "Net",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Shield",
-							"modifier": -4
-						}
-					],
-					"calc": {
-						"level": 5,
-						"damage": "Special"
-					}
-				}
-			],
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
@@ -1047,7 +896,7 @@
 		}
 	],
 	"created_date": "2025-01-20T00:40:54+01:00",
-	"modified_date": "2025-04-21T19:57:38+02:00",
+	"modified_date": "2025-05-12T15:48:18+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

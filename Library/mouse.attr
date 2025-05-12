@@ -37,8 +37,16 @@
 		{
 			"id": "will",
 			"type": "integer",
-			"placement": "secondary",
-			"name": "Will",
+			"name": "WP",
+			"full_name": "Willpower",
+			"attribute_base": "10",
+			"cost_per_point": 5
+		},
+		{
+			"id": "per",
+			"type": "integer",
+			"name": "PE",
+			"full_name": "Perception",
 			"attribute_base": "10",
 			"cost_per_point": 5
 		},
@@ -51,25 +59,9 @@
 			"cost_per_point": 2
 		},
 		{
-			"id": "wound_accumulation",
-			"type": "integer_ref",
-			"placement": "secondary",
-			"name": "Wound Accum.",
-			"attribute_base": "$ht/2+3"
-		},
-		{
 			"id": "senses",
 			"type": "secondary_separator",
 			"name": "Senses"
-		},
-		{
-			"id": "per",
-			"type": "integer",
-			"placement": "secondary",
-			"name": "Per",
-			"full_name": "Perception",
-			"attribute_base": "10",
-			"cost_per_point": 5
 		},
 		{
 			"id": "vision",
@@ -117,6 +109,12 @@
 			"name": "Basic Move",
 			"attribute_base": "floor($basic_speed)",
 			"cost_per_point": 5
+		},
+		{
+			"id": "dodge",
+			"type": "integer_ref",
+			"name": "Dodge",
+			"attribute_base": "2*$basic_speed"
 		},
 		{
 			"id": "fp",
@@ -243,6 +241,18 @@
 				{
 					"state": "Healthy",
 					"expression": "$hp"
+				}
+			]
+		},
+		{
+			"id": "luck_points",
+			"type": "pool_ref",
+			"name": "Luck",
+			"attribute_base": "3",
+			"thresholds": [
+				{
+					"state": "",
+					"expression": "0"
 				}
 			]
 		}

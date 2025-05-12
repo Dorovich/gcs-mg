@@ -3,49 +3,6 @@
 	"id": "BVzkMEknlFwuxvQ5i",
 	"skills": [
 		{
-			"id": "sGS_6e8lojbFcyq4z",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
-				"id": "s59NHp3Wau4GDTEeO"
-			},
-			"name": "First Aid",
-			"reference": "DFA76",
-			"tags": [
-				"Everyman",
-				"Guardmouse",
-				"Medical"
-			],
-			"difficulty": "iq/e",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Esoteric Medicine"
-				},
-				{
-					"type": "skill",
-					"name": "Physician"
-				},
-				{
-					"type": "skill",
-					"name": "Veterinary",
-					"modifier": -4
-				}
-			],
-			"points": 1,
-			"defaulted_from": {
-				"type": "iq",
-				"modifier": -4,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
-			}
-		},
-		{
 			"id": "SoRCmkoJHvhqlVlSK",
 			"name": "Social skill of choice",
 			"notes": "Randomly: 1d6",

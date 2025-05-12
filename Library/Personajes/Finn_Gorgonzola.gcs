@@ -309,54 +309,59 @@
 					"table_name": "Head",
 					"slots": 2,
 					"hit_penalty": -2,
-					"description": "Check MOS: (0-2) Random, (3-4) Random on head, (5+) Choose on head.",
-					"sub_table": {
-						"roll": "1d",
-						"locations": [
-							{
-								"id": "skull",
-								"choice_name": "Skull",
-								"table_name": "Skull",
-								"slots": 2,
-								"hit_penalty": -2,
-								"dr_bonus": 2,
-								"calc": {
-									"roll_range": "1-2",
-									"dr": {
-										"all": 2
-									}
-								}
-							},
-							{
-								"id": "face",
-								"choice_name": "Face",
-								"table_name": "Face",
-								"slots": 2,
-								"hit_penalty": -2,
-								"calc": {
-									"roll_range": "3-4",
-									"dr": {
-										"all": 0
-									}
-								}
-							},
-							{
-								"id": "neck",
-								"choice_name": "Neck",
-								"table_name": "Neck",
-								"slots": 2,
-								"hit_penalty": -2,
-								"calc": {
-									"roll_range": "5-6",
-									"dr": {
-										"all": 0
-									}
-								}
-							}
-						]
-					},
+					"description": "MoS: (0-2) Random, (3-4) Random on head, (5+) Choose on head.",
 					"calc": {
 						"roll_range": "2-3",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "skull",
+					"choice_name": "Skull",
+					"table_name": "Skull",
+					"hit_penalty": -2,
+					"dr_bonus": 2,
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 2
+						}
+					}
+				},
+				{
+					"id": "face",
+					"choice_name": "Face",
+					"table_name": "Face",
+					"hit_penalty": -2,
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "neck",
+					"choice_name": "Neck",
+					"table_name": "Neck",
+					"hit_penalty": -2,
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "eyes",
+					"choice_name": "Eyes",
+					"table_name": "Eyes",
+					"hit_penalty": -3,
+					"description": "Requires MoS 7+.",
+					"calc": {
+						"roll_range": "-",
 						"dr": {
 							"all": 0
 						}
@@ -368,32 +373,29 @@
 					"table_name": "Arms",
 					"slots": 2,
 					"hit_penalty": -1,
-					"description": "Check MOS: (0-1) Random, (2+) Random on arm.",
+					"description": "MoS: (0-1) Random, (2+) Random on arm.",
 					"sub_table": {
-						"roll": "1d",
+						"roll": "0",
 						"locations": [
 							{
-								"id": "front_paw",
-								"choice_name": "Paw",
-								"table_name": "Paw",
-								"slots": 1,
-								"hit_penalty": -2,
-								"description": "Check MOS: (0-1) Random, (2) Limb, (3+) Chosen hand.",
+								"id": "arm_left",
+								"choice_name": "Left Arm",
+								"table_name": "Left Arm",
+								"hit_penalty": -1,
 								"calc": {
-									"roll_range": "1",
+									"roll_range": "-",
 									"dr": {
 										"all": 0
 									}
 								}
 							},
 							{
-								"id": "alimb",
-								"choice_name": "Limb",
-								"table_name": "Limb",
-								"slots": 5,
+								"id": "arm_right",
+								"choice_name": "Right Arm",
+								"table_name": "Right Arm",
 								"hit_penalty": -1,
 								"calc": {
-									"roll_range": "2-6",
+									"roll_range": "-",
 									"dr": {
 										"all": 0
 									}
@@ -409,33 +411,33 @@
 					}
 				},
 				{
-					"id": "torso",
-					"choice_name": "Torso",
-					"table_name": "Torso",
-					"slots": 3,
-					"description": "Check MOS: (0-1) Random, (2-4) Random on torso, (5+) Vitals, choose.",
+					"id": "fpaws",
+					"choice_name": "Front Paws",
+					"table_name": "Front Paws",
+					"hit_penalty": -2,
+					"description": "MoS: (0-1) Random, (2) Random on arm, (3+) Chosen paw.",
 					"sub_table": {
-						"roll": "1d",
+						"roll": "0",
 						"locations": [
 							{
-								"id": "vitals",
-								"choice_name": "Vitals",
-								"table_name": "Vitals",
-								"slots": 1,
+								"id": "fpaw_left",
+								"choice_name": "Left Paw",
+								"table_name": "Left Paw",
+								"hit_penalty": -2,
 								"calc": {
-									"roll_range": "1",
+									"roll_range": "-",
 									"dr": {
 										"all": 0
 									}
 								}
 							},
 							{
-								"id": "torso2",
-								"choice_name": "Torso",
-								"table_name": "Torso",
-								"slots": 5,
+								"id": "fpaw_right",
+								"choice_name": "Right Paw",
+								"table_name": "Right Paw",
+								"hit_penalty": -2,
 								"calc": {
-									"roll_range": "2-6",
+									"roll_range": "-",
 									"dr": {
 										"all": 0
 									}
@@ -444,7 +446,44 @@
 						]
 					},
 					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "torso",
+					"choice_name": "Torso",
+					"table_name": "Torso",
+					"slots": 3,
+					"description": "MoS: (0-1) Random, (2-4) Random on torso, (5+) Vitals, choose.",
+					"calc": {
 						"roll_range": "6-8",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "vitals",
+					"choice_name": "Vitals",
+					"table_name": "Vitals",
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "groin",
+					"choice_name": "Groin",
+					"table_name": "Groin",
+					"hit_penalty": -1,
+					"description": "Requires MoS 2+.",
+					"calc": {
+						"roll_range": "-",
 						"dr": {
 							"all": 0
 						}
@@ -454,48 +493,31 @@
 					"id": "legs",
 					"choice_name": "Legs",
 					"table_name": "Legs",
-					"slots": 2,
+					"slots": 4,
 					"hit_penalty": -1,
-					"description": "Check MOS: (0-1) Random, (2+) Random on leg.",
-					"calc": {
-						"roll_range": "9-10",
-						"dr": {
-							"all": 0
-						}
-					}
-				},
-				{
-					"id": "legs_low",
-					"choice_name": "Legs",
-					"table_name": "Legs",
-					"slots": 2,
-					"hit_penalty": -1,
-					"description": "Check MOS: (0-1) Random, (2+) Random on leg.",
+					"description": "MoS: (0-1) Random, (2+) Random on leg. On a 11 or 12 there is 2/6 to hit the foot.",
 					"sub_table": {
-						"roll": "1d",
+						"roll": "0",
 						"locations": [
 							{
-								"id": "hind_paw",
-								"choice_name": "Paw",
-								"table_name": "Paw",
-								"slots": 1,
-								"hit_penalty": -2,
-								"description": "Check MOS: (0-1) Random, (2) Limb, (3+) Chosen foot.",
+								"id": "leg_left",
+								"choice_name": "Left Leg",
+								"table_name": "Left Leg",
+								"hit_penalty": -1,
 								"calc": {
-									"roll_range": "1",
+									"roll_range": "-",
 									"dr": {
 										"all": 0
 									}
 								}
 							},
 							{
-								"id": "legs_low2",
-								"choice_name": "Limb",
-								"table_name": "Limb",
-								"slots": 5,
+								"id": "leg_right",
+								"choice_name": "Right Leg",
+								"table_name": "Right Leg",
 								"hit_penalty": -1,
 								"calc": {
-									"roll_range": "2-6",
+									"roll_range": "-",
 									"dr": {
 										"all": 0
 									}
@@ -504,7 +526,49 @@
 						]
 					},
 					"calc": {
-						"roll_range": "11-12",
+						"roll_range": "9-12",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "hpaws",
+					"choice_name": "Hind Paws",
+					"table_name": "Hind Paws",
+					"hit_penalty": -2,
+					"description": "MoS: (0-1) Random, (2) Random on leg, (3+) Chosen foot.",
+					"sub_table": {
+						"roll": "0",
+						"locations": [
+							{
+								"id": "hpaw_left",
+								"choice_name": "Left Paw",
+								"table_name": "Left Paw",
+								"hit_penalty": -2,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 0
+									}
+								}
+							},
+							{
+								"id": "hpaw_right",
+								"choice_name": "Right Paw",
+								"table_name": "Right Paw",
+								"hit_penalty": -2,
+								"calc": {
+									"roll_range": "-",
+									"dr": {
+										"all": 0
+									}
+								}
+							}
+						]
+					},
+					"calc": {
+						"roll_range": "-",
 						"dr": {
 							"all": 0
 						}
@@ -2285,7 +2349,7 @@
 		}
 	],
 	"created_date": "2025-01-20T00:40:54+01:00",
-	"modified_date": "2025-04-21T20:07:48+02:00",
+	"modified_date": "2025-04-22T22:31:32+02:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",
