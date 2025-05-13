@@ -3236,50 +3236,6 @@
 			"points": 1
 		},
 		{
-			"id": "sUOIvxFkmeFguELkC",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
-				"id": "s0tPCgdAoREgWqZIg"
-			},
-			"name": "Line and Hook",
-			"reference": "DFA82",
-			"tags": [
-				"Combat",
-				"Guardmouse",
-				"Melee Combat",
-				"Weapon"
-			],
-			"difficulty": "dx/h",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Force Whip",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Monowire Whip",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Whip",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Two-Handed Flail",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
 			"id": "sguBuFNrvOzF_F3At",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",

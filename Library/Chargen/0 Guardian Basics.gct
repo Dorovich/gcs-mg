@@ -5,7 +5,7 @@
 		{
 			"id": "SoRCmkoJHvhqlVlSK",
 			"name": "Social skill of choice",
-			"notes": "Randomly: 1d6",
+			"notes": "Randomly: 1-6",
 			"template_picker": {
 				"type": "count",
 				"qualifier": {
@@ -190,7 +190,7 @@
 		{
 			"id": "Slx4pBtQwsgA-epT0",
 			"name": "Weapon of choice",
-			"notes": "Randomly: 1d12",
+			"notes": "Randomly: 1-12",
 			"template_picker": {
 				"type": "count",
 				"qualifier": {
@@ -256,6 +256,39 @@
 						}
 					],
 					"points": 2
+				},
+				{
+					"id": "sspdbfv2maqPFTPJP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
+						"id": "s6XXNwVPKmu2l0SjG"
+					},
+					"name": "Flail",
+					"reference": "DFA81",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/h",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -3
+						}
+					],
+					"points": 1
 				},
 				{
 					"id": "swBGa69QeEZeKGA_0",
@@ -330,50 +363,6 @@
 						},
 						{
 							"type": "dx",
-							"modifier": -4
-						}
-					],
-					"points": 2
-				},
-				{
-					"id": "sUmflis2BoaQicRZl",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Skills.skl",
-						"id": "s0tPCgdAoREgWqZIg"
-					},
-					"name": "Line and Hook",
-					"reference": "DFA82",
-					"tags": [
-						"Combat",
-						"Guardmouse",
-						"Melee Combat",
-						"Weapon"
-					],
-					"difficulty": "dx/h",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Force Whip",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Monowire Whip",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Whip",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Two-Handed Flail",
 							"modifier": -4
 						}
 					],

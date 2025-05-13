@@ -5,7 +5,8 @@
 		{
 			"id": "SLHJYrIk6Ne5P16ID",
 			"name": "Birthplace",
-			"notes": "Randomly: 1d8",
+			"reference": "https://mouseguard.fandom.com/wiki/Mouse_Territories",
+			"notes": "Randomly: 1-8",
 			"template_picker": {
 				"type": "count",
 				"qualifier": {

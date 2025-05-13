@@ -5,7 +5,7 @@
 		{
 			"id": "TdMuiEIukcCcNobwg",
 			"name": "Attributes",
-			"notes": "Randomly: 1d6",
+			"notes": "Randomly: 1-6",
 			"template_picker": {
 				"type": "count",
 				"qualifier": {

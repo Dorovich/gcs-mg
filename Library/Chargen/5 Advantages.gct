@@ -5,7 +5,7 @@
 		{
 			"id": "TjAk2qp-gktuneZ2D",
 			"name": "Advantages",
-			"notes": "Randomly: 1d20",
+			"notes": "Randomly: 1-20",
 			"template_picker": {
 				"type": "count",
 				"qualifier": {
