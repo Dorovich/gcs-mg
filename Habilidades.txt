@@ -1,0 +1,15 @@
+- Disfraz: Usa siempre la especialidad “Animal”. Aplicar penalización por familiaridad con tipos de animales.
+
+- Psicología: Es general para cualquier animal similar al ratón. Si no es similar, usar la habilidad Trato con animales. Aplicar penalización por familiaridad con tipos de animales.
+
+- Mimicry: Usa siempre la especialidad “Speech”. Aplicar penalización por familiaridad con tipos de animales.
+
+- Arma arrojadiza: Ya no existe, usar la habilidad Lanzar. El nivel efectivo no puede ser mayor que Arma de asta (para lanzas y arpones), Cuchillo (para dagas y cuchillos), Hacha/Maza (para hachas, mazas o palos).
+
+- Espada: Sirve para espadas cortas, largas y mandobles. Ocurre lo mismo para Desenfundar (Espada). Aplicar penalización por familiaridad con diferentes longitudes.
+
+- Lanza: Ya no existe, usar la habilidad Arma de asta.
+
+- Anzuelo e hilo: Ya no existe, usar la habilidad Mayal. 
+
+- Escudo: Sirve para escudos normales y pequeños.
