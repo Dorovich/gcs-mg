@@ -9,7 +9,7 @@
 				"id": "qmuZgnwAWvEpsGH_T"
 			},
 			"name": "Jitte/Sai",
-			"notes": "Allows one to claim the +2 in a quick contest to disarm an opponent",
+			"notes": "Allows a +2 to disarm an opponent",
 			"tags": [
 				"Combat",
 				"Melee Combat",
@@ -32,7 +32,7 @@
 				"id": "qE5ojny7wS6ZmiKT9"
 			},
 			"name": "Jitte/Sai",
-			"notes": "Allows one to claim the +2 in a quick contest to disarm an opponent",
+			"notes": "Allows a +2 to disarm an opponent",
 			"tags": [
 				"Combat",
 				"Melee Combat",
@@ -42,55 +42,8 @@
 			"difficulty": "a",
 			"default": {
 				"type": "skill",
-				"name": "Shortsword",
+				"name": "Sword",
 				"modifier": -2
-			},
-			"points": 1
-		},
-		{
-			"id": "qmd6l1iEQPHkhh9mm",
-			"source": {
-				"library": "/gcs_user_library",
-				"path": "General/Reworked Skill List.skl",
-				"id": "qmN3h-IDucKSmUtDc"
-			},
-			"name": "Tonfa",
-			"notes": "This is the fast switching of a Tonfa's grip, as the skill described on B209",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Technique",
-				"Weapon"
-			],
-			"difficulty": "a",
-			"default": {
-				"type": "skill",
-				"name": "Fast-Draw",
-				"specialization": "Sword",
-				"modifier": -3
-			},
-			"points": 1
-		},
-		{
-			"id": "qKICEbdgOk_BaGN2T",
-			"source": {
-				"library": "/gcs_user_library",
-				"path": "General/Reworked Skill List.skl",
-				"id": "q_kCvqHicqEkVbXtY"
-			},
-			"name": "Tonfa",
-			"notes": "This is the fast switching of a Tonfa's grip, as the skill described on B209",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Technique",
-				"Weapon"
-			],
-			"difficulty": "a",
-			"default": {
-				"type": "skill",
-				"name": "Shortsword",
-				"modifier": -3
 			},
 			"points": 1
 		},
@@ -272,7 +225,7 @@
 			"difficulty": "h",
 			"default": {
 				"type": "skill",
-				"name": "Longsword"
+				"name": "Sword"
 			},
 			"limit": 5,
 			"points": 2
@@ -296,29 +249,6 @@
 			"default": {
 				"type": "skill",
 				"name": "Knife"
-			},
-			"limit": 5,
-			"points": 2
-		},
-		{
-			"id": "q0bcKONLyi7PMihVA",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "qr6sxnmKm9Vpz1y2V"
-			},
-			"name": "Disarming",
-			"reference": "B230,MA70",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Technique",
-				"Weapon"
-			],
-			"difficulty": "h",
-			"default": {
-				"type": "skill",
-				"name": "Shortsword"
 			},
 			"limit": 5,
 			"points": 2
@@ -439,7 +369,7 @@
 			"difficulty": "h",
 			"default": {
 				"type": "skill",
-				"name": "Longsword"
+				"name": "Sword"
 			},
 			"limit": 4,
 			"points": 2
@@ -463,29 +393,6 @@
 			"default": {
 				"type": "skill",
 				"name": "Knife"
-			},
-			"limit": 4,
-			"points": 2
-		},
-		{
-			"id": "qdaqBtHLxQed0iT7Y",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "qyEYoi3JfBXv05QsV"
-			},
-			"name": "Feint",
-			"reference": "B231,MA73",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Technique",
-				"Weapon"
-			],
-			"difficulty": "h",
-			"default": {
-				"type": "skill",
-				"name": "Shortsword"
 			},
 			"limit": 4,
 			"points": 2
@@ -594,7 +501,7 @@
 			"difficulty": "h",
 			"default": {
 				"type": "skill",
-				"name": "Longsword",
+				"name": "Sword",
 				"modifier": -4
 			},
 			"limit": 0,
@@ -619,30 +526,6 @@
 			"default": {
 				"type": "skill",
 				"name": "Knife",
-				"modifier": -4
-			},
-			"limit": 0,
-			"points": 2
-		},
-		{
-			"id": "qyU4_v6j6KfveBmuC",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "q3V33Th2IWANzWTtf"
-			},
-			"name": "Ground Fighting",
-			"reference": "B231,MA73",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Technique",
-				"Weapon"
-			],
-			"difficulty": "h",
-			"default": {
-				"type": "skill",
-				"name": "Shortsword",
 				"modifier": -4
 			},
 			"limit": 0,
@@ -768,30 +651,6 @@
 			"points": 2
 		},
 		{
-			"id": "qf7LQ6JI6j5XVRzzo",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "qKoBvGxdHyeIY_DKl"
-			},
-			"name": "Off-Hand Weapon Training",
-			"reference": "B232",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Technique",
-				"Weapon"
-			],
-			"difficulty": "h",
-			"default": {
-				"type": "skill",
-				"name": "Longsword",
-				"modifier": -4
-			},
-			"limit": 0,
-			"points": 2
-		},
-		{
 			"id": "qVW3COwFbZAqSqOnW",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -833,7 +692,7 @@
 			"difficulty": "h",
 			"default": {
 				"type": "skill",
-				"name": "Shortsword",
+				"name": "Sword",
 				"modifier": -4
 			},
 			"limit": 0,
@@ -885,29 +744,6 @@
 			"points": 2
 		},
 		{
-			"id": "qis73J7WEfoHnwOmj",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "q7PEs5f4W7v9rUICh"
-			},
-			"name": "Retain Weapon",
-			"reference": "B232,MA78",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Technique",
-				"Weapon"
-			],
-			"difficulty": "h",
-			"default": {
-				"type": "skill",
-				"name": "Longsword"
-			},
-			"limit": 5,
-			"points": 2
-		},
-		{
 			"id": "qHUuTZN7ExqJZapEt",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -926,29 +762,6 @@
 			"default": {
 				"type": "skill",
 				"name": "Knife"
-			},
-			"limit": 5,
-			"points": 2
-		},
-		{
-			"id": "qJ7LxXZ9qS0V9h7vk",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "qfxYLT4lYCKFB6Zwu"
-			},
-			"name": "Retain Weapon",
-			"reference": "B232,MA78",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Technique",
-				"Weapon"
-			],
-			"difficulty": "h",
-			"default": {
-				"type": "skill",
-				"name": "Shortsword"
 			},
 			"limit": 5,
 			"points": 2
@@ -1071,30 +884,6 @@
 			"default": {
 				"type": "skill",
 				"name": "Polearm",
-				"modifier": -3
-			},
-			"limit": 0,
-			"points": 2
-		},
-		{
-			"id": "qVC4Msl4VZB7sIklx",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "qEcF5gsU3w7cElA-H"
-			},
-			"name": "Sweep",
-			"reference": "B232,MA81",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Technique",
-				"Weapon"
-			],
-			"difficulty": "h",
-			"default": {
-				"type": "skill",
-				"name": "Spear",
 				"modifier": -3
 			},
 			"limit": 0,

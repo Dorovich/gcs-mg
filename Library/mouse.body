@@ -111,10 +111,11 @@
 			"id": "vitals",
 			"choice_name": "Vitals",
 			"table_name": "Vitals",
+			"dr_bonus": 1,
 			"calc": {
 				"roll_range": "-",
 				"dr": {
-					"all": 0
+					"all": 1
 				}
 			}
 		},

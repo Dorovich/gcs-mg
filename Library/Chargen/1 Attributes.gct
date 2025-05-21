@@ -540,35 +540,6 @@
 					"notes": "Astuto",
 					"children": [
 						{
-							"id": "tq6B-C1sTQyiDf-T-",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "t1w1RFcFceKR2T9_e"
-							},
-							"name": "Increased Intelligence",
-							"reference": "B15",
-							"tags": [
-								"Advantage",
-								"Attribute",
-								"Mental"
-							],
-							"points_per_level": 20,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "iq",
-									"amount": 1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 2,
-							"calc": {
-								"points": 40
-							}
-						},
-						{
 							"id": "tbyAuu60tJ_g1ok9j",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
@@ -600,7 +571,7 @@
 						}
 					],
 					"calc": {
-						"points": 50
+						"points": 10
 					}
 				},
 				{
@@ -608,35 +579,6 @@
 					"name": "Stout",
 					"notes": "Fornido",
 					"children": [
-						{
-							"id": "t9V2vXWI__yc5PIgE",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Traits.adq",
-								"id": "tVt3SvdGWNchJ8z4o"
-							},
-							"name": "Increased Health",
-							"reference": "B14",
-							"tags": [
-								"Advantage",
-								"Attribute",
-								"Physical"
-							],
-							"points_per_level": 10,
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"attribute": "ht",
-									"amount": 1,
-									"per_level": true
-								}
-							],
-							"can_level": true,
-							"levels": 2,
-							"calc": {
-								"points": 20
-							}
-						},
 						{
 							"id": "tJ2HFt85Vy7o8YNJl",
 							"source": {
@@ -721,12 +663,12 @@
 						}
 					],
 					"calc": {
-						"points": 50
+						"points": 30
 					}
 				}
 			],
 			"calc": {
-				"points": 300
+				"points": 240
 			}
 		}
 	]
