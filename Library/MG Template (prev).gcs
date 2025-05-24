@@ -10,14 +10,13 @@
 		}
 	],
 	"profile": {
-		"name": "@Name@",
-		"hair": "@Fur@",
-		"handedness": "@Paw@",
+		"name": "@character name@",
+		"hair": "@fur@",
 		"height": "5'4.8\"",
-		"weight": "100 lb",
-		"player_name": "@Player@",
-		"title": "@Rank@",
-		"organization": "@Patrol@",
+		"weight": "50 lb",
+		"player_name": "@player name@",
+		"title": "@guard rank@",
+		"organization": "@patrol name@",
 		"religion": "--",
 		"tech_level": "3",
 		"portrait": "UklGRhYUAABXRUJQVlA4WAoAAAAgAAAAjwEAjwEASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZWUDggKBIAABBtAJ0BKpABkAE+bTaQSCQjISEnsrCADYlpbvx8mXHrUMb9LP6f/U+3b+v/2z8de1Z8Ce23MviU/GPrv+c/s/7q+ufej8gtQL8Z/lH+l/LH3TXkXPP6f0Avbn7J/svCm1Ju/fsAfzv+5f8L1d70ygB/Qf8J6rH9B/6v8Z5yv0D/Of+r/P/AN/Nv7L/3f8V7Y3r4/cX//+5t+zn//FIPZ4y1pjEkxO0WEBosIC9OX62JvXHWP5aKA1xFhAXusqmdcNOIpUxz7n0rkwAQwDlubMkgN3HNSqXx2aYnsnnTiKR7SYoR8cnncvxqvDIcOTYQ7YBPHUTuG53+plFBDtNyPE5qdIa4iwf8oQZnB3wgvSS3diIkUUItxMmppT7w2VE1DYxJMQTSONFzZkkyI6KQaBB3I9or7j+AeAo2tawgNFg/4uDKC3Xg0WEBoEzXv+MHMYkmJ2ikJFUOkxZJidoAYqC9CtomJJidoo8+ca3VFR7RYQGgGh0yEeMerGYQjJJibdq7NqS/P6h/gNFhAaNnuTSTY6AhcPHN2icVmFnW2A3NOU6cu/d3eDN68UTORFqoGYmj25Ks4NOIsIC99nTDqqDE2qVNYDjRTmccJ/mKi5OpDmCjhMnJpx7RYQGgBcYmDVcEkSSE6vqWxKIruzuTqHO92ErfqdEZRJRXJ4FucInaLB/yp8oOvJJRVY3r6tm4GGy0YoDfT+PXZnYq3yB4yZp8bsJzhvsQMIDRSphVr1Bbrw2E1v5I80rgswWrrmh/e08ZXXPEVPmGasSVVkfT/JJ4JuWTaY0A/nULYW+k8tYQF/F8v+sLU961d7tcAd3MDzqN9GyrAl+feGlm3vJdf9bK3IWYxJMTchHCqaur5JjEbCgzPZrhpxFhAYCcc7+xJMQN6m6CwgNFhAaBS1e34Lp5JjEkKskj2iwgNFLTAI2Q0WEBezbw/YnaLCA0V93DQnEI0U0YpoF7vURA3/CVK9dNQdBSCDqULnHiSSjE1FHJgJyEBosIDP6g2tC55ZCETX3In39hH5HdZLBTgb/4WxJMTtFIykM4qtomzU4/ao3XgnMEBn9gk+9yOcfkseMdXqA0w0WEBn9Q+EmxnZdekt4YivAnAbFqFal8Bo2brs52wofe/TKW+hyTfSv3yTGbExO0WD/n2anLOYvYBZUYNsUAAP7/iiPAYUYAHVjk0wSSJI8Guecwn8qgql1Hxr/IdExT1Gog7wYSErh4eUnufbgPPK9MZzMsxQ592MDngID/sxSJmKaG02XK/S5ZLQwq/jPp8Au7u5vZ6hBbwdhLecIdtr3LdKMZTEKvTrU0IOLsfAFtMh53/pYQhrNq27ICa3zGsXw7fiMFUI2sfT11FJCcbx83CsZybxAf7m21GcVYsurm/LDpDPC11MY4yYar9k35r3podiEE+B4uSm7gy7jJ9r+6zUIPd6nRfd6+Y/2DZW8TDlYHoY060HOf81N72VsVkWNW2tLCAJemCb/urhnFovLL+Wko9NK/p7Di+qeiXq+/gvsqxWBMPd35A4Y61sSFEsZuXLmCHr5eaEkVyWG+YFGgrfDp7m4QOieF6xQ2G/ZOhee3UUw6lSe0qABwpaMt9XYS5dVEfJLChCYuzKbLGkuYPbgg5tXBeC58nlSY1wY2wFLiMH+o3fcSTVvy9zMGehvA7bPrnDL2/6tILUxJT/X/KuXNbh9fm4P/4oV/2NYyuOHZ/RsDpJNkRuA0sR6U2Mgb4u/2gEPhDUaAixGABsZhxSW0Grd7FxXLMsF++/IdIP+CPKhzY2ranvYPKYAnP3oLoSUZ0WHBfFjcmCgxlGlXR56Ia6n+S3D+j09x1lduTHiBNmL56ZFdlJNlNdQPht8gqWuKB8zrCh90FuZD/rzj75pxp1rxvdB/h4dCWyXfNTJp4Bz/DsMNc5Qy/6sB9tdf14zPRLmlwQRzi4fn8gOC68cqvJTYRlQ8scFNXVAbKOfnvvNR+zjPYgSKR/X1GwCCz0+TSBNoWf4mOXz4scotp0UUFjCRJMN+mOLqJUWoYbZDQMOrtWuIAwZoa2RXQb7YT1jY/JJvUNIXtd7oHAIz5UtxXOgiV383oF6J+2D6dD/Xj3Ydb6Nd5AagEMgb/rSO90X+Imi/JQlXl67ZsD0RX/v/6F1CI2oENqjxK3mXeN2B0ZzquFWF7tkRgmg+i1gDBc7075YapsHuGBW98Ho59XB8mGyOHM3yIbBEU0bwGtla9CuqvhNaFzjc+Cp86AlUXGJxT18WN7o+ZJI5k2VS59/bpuBq3goGmZ2HCPE+DMGbdWC/D6tepwqs1a9/okjHop4WPjNBtYyNDwzXeWPwP4uzLZe5qIvuSo/rqDSRfo3vDjexqDo1b/N0hFpBMK6uJTgCIyStZ8oEhfS6a8mha+FVwnxKG3fWU8jfj/mIDYXea2+y0AirZIZy/5ynSgs41u3Lu4f2G9NQKNLAe41ectBkpYYjk8IFSdSF3vcBMBypgO7isfoUxAX1VUhCB2yMwGdcn1fzoUe1R+p/OvWntG5f4mYcK30qhiYx4mikFByU3xv+2GBvxUEfVlEWeDCm16JlKlmj3IvOwjWOIM8wy1CPe8Vp5JZF29w1xoZBSReVML0UmQjsY10JCdXylt6NcEa3kjeIYmY7eVlAeXSixy9dW3KPXe1mhU2PUM+VqnuMMFMbZqXnr0/EYyvG21abtERxUfebOeltJwd5rWHWNMosWkAlS+V7Y/N59QPcDfdWA43/RZ+KhXoSRbApkWaUriuNT1nl0Yi/i/2sJuCDd8sAimw2h/vy68lIvVxr+XJ8L1UyTnQHMB002JLiBHx2sdCPSocCPmG0Smpb5ljiz5nvQb7kU2jYb2r0uGOpjbLCYBZnCqo4+KiqqPtAdmRD+4o8BO6tmdFyVYYc7SXUv/7l1IjzZRtM7jIjo9QgkSYR9HxW2YHtUDThgY0f90XEJxVfdzeGMZzsqThR6PywXXblRPMrvpF+6Irql8AF4WBGzO7sgM2Zszm/ZhGNZSi0Ui1KxAfMOaTwabBDeFuwq5GX0qcbmOV2NMo73ku/4d8wouFc2n6J85XmywMrpfQ9+N7oiiR/qcBSSrpuDPKeUl3sUx57geWM4eDElIusC7F79IXnk5RyAEUIgUG0I9Q1zHYkFwfpVSIh34+rAMx0iE1Fzb52uvOSFfa4cNFgDrlaCzK3dCdiAurkn4cFrFETx4TJzre+ApCoM52UPhzYcZpP1JewYYvAWQ9glJqd5XA73ecU/R3o6Vd6pOmU4HjXQlxzpn6sRLpM2m/bQXiiuaRq/XpgQUOJf5xX9UM+lsLa2NBx7T9ukp4yoK0IC4f4acJWgWo6InO7IvXC/RDA+wNj6FhL4jWObZN6GGWmP3X+ixiuOzAbpPWs8MZcblnDdkmn6KoYRdLFItFvtgy/E4drNtPfCqnoOEq4+B/kC1y/vpHis+SayBb2+SukJdhTP1MHgFGQcla8r1vEyw+lZXI1JgBVwkbtJHUZtz5TkABbCS14e7+gr6xqxjEUUa9DoxMo4dwjGCjDjge9XX7WUJQu7YHBuTEM2i4/7nfbsiW2GOTZirZVXGfAKNVrVjHLcPd8yXsJEGNrC7c9duX0QNp7yurV8q57FkJuxz1XpOMzcVHvUyN77/a7/E1YnUI4bjcbLy7JfzyeGOGjdM1zQrl01c943VTb/7+WP3RWvdXTf0pw/6A4zIUiffJwPn171xqVNZiBzaAcTPL2hPS1SmJilfksUAgUeoVTkQ2rSRVU3IGqHQonioWleMsA+MX2pQA8wc3hhoHkAQb4/tSzh8Kk9OtfrCH815SBxi6dLFzCoPW2iB7islaRCP7gfUBD2/A+y7/cSFqvyLlv6CQIFl7OPfxDzZllIsuna1vKbO8htxTvfJjrrIN6YTGgKdBSlgBzJuV7LgR5wbbdaMhm247SBErZX9EDFzCS6Tm7ySuM/Ww0+zjgA/9va5wJ+Sb8HtVjqmi4dh8SwykRgAExIKHUIxj6NgO5Myp9CYyg/jmB4ntlU/QQ4ICXjHTd3/B0yrgjNZaeyiSMeiwphiOyryXfaseOYDYyAToeh3jPX8N8BR6SUiHP4ektA/59V8ycrtsTEGWcfW4dAq9RNVmlm2wW6BoWBmR+tWeOEK1tvSydPqD9FFplz7VwjG1Jbor2bCUCHOAHBh1G2LsfxaDk2PwkjRBHHn8baNTJH9PE3VuCB8iluXBoNoy88mcWUxI2Ao6lqQ0RqWfiDMFmwRb3UyX4mf322c1YfUK7xVgC6QTccGI1wXQdNVgLI/kaEsav/W5nMRj4VVw85dgECsNScxCo+RWRqdVs2x5mzDkbI2/y9BxBW/9oY5Cav/51IG72Teh5ed9hjLu19ppj3vWtDbXOLvaxxoqxt7bM7WElknGTceMn7so4Hxd5WoU7x6RO5jIMbMJK6/IbLX9j9WRV5e8nePFwCX6C1XX/rGeWFZzY+h0eeFVvR9wMLCEpW9mWzUfzpzYK4s6W8+We5cNloh9p2RoOrVXYnlS8SE7i+159CUU2wFYEi+Nrt9aTfhzTg8anDm6/IbUntpAktNLyLMSTnlFoenFefkj2KjQz/KCxv94VSdMAjp7Lt1w4Mt9DlV9zhW/438F52XdBKi9LBUYI3xfLJhIEBkOmDrH9MztOQ39NsCMiV8u7WtJYev3mfcud+jcKykBMCzGqION+BPkJOeYbxAXrR6l+mxkSPa/HbdXYELqCP+jcHAeX0SdzST1kRnr85GsNv/6hq+9dNNELNgcexIbj/B8RzfSLqQYBbiF3N5Asf1bHOo5q8Nf9paHO+10t3DzxAwIumxAWL98cUNZ3aRCPaey9tMV+wxLCu5EK64yeqv01z4n/qcyC/zPBlTrGMiyRyNPNSbvj6nv3VqzZJH7NA7qFgVR5A43YF+hdLnvwvMbpEWgJqnEhfloufLJAYiS0XxdAAYS1kEL5RC1iiGX+7mGUv+7hPFbySCYa0Y+hytILPVVWpSa8KrKuWCo2/4uCbIz25CYoJaiPCBfj6GeqYHlwerOG96Lo2/NHgPgFZ9HFTyxz8zHo6ctvgZYvmb5p/k4fyO+CWNzL3EisnLCtMbeRU3+71e8ddcEaHt3zKgSWvZmq1+3ZvatFaWHJhJ9zuDOA5FPUVhMjwzYDnYR5H3uZ/l6NFbnBuDp3OPm4ww2sfIFyBblEBTddO9yRxLNsMcichAc++vQbR/+mRRz4Z+wNkjX1b7nbn4U1nynxiiHBBrn2KnHUDdsw1TZAQvoqVkbutrYCP5Q4D+I15JDxYmOzLCvhkJe8quQ8mC+/fYyxSAnJ7Qx0pcGKI5C4SFyFKaMRFp2hXAF/dlxZKXrflYsOxCe6YeyaFafbd1l4+o+GZs+NJGGqimVS5hzmTSWz+4fJkdheg9WiBRO7WMLeInAyfxLnb0vGLVCfVKmGt3rgapS7sSrcgsm3+TnC7nc2JRNg5Lw7DQs/8BGTNREBTrBUTO5gMQ/0veq92yjEUfxTmvnGjyc+Jqt1ykdoA5JVNxMIey6o9mgteeksy+wi9ka0Xo987IHH1eT8iQ8BnhXS9gWpOXC7fBtzYryVBgCocrG3QBWA/NXUbnnYMizzFW56rxt2QsCZCpflIwvaMbhWVqAhr0jlAMAihvdepi5gWBDrk7POxib8lR51RKcbj9btT0CcHS5xxhxYnsScgWA6qCSff7WTAgzGwHI5Ho3xjzZOTYCQLXVGoK74q0hB9aJlsedV9McYBzKCuuuAhpb+oODZDguJtxRpcOVronIkjqfa8xgD0hY5vio6eFzpeTgwnZQnzFQ3kNPbyGYyh30pSMVmwIJtWeuBm9iz4UEhWFV90aMKc06xsi9n92MxuXOPwou+mcYdrrEhu2yQmUJmO0dZtkGiOWdn/cbYtdr8Zu0HqE/Ouu2MUxDiYjcrt0fRyv+joQHLQCgHiTyodsrG2K34zCYhaWaW09O3IsA/G8qezXgG8VqLU7zc1KGBbHiM3Ld+AjpzXoxTkE0hSjev4p13DaA1thLM984gexX+HrP2XgzdymYklDUXjDjI/XJHjUFc0EBIobZzYJG6md8KKeGBt3zjQz4NsAeqf53NjlkPmTskPiN97yjpDnPBb8maXpH+2mfoAyuHKaGdv1tbpokfHYEGnyNbaMDO1SKIJCVVjR6JCVucN9fCLuEafhgWQNCyxXAAAAA="
@@ -48,7 +47,7 @@
 				"name": "ST",
 				"full_name": "Strength",
 				"attribute_base": "10",
-				"cost_per_point": 15,
+				"cost_per_point": 10,
 				"cost_adj_percent_per_sm": 10
 			},
 			{
@@ -73,63 +72,36 @@
 				"name": "HT",
 				"full_name": "Health",
 				"attribute_base": "10",
-				"cost_per_point": 15
+				"cost_per_point": 10
 			},
 			{
 				"id": "will",
 				"type": "integer",
-				"name": "Will",
-				"attribute_base": "$iq",
+				"name": "WP",
+				"full_name": "Willpower",
+				"attribute_base": "10",
+				"cost_per_point": 5
+			},
+			{
+				"id": "per",
+				"type": "integer",
+				"name": "PE",
+				"full_name": "Perception",
+				"attribute_base": "10",
 				"cost_per_point": 5
 			},
 			{
 				"id": "fright_check",
 				"type": "integer",
+				"placement": "hidden",
 				"name": "Fright Check",
 				"attribute_base": "$will",
 				"cost_per_point": 2
 			},
 			{
-				"id": "lifting_st",
-				"type": "integer",
-				"name": "Lifting ST",
-				"attribute_base": "10+(($st-10)*2)",
-				"cost_per_point": 3
-			},
-			{
-				"id": "basic_move",
-				"type": "integer",
-				"name": "Basic Move",
-				"attribute_base": "($dx+$ht)/4",
-				"cost_per_point": 5
-			},
-			{
-				"id": "basic_speed",
-				"type": "decimal",
-				"name": "Init",
-				"full_name": "Initiative",
-				"attribute_base": "($will+$per)/4",
-				"cost_per_point": 5
-			},
-			{
-				"id": "dodge",
-				"type": "integer_ref",
-				"placement": "hidden",
-				"name": "Dodge",
-				"attribute_base": "max($basic_speed,(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Body Sense),skill_level(Freefall))/2)+3)"
-			},
-			{
 				"id": "senses",
 				"type": "secondary_separator",
 				"name": "Senses"
-			},
-			{
-				"id": "per",
-				"type": "integer",
-				"name": "Per",
-				"full_name": "Perception",
-				"attribute_base": "$ht",
-				"cost_per_point": 5
 			},
 			{
 				"id": "vision",
@@ -160,11 +132,83 @@
 				"cost_per_point": 2
 			},
 			{
+				"id": "movement",
+				"type": "secondary_separator",
+				"name": "Movement"
+			},
+			{
+				"id": "basic_speed",
+				"type": "decimal",
+				"name": "Basic Speed",
+				"attribute_base": "($dx+$ht)/4",
+				"cost_per_point": 20
+			},
+			{
+				"id": "basic_move",
+				"type": "integer",
+				"name": "Basic Move",
+				"attribute_base": "floor($basic_speed)",
+				"cost_per_point": 5
+			},
+			{
+				"id": "dodge",
+				"type": "integer_ref",
+				"name": "Dodge",
+				"attribute_base": "2*$basic_speed"
+			},
+			{
+				"id": "fp",
+				"type": "pool",
+				"name": "FP",
+				"full_name": "Fatigue Points",
+				"attribute_base": "$ht",
+				"cost_per_point": 3,
+				"thresholds": [
+					{
+						"state": "Unconscious",
+						"expression": "-$fp",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Collapse",
+						"expression": "0",
+						"explanation": "Roll vs. Will to do anything besides talk or rest; failure causes unconsciousness\nEach FP you lose below 0 also causes 1 HP of injury\nMove, Dodge and ST are halved (B426)",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Tired",
+						"expression": "ceil($fp/3)-1",
+						"explanation": "Move, Dodge and ST are halved (B426)",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Tiring",
+						"expression": "$fp-1"
+					},
+					{
+						"state": "Rested",
+						"expression": "$fp"
+					}
+				]
+			},
+			{
 				"id": "hp",
 				"type": "pool",
 				"name": "HP",
 				"full_name": "Hit Points",
-				"attribute_base": "$st+if($st\u003e10, $st-10, 0)+if($ht\u003e10, $ht-10, 0)",
+				"attribute_base": "$st",
 				"cost_per_point": 2,
 				"cost_adj_percent_per_sm": 10,
 				"thresholds": [
@@ -241,14 +285,14 @@
 				]
 			},
 			{
-				"id": "luck",
+				"id": "luck_points",
 				"type": "pool_ref",
 				"name": "Luck",
 				"attribute_base": "3",
 				"thresholds": [
 					{
 						"state": "",
-						"expression": ""
+						"expression": "0"
 					}
 				]
 			}
@@ -428,7 +472,7 @@
 				}
 			]
 		},
-		"damage_progression": "phoenix_flame_d3",
+		"damage_progression": "basic_set",
 		"default_length_units": "m",
 		"default_weight_units": "kg",
 		"user_description_display": "tooltip",
@@ -482,6 +526,14 @@
 			}
 		},
 		{
+			"attr_id": "per",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
 			"attr_id": "fright_check",
 			"adj": 0,
 			"calc": {
@@ -490,48 +542,8 @@
 			}
 		},
 		{
-			"attr_id": "lifting_st",
-			"adj": 0,
-			"calc": {
-				"value": 10,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "basic_move",
-			"adj": 0,
-			"calc": {
-				"value": 5,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "basic_speed",
-			"adj": 0,
-			"calc": {
-				"value": 5,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "dodge",
-			"adj": 0,
-			"calc": {
-				"value": 5,
-				"points": 0
-			}
-		},
-		{
 			"attr_id": "senses",
 			"adj": 0
-		},
-		{
-			"attr_id": "per",
-			"adj": 0,
-			"calc": {
-				"value": 10,
-				"points": 0
-			}
 		},
 		{
 			"attr_id": "vision",
@@ -566,6 +578,43 @@
 			}
 		},
 		{
+			"attr_id": "movement",
+			"adj": 0
+		},
+		{
+			"attr_id": "basic_speed",
+			"adj": 0,
+			"calc": {
+				"value": 5,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "basic_move",
+			"adj": 0,
+			"calc": {
+				"value": 5,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "dodge",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "fp",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"current": 10,
+				"points": 0
+			}
+		},
+		{
 			"attr_id": "hp",
 			"adj": 0,
 			"calc": {
@@ -575,7 +624,7 @@
 			}
 		},
 		{
-			"attr_id": "luck",
+			"attr_id": "luck_points",
 			"adj": 0,
 			"calc": {
 				"value": 3,
@@ -586,20 +635,16 @@
 	],
 	"traits": [
 		{
-			"id": "tgQFicMQOUWfwHln8",
-			"name": "Natural Attacks (Mouse)",
+			"id": "t1f-r0c2xOPRThS9r",
+			"name": "Natural Attacks",
 			"reference": "B271",
-			"tags": [
-				"Advantage",
-				"Physical",
-				"Unarmed"
-			],
 			"weapons": [
 				{
-					"id": "wEpjGZPkNtrfCKwvg",
+					"id": "waaC89Vncay1od6C9",
 					"damage": {
 						"type": "cr",
-						"st": "thr"
+						"st": "thr",
+						"base": "-1"
 					},
 					"reach": "C",
 					"parry": "0",
@@ -609,38 +654,14 @@
 						},
 						{
 							"type": "skill",
-							"name": "Boxing"
-						},
-						{
-							"type": "skill",
 							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						},
-						{
-							"type": "skill",
-							"name": "Striking"
 						}
 					],
 					"calc": {
 						"level": 10,
-						"damage": "1d3 cr",
+						"damage": "1d-3 cr",
 						"parry": "8"
 					}
-				}
-			],
-			"features": [
-				{
-					"type": "weapon_bonus",
-					"percent": true,
-					"selection_type": "this_weapon",
-					"specialization": {
-						"compare": "is",
-						"qualifier": "Kick"
-					},
-					"amount": 33
 				}
 			],
 			"calc": {
@@ -663,21 +684,11 @@
 			}
 		}
 	],
-	"notes": [
-		{
-			"id": "nGVQ4gzt7zd3gMgTP",
-			"text": "*Measures*: Read “g” intead of “kg”, and “steps” (1 step = 10 cm) instead of “m”."
-		},
-		{
-			"id": "nWN0WPdRVxu8IDT0q",
-			"text": "*Mouse nature*: Add +4 up to +6 to Climbing (trees and rocks), Stealth (hiding from predators), Running (fleeing combat), and Woodlands Survival (finding refuge and foraging). First Aid default for guardians is at IQ-2."
-		}
-	],
 	"created_date": "2025-01-20T00:40:54+01:00",
-	"modified_date": "2025-05-21T08:49:45+02:00",
+	"modified_date": "2025-05-15T19:19:47+02:00",
 	"calc": {
-		"swing": "1d3",
-		"thrust": "1d3",
+		"swing": "1d",
+		"thrust": "1d-2",
 		"basic_lift": "20 lb",
 		"move": [
 			5,
@@ -687,11 +698,11 @@
 			1
 		],
 		"dodge": [
-			5,
-			4,
-			3,
-			2,
-			1
+			10,
+			9,
+			8,
+			7,
+			6
 		]
 	}
 }
