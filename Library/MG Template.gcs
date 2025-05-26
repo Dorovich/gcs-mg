@@ -667,12 +667,23 @@
 	],
 	"notes": [
 		{
+			"id": "n70KlHoPuAoO8p91s",
+			"text": "- ***Damage Increment (DI)***: +||max(round(($st-8)/3),1)||, +||max(round(($st-8)/1.5),2)|| (×2)\n",
+			"calc": {
+				"resolved_text": "- ***Damage Increment (DI)***: +1, +2 (×2)\n"
+			}
+		},
+		{
 			"id": "nWN0WPdRVxu8IDT0q",
-			"text": "- *Measures*: Read “g” intead of “kg”, and “steps” (1 step = 10 cm) instead of “m”.\n- *Mouse nature*: Add +4 up to +6 to Climbing (trees and rocks), Stealth (hiding from predators), Running (fleeing combat), and Woodlands Survival (finding refuge and foraging). First Aid default for guardians is at IQ-2."
+			"text": "- ***Measures***: Read “g” intead of “kg”, and “steps” (1 step = 10 cm) instead of “m”."
+		},
+		{
+			"id": "nGV9Nf1ZM0dHN_q5A",
+			"text": "- ***Mouse nature***: Due to routine, add +4 up to +6 to Climbing, Stealth, Running, and Survival (Woodlands)."
 		}
 	],
 	"created_date": "2025-01-20T00:40:54+01:00",
-	"modified_date": "2025-05-24T20:39:01+02:00",
+	"modified_date": "2025-05-25T19:09:49+02:00",
 	"calc": {
 		"swing": "1d3",
 		"thrust": "1d3",

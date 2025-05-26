@@ -4620,7 +4620,7 @@
 									"modifier": -6
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "su6wW2GBhM5PXlb-L",
@@ -4660,7 +4660,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "senR2xk0gqMcv8lrD",
@@ -4683,7 +4683,7 @@
 									"modifier": -6
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "si9M-w96o_CcuD6vl",
@@ -4698,7 +4698,7 @@
 								"Scholarly"
 							],
 							"difficulty": "iq/a",
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sodixe_uKsTAEVTzK",
@@ -4721,7 +4721,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -4752,7 +4752,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sBOkGvkhWAcMMRXlc",
@@ -4784,7 +4784,7 @@
 									"modifier": -8
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "s6inD3j-9qC1dJZ2v",
@@ -4811,7 +4811,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "S8kpzjR-j2A2KpqAT",
@@ -4852,7 +4852,7 @@
 											"modifier": -4
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "sgKXSt-3yKg-pORxh",
@@ -4882,7 +4882,7 @@
 											"modifier": -4
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "sTHTdSFYz231nf4cM",
@@ -4912,7 +4912,7 @@
 											"modifier": -4
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "sCCUx9ZAgeRyKicGy",
@@ -4938,7 +4938,7 @@
 											"modifier": -6
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "s4U9MeupVoHE4mQ_a",
@@ -4964,7 +4964,7 @@
 											"modifier": -6
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "sCPIrVYrP6s7ZGLZw",
@@ -4990,7 +4990,7 @@
 											"modifier": -6
 										}
 									],
-									"points": 4
+									"points": 2
 								}
 							]
 						}
@@ -5025,7 +5025,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sTOC7r5a6YALTMuI0",
@@ -5056,7 +5056,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sNC02PuVBtThoFiWX",
@@ -5088,7 +5088,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sThMGbfz9N9s6y1l2",
@@ -5119,7 +5119,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sRrXZDpGIuoUgyNSO",
@@ -5141,7 +5141,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -5172,7 +5172,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sOyLDtkgz2z9RPiMo",
@@ -5204,7 +5204,7 @@
 									"modifier": -2
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sAF551sAwf8fZkLtN",
@@ -5231,7 +5231,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sv0kd-4TnagrudCtI",
@@ -5253,7 +5253,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "SLR-0TqhopN7c8mE4",
@@ -5281,7 +5281,7 @@
 									],
 									"specialization": "Drums",
 									"difficulty": "iq/h",
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "s5SQkqHHIN3c-bDGr",
@@ -5298,7 +5298,7 @@
 									],
 									"specialization": "Flute",
 									"difficulty": "iq/h",
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "s2jUWb8XbL_fQKiNa",
@@ -5315,7 +5315,7 @@
 									],
 									"specialization": "Harp",
 									"difficulty": "iq/h",
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "sReVq25biRNe2W97r",
@@ -5332,7 +5332,7 @@
 									],
 									"specialization": "Horn",
 									"difficulty": "iq/h",
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "sp7L9_usXnU08H64e",
@@ -5349,7 +5349,7 @@
 									],
 									"specialization": "Lute",
 									"difficulty": "iq/h",
-									"points": 4
+									"points": 2
 								}
 							]
 						}
@@ -5380,7 +5380,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "srMSf2TDE3PFJ3Rkq",
@@ -5402,7 +5402,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "syCTDRwTP9dI62y3X",
@@ -5438,7 +5438,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "syykzQRd3SLnVRwvr",
@@ -5470,7 +5470,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "seryVTypOUDAtBjBl",
@@ -5492,7 +5492,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -5520,7 +5520,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "swNiuQ0OcD059qinl",
@@ -5557,7 +5557,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "ss2Mx6udLthZQmiXb",
@@ -5593,7 +5593,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "seLsoRrt-gbnpDNeg",
@@ -5631,7 +5631,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sVFFu6lMB9fBctxBq",
@@ -5653,7 +5653,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -5682,7 +5682,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sm05xYcBwpqAvFo9J",
@@ -5704,7 +5704,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sRqfqCOmBhxhgjfM_",
@@ -5736,7 +5736,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "s3xAPMUnb4qg6HX67",
@@ -5767,7 +5767,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "spANmjymv3Yxsld0i",
@@ -5789,7 +5789,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -5823,7 +5823,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sbg40zhvf0aGNcZDV",
@@ -5869,7 +5869,7 @@
 									"modifier": -6
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sxWOOl3saPaykbLTq",
@@ -5903,7 +5903,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sqgwVYpzxqgSK-bLt",
@@ -5924,7 +5924,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sKdM4kKO7b_GtLixS",
@@ -5955,7 +5955,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -6001,7 +6001,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sZ3sPbh2DtqpIBQav",
@@ -6033,7 +6033,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sDqWNEUbGF_rAFf9Y",
@@ -6064,7 +6064,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sxzJllte0iqSRKWCs",
@@ -6095,7 +6095,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sHgTmBxN2Kr68Nopx",
@@ -6130,7 +6130,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -6166,7 +6166,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sD1t6LnQUa4sOYztH",
@@ -6193,7 +6193,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sLQi1jj6c-9eDefAM",
@@ -6223,7 +6223,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "s57XMWXTY-XN26Jzu",
@@ -6250,7 +6250,7 @@
 									"modifier": -6
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sL5omOGtXklNd_Coj",
@@ -6277,7 +6277,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -6309,7 +6309,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "so79SK1DHDTSFQwc3",
@@ -6340,7 +6340,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sxfnLpmZt_0xVFmFy",
@@ -6379,7 +6379,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "s3eRmKTHXTvTUmTU2",
@@ -6410,7 +6410,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sKguChNVCoHQ6GmpB",
@@ -6442,7 +6442,7 @@
 									"modifier": -2
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -6475,7 +6475,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "srnnLYAhGkhfmM1P5",
@@ -6499,7 +6499,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "S_KV3u-_7fUB5ZWpB",
@@ -6544,7 +6544,7 @@
 											"modifier": -3
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "skPEoXDpS3l8z3mKx",
@@ -6578,7 +6578,7 @@
 											"modifier": -3
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "sNITEYKfIQmuXTqSh",
@@ -6611,7 +6611,7 @@
 											"modifier": -3
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "sC7VUnFk2USBVw9F6",
@@ -6644,7 +6644,7 @@
 											"modifier": -3
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "s9-v6b0oAvprb8IFl",
@@ -6677,7 +6677,7 @@
 											"modifier": -3
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "s4Izlvb5gLcEVtVR8",
@@ -6711,7 +6711,7 @@
 											"modifier": -3
 										}
 									],
-									"points": 4
+									"points": 2
 								}
 							]
 						},
@@ -6737,7 +6737,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sWPGEjTqyRkll5hBi",
@@ -6761,7 +6761,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -6798,7 +6798,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sYRhZnNFIpbbUo-K1",
@@ -6829,7 +6829,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "szUb-hUjSiJRvwW-9",
@@ -6860,7 +6860,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "skwcxn8cdtqtt-k_t",
@@ -6894,7 +6894,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sR-asbYnA21KKhMb5",
@@ -6918,7 +6918,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -6972,7 +6972,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "s7OQhg2SPXVAT-suh",
@@ -6993,7 +6993,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "shScxjsPIBGAzRGW_",
@@ -7015,7 +7015,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sgzCL5NpB-bFmmowU",
@@ -7050,7 +7050,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sNr4UbIsGl7wjATd-",
@@ -7074,7 +7074,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -7109,7 +7109,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sT06KJs8w4FydfNb7",
@@ -7130,7 +7130,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sH2_jLjjx1Ft7MHZC",
@@ -7162,7 +7162,7 @@
 									"modifier": -2
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sezUCjaBwtcd4CGa-",
@@ -7189,7 +7189,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "S4Url_7cYR93JFjng",
@@ -7232,7 +7232,7 @@
 											"modifier": -3
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "sq86yaNRx8p6wDhYT",
@@ -7264,7 +7264,7 @@
 											"modifier": -3
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "s5gW4gvcRLvVMAyB9",
@@ -7296,7 +7296,7 @@
 											"modifier": -3
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "s96TuAH_1SxdfzBv-",
@@ -7328,7 +7328,7 @@
 											"modifier": -3
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "sVdQxUpUyUxSrUhAD",
@@ -7360,7 +7360,7 @@
 											"modifier": -3
 										}
 									],
-									"points": 4
+									"points": 2
 								}
 							]
 						}
@@ -7405,7 +7405,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sgvo9j0vqvK_o2bjB",
@@ -7441,7 +7441,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sK0rpZsxqg0c_qHC9",
@@ -7479,7 +7479,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sdG0Mba1kvV3i96ZG",
@@ -7507,7 +7507,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "scmcM9JYDN6twONd7",
@@ -7535,7 +7535,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -7578,7 +7578,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sl4pkXJZZZdn6i07X",
@@ -7614,7 +7614,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sOGaZnjR8Z3clQo20",
@@ -7645,7 +7645,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sH-Ti7UJUSHI9RnGa",
@@ -7698,7 +7698,7 @@
 									}
 								]
 							},
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sJoPPo0_2zb1ViVqh",
@@ -7757,7 +7757,7 @@
 									}
 								]
 							},
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -7787,7 +7787,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "scc4Q3BlY-2qPs6Bq",
@@ -7817,7 +7817,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sM8iw23r9BTlbY7Cv",
@@ -7851,7 +7851,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sB_N--2d4BiWsyRhC",
@@ -7878,7 +7878,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "s-7eHo3MkFgl4YAb2",
@@ -7906,7 +7906,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -7942,7 +7942,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "syrOTeoaQAm4x2Fdc",
@@ -7975,7 +7975,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sLx-K8v7mG5G0OlHP",
@@ -8007,7 +8007,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "szPAp-KN0pV7rvegG",
@@ -8039,7 +8039,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "srARdH0RvniFJ5DPE",
@@ -8071,7 +8071,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -8097,7 +8097,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "s4LgTRkWo99_eui4c",
@@ -8123,7 +8123,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sAaMk7B9ZloMsekv7",
@@ -8146,7 +8146,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sFOHMI37hgDlhKBiq",
@@ -8168,7 +8168,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sZtyfBuGlxpZr2zp0",
@@ -8191,7 +8191,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -8225,7 +8225,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "scfX6OQKWvjt_bA98",
@@ -8254,7 +8254,7 @@
 									"modifier": -6
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sJ2munORgfKvckag0",
@@ -8288,7 +8288,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sP3J42ZoqWi1HScx-",
@@ -8313,7 +8313,7 @@
 									"modifier": -6
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sqIOlGY7isP4VoTWf",
@@ -8334,7 +8334,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -8369,7 +8369,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sHt33EPUXMpWmSPVk",
@@ -8401,7 +8401,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sbVdQz1D8FeOclpv8",
@@ -8431,7 +8431,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "SoCToArQgoNzyLFRT",
@@ -8460,7 +8460,7 @@
 											"modifier": -5
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "s3057Klo2mt_QojE8",
@@ -8500,7 +8500,7 @@
 											"modifier": -5
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "sejonjUa_R0S2di8N",
@@ -8530,7 +8530,7 @@
 											"modifier": -5
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "sx_p_Axg3sNP2rfx9",
@@ -8555,7 +8555,7 @@
 											"modifier": -5
 										}
 									],
-									"points": 4
+									"points": 2
 								}
 							]
 						},
@@ -8581,7 +8581,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -8621,7 +8621,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sgyfH5XxTWgD4ch11",
@@ -8648,7 +8648,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "stSbjCF3X1AU6fu2q",
@@ -8679,7 +8679,7 @@
 									"modifier": -6
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sZt7tnea00E2GEDHo",
@@ -8710,7 +8710,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "s-srCto1ciXhLR34s",
@@ -8737,7 +8737,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -8771,7 +8771,7 @@
 									"modifier": -6
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "s6QMRu3HKMWzLSS1c",
@@ -8796,7 +8796,7 @@
 									"modifier": -6
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "srPvb-PJfgduKdpCK",
@@ -8834,7 +8834,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "soe5ubakZ82MbpkBZ",
@@ -8857,7 +8857,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "ShLsZWpz1dRRa2tT2",
@@ -8906,7 +8906,7 @@
 											"modifier": -6
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "s6A-wyery8u7smMLr",
@@ -8940,7 +8940,7 @@
 											"modifier": -4
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "sAxL5wZo4G4p01W-y",
@@ -8972,7 +8972,7 @@
 											"modifier": -4
 										}
 									],
-									"points": 4
+									"points": 2
 								}
 							]
 						}
@@ -9028,7 +9028,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "swKd-ECj9kfOcFNmt",
@@ -9059,7 +9059,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "szu1YHdcQ5GEvUyzf",
@@ -9094,7 +9094,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sfW2fXcA0NwiZXAhA",
@@ -9115,7 +9115,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sDzaJlr5umEKK_kpR",
@@ -9149,7 +9149,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -9181,7 +9181,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sqUp72zYxZxO9_Whp",
@@ -9212,7 +9212,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "slQ30pI5BFCK2fIjE",
@@ -9244,7 +9244,7 @@
 									"modifier": -8
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sE9HaMZ9M6oj7uIMp",
@@ -9283,7 +9283,7 @@
 									}
 								]
 							},
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "SjSs5QJx3-XCAsaub",
@@ -9319,7 +9319,7 @@
 											"modifier": -6
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "sD87roJqj9u41NCIq",
@@ -9345,7 +9345,7 @@
 											"modifier": -6
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "sjcx6Rjil4Z32aMpL",
@@ -9403,7 +9403,7 @@
 											}
 										]
 									},
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "sfGN09NjF6RFYXjop",
@@ -9434,7 +9434,7 @@
 											"modifier": -6
 										}
 									],
-									"points": 4
+									"points": 2
 								},
 								{
 									"id": "s7DVg-K1xnvPeuLJa",
@@ -9460,7 +9460,7 @@
 											"modifier": -6
 										}
 									],
-									"points": 4
+									"points": 2
 								}
 							]
 						}
@@ -9526,7 +9526,7 @@
 									}
 								]
 							},
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sDIbwrp4ZsthCrC46",
@@ -9558,7 +9558,7 @@
 									"modifier": -8
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sRRLEtuj5h4OZ3l2r",
@@ -9590,7 +9590,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "s-FkikiamzsbchrAU",
@@ -9617,7 +9617,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "ssrj8KG500LJaext-",
@@ -9649,7 +9649,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -9695,7 +9695,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "smd1nAr7j2KrnaZ3n",
@@ -9717,7 +9717,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sPpqLnrJem6ovsbwR",
@@ -9740,7 +9740,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "s2e0MN_EVU3oUcABR",
@@ -9771,7 +9771,7 @@
 									"modifier": -6
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sPLaIv0WOXiB-3xZ7",
@@ -9798,7 +9798,7 @@
 									"modifier": -6
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -9826,7 +9826,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sRbnthLkx_6ZX2Ynp",
@@ -9863,7 +9863,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "sb6v3uerXB1QT8sv_",
@@ -9899,7 +9899,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "s7W-q8Hw4DqMb-rFU",
@@ -9937,7 +9937,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "svQBnBZDOaND_QLMt",
@@ -9965,7 +9965,7 @@
 									"modifier": -3
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				},
@@ -10004,7 +10004,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "stPlyNFBJ2WxyJOeY",
@@ -10029,7 +10029,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "szwZ0W588V8GKrQZM",
@@ -10061,7 +10061,7 @@
 									"modifier": -4
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "s2HAY6buWRQ4-Dzk7",
@@ -10091,7 +10091,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						},
 						{
 							"id": "s8Wmb3mHhLMwbg3jp",
@@ -10115,7 +10115,7 @@
 									"modifier": -5
 								}
 							],
-							"points": 4
+							"points": 2
 						}
 					]
 				}
