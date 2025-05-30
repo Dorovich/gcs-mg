@@ -93,17 +93,11 @@
 			{
 				"id": "basic_speed",
 				"type": "decimal",
+				"placement": "hidden",
 				"name": "Init",
 				"full_name": "Initiative",
-				"attribute_base": "($will+$per)/4",
+				"attribute_base": "($dx+$per)/4",
 				"cost_per_point": 20
-			},
-			{
-				"id": "dodge",
-				"type": "integer_ref",
-				"placement": "hidden",
-				"name": "Dodge",
-				"attribute_base": "max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Body Sense),skill_level(Freefall))/2)+3)"
 			},
 			{
 				"id": "basic_move",
@@ -111,6 +105,12 @@
 				"name": "Basic Move",
 				"attribute_base": "($dx+$ht)/4",
 				"cost_per_point": 5
+			},
+			{
+				"id": "dodge",
+				"type": "integer_ref",
+				"name": "Dodge",
+				"attribute_base": "3+max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Freefall))/2))"
 			},
 			{
 				"id": "senses",
@@ -242,7 +242,7 @@
 				"thresholds": [
 					{
 						"state": "",
-						"expression": ""
+						"expression": "0"
 					}
 				]
 			}
@@ -472,7 +472,7 @@
 			}
 		},
 		{
-			"attr_id": "dodge",
+			"attr_id": "basic_move",
 			"adj": 0,
 			"calc": {
 				"value": 5,
@@ -480,10 +480,10 @@
 			}
 		},
 		{
-			"attr_id": "basic_move",
+			"attr_id": "dodge",
 			"adj": 0,
 			"calc": {
-				"value": 5,
+				"value": 8,
 				"points": 0
 			}
 		},
@@ -621,15 +621,19 @@
 	"notes": [
 		{
 			"id": "nWN0WPdRVxu8IDT0q",
-			"text": "- ***Measures***: Read “g” intead of “kg”, and “steps” (1 step = 10 cm) instead of “m”."
+			"text": "- ***Measures***: Read “kg” as “g”, and “m” as “steps” (1 step = 10 cm)."
 		},
 		{
 			"id": "nGV9Nf1ZM0dHN_q5A",
-			"text": "- ***Mouse Nature***: Due to routine, add +4 up to +6 to Climbing, Stealth, Running, and Survival (Woodlands)."
+			"text": "- ***Mouse Nature***: Due to routine, add +4 up to +6 to Climbing, Stealth, Running, and Survival (Woodlands) when dealing with usual mouse survival situations in the field."
+		},
+		{
+			"id": "nOm3GU3hjtOZb0Ma-",
+			"text": "- ***Turn Sequence***: Turns are taken in order by descending DX. Use Will to break any ties. If they persist, use HT."
 		}
 	],
 	"created_date": "2025-01-20T00:40:54+01:00",
-	"modified_date": "2025-05-27T12:13:05+02:00",
+	"modified_date": "2025-05-30T17:44:54+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
@@ -642,11 +646,11 @@
 			1
 		],
 		"dodge": [
+			8,
+			7,
+			6,
 			5,
-			4,
-			3,
-			2,
-			1
+			4
 		]
 	}
 }
