@@ -86,7 +86,7 @@
 				"id": "fright_check",
 				"type": "integer",
 				"placement": "hidden",
-				"name": "Composure",
+				"name": "Fright Check",
 				"attribute_base": "$will",
 				"cost_per_point": 2
 			},
@@ -96,24 +96,18 @@
 				"placement": "hidden",
 				"name": "Init",
 				"full_name": "Initiative",
-				"attribute_base": "($dx+$per)/4",
+				"attribute_base": "($dx+$ht)/4",
 				"cost_per_point": 20
 			},
 			{
 				"id": "basic_move",
 				"type": "integer",
 				"name": "Basic Move",
-				"attribute_base": "($dx+$ht)/4",
+				"attribute_base": "floor($basic_speed)",
 				"cost_per_point": 5
 			},
 			{
-				"id": "dodge",
-				"type": "integer_ref",
-				"name": "Dodge",
-				"attribute_base": "3+max(floor($basic_speed),(max(skill_level(Acrobatics),skill_level(Dancing),skill_level(Escape),skill_level(Freefall))/2))"
-			},
-			{
-				"id": "senses",
+				"id": "senses_sep",
 				"type": "secondary_separator",
 				"name": "Senses"
 			},
@@ -173,7 +167,7 @@
 					{
 						"state": "Dying #4",
 						"expression": "round(-$hp*4)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-4 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-4\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -182,7 +176,7 @@
 					{
 						"state": "Dying #3",
 						"expression": "round(-$hp*3)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-3 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-3\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -191,7 +185,7 @@
 					{
 						"state": "Dying #2",
 						"expression": "round(-$hp*2)",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-2 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-2\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -200,7 +194,7 @@
 					{
 						"state": "Dying #1",
 						"expression": "-$hp",
-						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-1 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-1\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -209,7 +203,7 @@
 					{
 						"state": "Collapse",
 						"expression": "0",
-						"explanation": "Roll vs. HT every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
 						"ops": [
 							"halve_move",
 							"halve_dodge"
@@ -235,14 +229,15 @@
 				]
 			},
 			{
-				"id": "luck_points",
+				"id": "lp",
 				"type": "pool_ref",
 				"name": "Luck",
 				"attribute_base": "3",
+				"cost_per_point": 3,
 				"thresholds": [
 					{
 						"state": "",
-						"expression": "0"
+						"expression": ""
 					}
 				]
 			}
@@ -480,15 +475,7 @@
 			}
 		},
 		{
-			"attr_id": "dodge",
-			"adj": 0,
-			"calc": {
-				"value": 8,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "senses",
+			"attr_id": "senses_sep",
 			"adj": 0
 		},
 		{
@@ -541,7 +528,7 @@
 			}
 		},
 		{
-			"attr_id": "luck_points",
+			"attr_id": "lp",
 			"adj": 0,
 			"calc": {
 				"value": 3,
@@ -625,15 +612,15 @@
 		},
 		{
 			"id": "nGV9Nf1ZM0dHN_q5A",
-			"text": "- ***Mouse Nature***: Due to routine, add +4 up to +6 to Climbing, Stealth, Running, and Survival (Woodlands) when dealing with usual mouse survival situations in the field."
+			"text": "- ***Mouse Nature***: Add +4 up to +6 to Climbing, Stealth, Running, and Survival (Woodlands) when dealing with usual mouse survival situations in the field."
 		},
 		{
 			"id": "nOm3GU3hjtOZb0Ma-",
-			"text": "- ***Turn Sequence***: Turns are taken in order by descending DX. Use Will to break any ties. If they persist, use HT."
+			"text": "- ***Turn Sequence***: Turns are taken in DX order. Use Will to break any ties. If they persist, use HT."
 		}
 	],
 	"created_date": "2025-01-20T00:40:54+01:00",
-	"modified_date": "2025-05-30T17:44:54+02:00",
+	"modified_date": "2025-06-02T23:03:00+02:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
