@@ -46,7 +46,7 @@
 			},
 			"name": "Absent-Mindedness",
 			"reference": "B122",
-			"notes": "Once adrift in your own thoughts, you must roll against Perception-5 in order to notice any event short of personal physical injury",
+			"local_notes": "Once adrift in your own thoughts, you must roll against Perception-5 in order to notice any event short of personal physical injury",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -149,8 +149,7 @@
 				{
 					"id": "mRhZQ_Oh_u2ubl6Ew",
 					"name": "Chronolocation",
-					"cost": 3,
-					"cost_type": "points",
+					"cost_adj": "3",
 					"disabled": true
 				}
 			],
@@ -204,7 +203,7 @@
 			},
 			"name": "Acrophobia (Heights)",
 			"reference": "B150",
-			"notes": "You may not voluntarily go more than 15 feet above ground, unless you are inside a building and away from windows. If there is some chance of an actual fall, self-control rolls are at -5.",
+			"local_notes": "You may not voluntarily go more than 15 feet above ground, unless you are inside a building and away from windows. If there is some chance of an actual fall, self-control rolls are at -5.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -241,7 +240,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 2
+				"points": 2,
+				"current_level": 1
 			}
 		},
 		{
@@ -269,7 +269,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 2
+				"points": 2,
+				"current_level": 1
 			}
 		},
 		{
@@ -297,7 +298,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 2
+				"points": 2,
+				"current_level": 1
 			}
 		},
 		{
@@ -325,7 +327,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 2
+				"points": 2,
+				"current_level": 1
 			}
 		},
 		{
@@ -356,7 +359,7 @@
 			},
 			"name": "Aichmophobia (Sharp Things)",
 			"reference": "B150",
-			"notes": "You are afraid of anything pointed. Swords, spears, knives, and needles all give you fits. Trying to use a sharp weapon, or being threatened with one, requires a self-control roll at -2.",
+			"local_notes": "You are afraid of anything pointed. Swords, spears, knives, and needles all give you fits. Trying to use a sharp weapon, or being threatened with one, requires a self-control roll at -2.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -377,7 +380,7 @@
 			},
 			"name": "Ailurophobia (Cats)",
 			"reference": "B149",
-			"notes": "This includes all felines: lions, tigers, panthers, etc.",
+			"local_notes": "This includes all felines: lions, tigers, panthers, etc.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -443,8 +446,7 @@
 					"id": "m4P4Nysnul5BpF8NW",
 					"name": "Illegal",
 					"reference": "B122",
-					"cost": -5,
-					"cost_type": "points",
+					"cost_adj": "-5",
 					"disabled": true
 				}
 			],
@@ -489,8 +491,7 @@
 					"id": "m1A6BkLxbxbcXWuAr",
 					"name": "Favor",
 					"reference": "B55",
-					"cost": 0.2,
-					"cost_type": "multiplier",
+					"cost_adj": "x0.2",
 					"disabled": true
 				},
 				{
@@ -502,40 +503,35 @@
 							"id": "mzBV3sncH6pmQVTt2",
 							"name": "Appears quite rarely (6-)",
 							"reference": "B36",
-							"cost": 0.5,
-							"cost_type": "multiplier",
+							"cost_adj": "x0.5",
 							"disabled": true
 						},
 						{
 							"id": "m9mtKU5BOnUJJR8sc",
 							"name": "Appears fairly often (9-)",
 							"reference": "B36",
-							"cost": 1,
-							"cost_type": "multiplier",
+							"cost_adj": "x1",
 							"disabled": true
 						},
 						{
 							"id": "m3rdVWaAbop6mWY3P",
 							"name": "Appears quite often (12-)",
 							"reference": "B36",
-							"cost": 2,
-							"cost_type": "multiplier",
+							"cost_adj": "x2",
 							"disabled": true
 						},
 						{
 							"id": "mIpvowMsLxhx-nZBl",
 							"name": "Appears almost all the time (15-)",
 							"reference": "B36",
-							"cost": 3,
-							"cost_type": "multiplier",
+							"cost_adj": "x3",
 							"disabled": true
 						},
 						{
 							"id": "meApWV-laeKvOa6rk",
 							"name": "Appears constantly",
 							"reference": "B36",
-							"cost": 4,
-							"cost_type": "multiplier",
+							"cost_adj": "x4",
 							"disabled": true
 						}
 					]
@@ -549,64 +545,56 @@
 							"id": "mvFiM63xLflpx5Ib7",
 							"name": "Group of 6-10",
 							"reference": "B37",
-							"cost": 6,
-							"cost_type": "multiplier",
+							"cost_adj": "x6",
 							"disabled": true
 						},
 						{
 							"id": "mwhwUM3qYJ0Nrn5Uv",
 							"name": "Group of 11-20",
 							"reference": "B37",
-							"cost": 8,
-							"cost_type": "multiplier",
+							"cost_adj": "x8",
 							"disabled": true
 						},
 						{
 							"id": "mBFrGo517AUXQthCl",
 							"name": "Group of 21-50",
 							"reference": "B37",
-							"cost": 10,
-							"cost_type": "multiplier",
+							"cost_adj": "x10",
 							"disabled": true
 						},
 						{
 							"id": "mBbDWiXjTTrvwaB53",
 							"name": "Group of 51-100",
 							"reference": "B37",
-							"cost": 12,
-							"cost_type": "multiplier",
+							"cost_adj": "x12",
 							"disabled": true
 						},
 						{
 							"id": "m6oiy0Q8rd2XEwwov",
 							"name": "Group of 101-1000",
 							"reference": "B37",
-							"cost": 18,
-							"cost_type": "multiplier",
+							"cost_adj": "x18",
 							"disabled": true
 						},
 						{
 							"id": "mxlsSSpesksuHOAsr",
 							"name": "Group of 1001-10000",
 							"reference": "B37",
-							"cost": 24,
-							"cost_type": "multiplier",
+							"cost_adj": "x24",
 							"disabled": true
 						},
 						{
 							"id": "mcw_NyyDwO5yZ1GSZ",
 							"name": "Group of 10001-100000",
 							"reference": "B37",
-							"cost": 30,
-							"cost_type": "multiplier",
+							"cost_adj": "x30",
 							"disabled": true
 						},
 						{
 							"id": "mpN-XFO4fdNfkNanB",
 							"name": "Group of 100001-1000000",
 							"reference": "B37",
-							"cost": 36,
-							"cost_type": "multiplier",
+							"cost_adj": "x36",
 							"disabled": true
 						}
 					]
@@ -615,14 +603,14 @@
 					"id": "mEhcPZmEnPI5u17jv",
 					"name": "Minion",
 					"reference": "B38",
-					"cost": 50,
+					"cost_adj": "50%",
 					"disabled": true
 				},
 				{
 					"id": "m5kP52Wxpavn-p2Jg",
 					"name": "Minion",
 					"reference": "B38",
-					"notes": "IQ 0 or Slave Mentality",
+					"local_notes": "IQ 0 or Slave Mentality",
 					"disabled": true
 				},
 				{
@@ -634,40 +622,35 @@
 							"id": "mpd9Ax_elt73fCt9F",
 							"name": "25% of your starting points",
 							"reference": "B37",
-							"cost": 1,
-							"cost_type": "points",
+							"cost_adj": "1",
 							"disabled": true
 						},
 						{
 							"id": "m7yhubDV09sTj-_aA",
 							"name": "50% of your starting points",
 							"reference": "B37",
-							"cost": 2,
-							"cost_type": "points",
+							"cost_adj": "2",
 							"disabled": true
 						},
 						{
 							"id": "mSo_Ph8q2mNArBEsw",
 							"name": "75% of your starting points",
 							"reference": "B37",
-							"cost": 3,
-							"cost_type": "points",
+							"cost_adj": "3",
 							"disabled": true
 						},
 						{
 							"id": "mDblIBCYp7tMNatqz",
 							"name": "100% of your starting points",
 							"reference": "B37",
-							"cost": 5,
-							"cost_type": "points",
+							"cost_adj": "5",
 							"disabled": true
 						},
 						{
 							"id": "mw3Tdn_QpJQcxOw63",
 							"name": "150% of your starting points",
 							"reference": "B37",
-							"cost": 10,
-							"cost_type": "points",
+							"cost_adj": "10",
 							"disabled": true
 						}
 					]
@@ -676,8 +659,8 @@
 					"id": "mBsm3OYr2gNbRaeW5",
 					"name": "Special Abilities",
 					"reference": "B38",
-					"notes": "@Abilities@",
-					"cost": 50,
+					"local_notes": "@Abilities@",
+					"cost_adj": "50%",
 					"disabled": true
 				},
 				{
@@ -688,35 +671,35 @@
 							"id": "mS2WER-UTYuYPD05x",
 							"name": "Summonable",
 							"reference": "B38,P41",
-							"cost": 100,
+							"cost_adj": "100%",
 							"disabled": true
 						},
 						{
 							"id": "mPN0LNOzZFVKUAjoY",
 							"name": "Conjured",
 							"reference": "DF9:4,P41",
-							"cost": 100,
+							"cost_adj": "100%",
 							"disabled": true
 						},
 						{
 							"id": "ma_Zr7556k_3fbcDx",
 							"name": "Harder Summoning 1",
 							"reference": "DF9:4",
-							"cost": -5,
+							"cost_adj": "-5%",
 							"disabled": true
 						},
 						{
 							"id": "mWoyjDQPvwYeO94aS",
 							"name": "Harder Summoning 2",
 							"reference": "DF9:4",
-							"cost": -10,
+							"cost_adj": "-10%",
 							"disabled": true
 						},
 						{
 							"id": "mtp5R8vtZ7xrZvNIN",
 							"name": "Harder Summoning 3",
 							"reference": "DF9:4",
-							"cost": -20,
+							"cost_adj": "-20%",
 							"disabled": true
 						}
 					]
@@ -730,32 +713,32 @@
 							"id": "mA-6tHPfiz0I4-YVV",
 							"name": "Sympathy",
 							"reference": "B38",
-							"notes": "Death of one party kills the other",
-							"cost": -50,
+							"local_notes": "Death of one party kills the other",
+							"cost_adj": "-50%",
 							"disabled": true
 						},
 						{
 							"id": "msSOtsE0igWm-BiNa",
 							"name": "Sympathy",
 							"reference": "B38",
-							"notes": "Death of one party kills the other and wounds affect ally but not you",
-							"cost": -10,
+							"local_notes": "Death of one party kills the other and wounds affect ally but not you",
+							"cost_adj": "-10%",
 							"disabled": true
 						},
 						{
 							"id": "mDRW8Y7PkvlYAcBa3",
 							"name": "Sympathy",
 							"reference": "B38",
-							"notes": "Death of one party reduces the other to 0 HP",
-							"cost": -25,
+							"local_notes": "Death of one party reduces the other to 0 HP",
+							"cost_adj": "-25%",
 							"disabled": true
 						},
 						{
 							"id": "mlUOpaJ1rtTnDsoFO",
 							"name": "Sympathy",
 							"reference": "B38",
-							"notes": "Death of one party reduces the other to 0 HP and wounds affect ally but not you",
-							"cost": -5,
+							"local_notes": "Death of one party reduces the other to 0 HP and wounds affect ally but not you",
+							"cost_adj": "-5%",
 							"disabled": true
 						}
 					]
@@ -764,7 +747,7 @@
 					"id": "mmGNb7dOuDqaGV8R_",
 					"name": "Unwilling",
 					"reference": "B38",
-					"cost": -50,
+					"cost_adj": "-50%",
 					"disabled": true
 				}
 			],
@@ -781,7 +764,7 @@
 			},
 			"name": "Alternate Identity",
 			"reference": "B39",
-			"notes": "@Identity@",
+			"local_notes": "@Identity@",
 			"tags": [
 				"Advantage",
 				"Social"
@@ -790,8 +773,7 @@
 				{
 					"id": "m3g-MQhkThEFqRzsH",
 					"name": "Illegal",
-					"cost": 10,
-					"cost_type": "points",
+					"cost_adj": "10",
 					"disabled": true
 				}
 			],
@@ -855,47 +837,47 @@
 					"id": "m0F0qK1Mf7srjoLYO",
 					"name": "Remote",
 					"reference": "P48",
-					"cost": 50,
+					"cost_adj": "50%",
 					"disabled": true
 				},
 				{
 					"id": "mSGHBoS0N8pfvoKgn",
 					"name": "Specialized",
 					"reference": "B87",
-					"notes": "All aquatic animals",
-					"cost": -40,
+					"local_notes": "All aquatic animals",
+					"cost_adj": "-40%",
 					"disabled": true
 				},
 				{
 					"id": "m2NSN4W_IcZgFT1pq",
 					"name": "Specialized",
 					"reference": "B87",
-					"notes": "All land animals",
-					"cost": -40,
+					"local_notes": "All land animals",
+					"cost_adj": "-40%",
 					"disabled": true
 				},
 				{
 					"id": "mtpyO4qfclyqmkUL6",
 					"name": "Specialized",
 					"reference": "B87",
-					"notes": "@One class: Mammals, Birds, etc.@",
-					"cost": -50,
+					"local_notes": "@One class: Mammals, Birds, etc.@",
+					"cost_adj": "-50%",
 					"disabled": true
 				},
 				{
 					"id": "mReW1fjilzdOcpjt6",
 					"name": "Specialized",
 					"reference": "B87",
-					"notes": "@One family: Felines, Parrots, etc.@",
-					"cost": -60,
+					"local_notes": "@One family: Felines, Parrots, etc.@",
+					"cost_adj": "-60%",
 					"disabled": true
 				},
 				{
 					"id": "mrR6Ko4FEWpkkZnSV",
 					"name": "Specialized",
 					"reference": "B87",
-					"notes": "@One species: House Cats, Macaws, etc.@",
-					"cost": -80,
+					"local_notes": "@One species: House Cats, Macaws, etc.@",
+					"cost_adj": "-80%",
 					"disabled": true
 				}
 			],
@@ -922,8 +904,7 @@
 					"id": "mRpzarGA_IBAMcIBc",
 					"name": "Attractive",
 					"reference": "B21",
-					"cost": 4,
-					"cost_type": "points",
+					"cost_adj": "4",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -937,15 +918,13 @@
 					"id": "mjpvSlc0GjQQvySoR",
 					"name": "Average",
 					"reference": "B21",
-					"cost_type": "points",
 					"disabled": true
 				},
 				{
 					"id": "myZgLhRpUeWx9NYZQ",
 					"name": "Beautiful",
 					"reference": "B21",
-					"cost": 12,
-					"cost_type": "points",
+					"cost_adj": "12",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -959,8 +938,7 @@
 					"id": "mHm3oqamvpwiD3yPL",
 					"name": "Beautiful (Androgynous)",
 					"reference": "B21",
-					"cost": 12,
-					"cost_type": "points",
+					"cost_adj": "12",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -974,8 +952,7 @@
 					"id": "m6RLOh1qlemYbDd0o",
 					"name": "Beautiful (Impressive)",
 					"reference": "B21",
-					"cost": 12,
-					"cost_type": "points",
+					"cost_adj": "12",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -989,8 +966,7 @@
 					"id": "mRZlY1rST5RMeXOhN",
 					"name": "Handsome",
 					"reference": "B21",
-					"cost": 12,
-					"cost_type": "points",
+					"cost_adj": "12",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -1004,8 +980,7 @@
 					"id": "moGTfq3SIJVtXa60J",
 					"name": "Handsome (Androgynous)",
 					"reference": "B21",
-					"cost": 12,
-					"cost_type": "points",
+					"cost_adj": "12",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -1019,8 +994,7 @@
 					"id": "mMXkAWejI05A_O72w",
 					"name": "Handsome (Impressive)",
 					"reference": "B21",
-					"cost": 12,
-					"cost_type": "points",
+					"cost_adj": "12",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -1034,8 +1008,7 @@
 					"id": "mLHLtePV0NmIsPHQ5",
 					"name": "Hideous",
 					"reference": "B21,B202",
-					"cost": -16,
-					"cost_type": "points",
+					"cost_adj": "-16",
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -1058,8 +1031,7 @@
 					"id": "mH7kBqHL4xbZiHeGG",
 					"name": "Horrific",
 					"reference": "B21,B202",
-					"cost": -24,
-					"cost_type": "points",
+					"cost_adj": "-24",
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -1082,15 +1054,13 @@
 					"id": "mIeMJ6hAzwPjsJaMF",
 					"name": "Impressive",
 					"reference": "B21",
-					"cost_type": "points",
 					"disabled": true
 				},
 				{
 					"id": "m568xlaup_EpYC7kX",
 					"name": "Monstrous",
 					"reference": "B21,B202",
-					"cost": -20,
-					"cost_type": "points",
+					"cost_adj": "-20",
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -1113,16 +1083,15 @@
 					"id": "mldEpN9kmYxbyXzz9",
 					"name": "Off-the-Shelf Looks",
 					"reference": "B21",
-					"notes": "Halves the usual reaction bonus - adjust manually",
-					"cost": -50,
+					"local_notes": "Halves the usual reaction bonus - adjust manually",
+					"cost_adj": "-50%",
 					"disabled": true
 				},
 				{
 					"id": "mNIVwmVkbjnd8G7l9",
 					"name": "Transcendent",
 					"reference": "B21",
-					"cost": 20,
-					"cost_type": "points",
+					"cost_adj": "20",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -1136,8 +1105,7 @@
 					"id": "m0tHFZCzXw6bMzhPx",
 					"name": "Transcendent (Androgynous)",
 					"reference": "B21",
-					"cost": 20,
-					"cost_type": "points",
+					"cost_adj": "20",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -1151,8 +1119,7 @@
 					"id": "mN-oRasT8bV6PkOQ-",
 					"name": "Transcendent (Impressive)",
 					"reference": "B21",
-					"cost": 20,
-					"cost_type": "points",
+					"cost_adj": "20",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -1166,8 +1133,7 @@
 					"id": "mrtGBbxwa1KJBTc1I",
 					"name": "Ugly",
 					"reference": "B21",
-					"cost": -8,
-					"cost_type": "points",
+					"cost_adj": "-8",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -1181,8 +1147,7 @@
 					"id": "mTeSmGok08IGZ99rx",
 					"name": "Unattractive",
 					"reference": "B21",
-					"cost": -4,
-					"cost_type": "points",
+					"cost_adj": "-4",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -1196,15 +1161,14 @@
 					"id": "m4ltQ19C-76b87hDe",
 					"name": "Universal",
 					"reference": "B21",
-					"cost": 25,
+					"cost_adj": "25%",
 					"disabled": true
 				},
 				{
 					"id": "mdx4C9CvDjvu0335_",
 					"name": "Very Beautiful",
 					"reference": "B21",
-					"cost": 16,
-					"cost_type": "points",
+					"cost_adj": "16",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -1218,8 +1182,7 @@
 					"id": "msI0MVw5F-7bVeRc7",
 					"name": "Very Beautiful (Androgynous)",
 					"reference": "B21",
-					"cost": 16,
-					"cost_type": "points",
+					"cost_adj": "16",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -1233,8 +1196,7 @@
 					"id": "m92E8wys21A2teoYq",
 					"name": "Very Beautiful (Impressive)",
 					"reference": "B21",
-					"cost": 16,
-					"cost_type": "points",
+					"cost_adj": "16",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -1248,8 +1210,7 @@
 					"id": "mgTqEfwkiTKtAjAeg",
 					"name": "Very Handsome",
 					"reference": "B21",
-					"cost": 16,
-					"cost_type": "points",
+					"cost_adj": "16",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -1263,8 +1224,7 @@
 					"id": "mCTDS3SIiUjYpC9dZ",
 					"name": "Very Handsome (Androgynous)",
 					"reference": "B21",
-					"cost": 16,
-					"cost_type": "points",
+					"cost_adj": "16",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -1278,8 +1238,7 @@
 					"id": "mxL-kGbBlHAwId-XK",
 					"name": "Very Handsome (Impressive)",
 					"reference": "B21",
-					"cost": 16,
-					"cost_type": "points",
+					"cost_adj": "16",
 					"features": [
 						{
 							"type": "reaction_bonus",
@@ -1332,9 +1291,8 @@
 					"id": "mXg5yhetlJBTM3nnv",
 					"name": "Only one arm",
 					"reference": "B40",
-					"notes": "@Which@",
-					"cost": -3,
-					"cost_type": "points",
+					"local_notes": "@Which@",
+					"cost_adj": "-3",
 					"affects": "levels_only",
 					"disabled": true
 				},
@@ -1342,7 +1300,7 @@
 					"id": "m8dzdkMiKzB2mqvQj",
 					"name": "No fine manipulators",
 					"reference": "B145",
-					"cost": -40,
+					"cost_adj": "-40%",
 					"disabled": true
 				}
 			],
@@ -1350,7 +1308,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 12
+				"points": 12,
+				"current_level": 1
 			}
 		},
 		{
@@ -1362,7 +1321,7 @@
 			},
 			"name": "Arm ST",
 			"reference": "B40",
-			"notes": "Only applies to efforts to lift, throw, or attack with those arms or hands. If a task requires multiple hands and they don't have the same ST, use the average ST.",
+			"local_notes": "Only applies to efforts to lift, throw, or attack with those arms or hands. If a task requires multiple hands and they don't have the same ST, use the average ST.",
 			"tags": [
 				"Advantage",
 				"Physical"
@@ -1372,16 +1331,15 @@
 					"id": "mHmGAPqQkv8QqR8_W",
 					"name": "No fine manipulators",
 					"reference": "B145",
-					"cost": -40,
+					"cost_adj": "-40%",
 					"disabled": true
 				},
 				{
 					"id": "mYOLbaYUYUDTpol9C",
 					"name": "Only one arm",
 					"reference": "B40",
-					"notes": "@Which@",
-					"cost": -1,
-					"cost_type": "points",
+					"local_notes": "@Which@",
+					"cost_adj": "-1",
 					"affects": "levels_only",
 					"disabled": true
 				},
@@ -1389,15 +1347,14 @@
 					"id": "ma502NR3E508oCPIB",
 					"name": "Three arms",
 					"reference": "B40",
-					"cost": 2,
-					"cost_type": "points",
+					"cost_adj": "2",
 					"affects": "levels_only",
 					"disabled": true
 				},
 				{
 					"id": "mGBSJbMV1SnpNkHqv",
 					"name": "Size",
-					"cost": -10,
+					"cost_adj": "-10%",
 					"levels": 1,
 					"disabled": true
 				}
@@ -1406,7 +1363,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 4
+				"points": 4,
+				"current_level": 1
 			}
 		},
 		{
@@ -1426,7 +1384,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 1
+				"points": 1,
+				"current_level": 1
 			}
 		},
 		{
@@ -1438,7 +1397,7 @@
 			},
 			"name": "Armor Familiarity (@Skill@)",
 			"reference": "DFA37",
-			"notes": "Let you ignore one encumbrance level",
+			"local_notes": "Let you ignore one encumbrance level",
 			"tags": [
 				"Mental",
 				"Perk"
@@ -1447,7 +1406,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 1
+				"points": 1,
+				"current_level": 1
 			}
 		},
 		{
@@ -1622,7 +1582,7 @@
 			},
 			"name": "Autophobia (Being Alone)",
 			"reference": "B149",
-			"notes": "You cannot stand to be alone, and do anything in your power to avoid it.",
+			"local_notes": "You cannot stand to be alone, and do anything in your power to avoid it.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -1662,7 +1622,7 @@
 			},
 			"name": "Bad Back",
 			"reference": "B123",
-			"notes": "Throw out your back whenever you make a ST roll, and whenever you roll 17 or 18 on an attack or defense roll in melee combat, or on a roll for an “athletic” skill such as Acrobatics, make a HT roll as well",
+			"local_notes": "Throw out your back whenever you make a ST roll, and whenever you roll 17 or 18 on an attack or defense roll in melee combat, or on a roll for an “athletic” skill such as Acrobatics, make a HT roll as well",
 			"tags": [
 				"Disadvantage",
 				"Physical"
@@ -1672,9 +1632,8 @@
 					"id": "mzBphfjVTSwfPxOxa",
 					"name": "Severe",
 					"reference": "B123",
-					"notes": "The HT roll is at -2",
-					"cost": -10,
-					"cost_type": "points",
+					"local_notes": "The HT roll is at -2",
+					"cost_adj": "-10",
 					"disabled": true
 				}
 			],
@@ -1722,7 +1681,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": -5
+				"points": -5,
+				"current_level": 1
 			}
 		},
 		{
@@ -1762,62 +1722,55 @@
 					"id": "mso2qh4vm5jQxAzWU",
 					"name": "People Affected",
 					"reference": "B27",
-					"notes": "Almost everyone",
-					"cost": 1,
-					"cost_type": "multiplier",
+					"local_notes": "Almost everyone",
+					"cost_adj": "x1",
 					"disabled": true
 				},
 				{
 					"id": "mclM7A4lcP91MNwmX",
 					"name": "People Affected",
 					"reference": "B27",
-					"notes": "Almost everyone except @large class of people@",
-					"cost": 0.67,
-					"cost_type": "multiplier",
+					"local_notes": "Almost everyone except @large class of people@",
+					"cost_adj": "x0.67",
 					"disabled": true
 				},
 				{
 					"id": "m12ZuglFdvQCifsEh",
 					"name": "People Affected",
 					"reference": "B27",
-					"notes": "@Large class of people@",
-					"cost": 0.5,
-					"cost_type": "multiplier",
+					"local_notes": "@Large class of people@",
+					"cost_adj": "x0.5",
 					"disabled": true
 				},
 				{
 					"id": "mWLVTTlkc1O4pBCMP",
 					"name": "People Affected",
 					"reference": "B27",
-					"notes": "@Small class of people@",
-					"cost": 0.33,
-					"cost_type": "multiplier",
+					"local_notes": "@Small class of people@",
+					"cost_adj": "x0.33",
 					"disabled": true
 				},
 				{
 					"id": "mFri7bIL_DGbGkMSa",
 					"name": "Recognized all the time",
 					"reference": "B28",
-					"cost": 1,
-					"cost_type": "multiplier",
+					"cost_adj": "x1",
 					"disabled": true
 				},
 				{
 					"id": "mejCA2cjvR0DkWnbN",
 					"name": "Recognized sometimes",
 					"reference": "B28",
-					"notes": "10-",
-					"cost": 0.5,
-					"cost_type": "multiplier",
+					"local_notes": "10-",
+					"cost_adj": "x0.5",
 					"disabled": true
 				},
 				{
 					"id": "m5AZekG_j2wvyr6Af",
 					"name": "Recognized occasionally",
 					"reference": "B28",
-					"notes": "7-",
-					"cost": 0.33,
-					"cost_type": "multiplier",
+					"local_notes": "7-",
+					"cost_adj": "x0.33",
 					"disabled": true
 				}
 			],
@@ -1833,7 +1786,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": -5
+				"points": -5,
+				"current_level": 1
 			}
 		},
 		{
@@ -1889,7 +1843,7 @@
 			},
 			"name": "Base",
 			"reference": "PU2:17",
-			"notes": "@Description@",
+			"local_notes": "@Description@",
 			"tags": [
 				"Perk",
 				"Social"
@@ -1908,7 +1862,7 @@
 			},
 			"name": "Berserk",
 			"reference": "B124",
-			"notes": "Make a self-control roll any time you suffer damage over 1/4 your HP in the space of one second, and whenever you witness equivalent harm to a loved one",
+			"local_notes": "Make a self-control roll any time you suffer damage over 1/4 your HP in the space of one second, and whenever you witness equivalent harm to a loved one",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -1917,7 +1871,7 @@
 				{
 					"id": "mp8FtBsbJ6UmF2bEj",
 					"name": "Battle Rage",
-					"cost": 50,
+					"cost_adj": "50%",
 					"disabled": true
 				}
 			],
@@ -1972,7 +1926,7 @@
 			},
 			"name": "Bloodlust",
 			"reference": "B125",
-			"notes": "You must make a self-control roll whenever you need to accept a surrender, evade a sentry, take a prisoner, etc.",
+			"local_notes": "You must make a self-control roll whenever you need to accept a surrender, evade a sentry, take a prisoner, etc.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -2038,7 +1992,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 2
+				"points": 2,
+				"current_level": 1
 			}
 		},
 		{
@@ -2069,7 +2024,7 @@
 			},
 			"name": "Brontophobia (Loud Noises)",
 			"reference": "B150",
-			"notes": "You avoid any situation where loud noises are likely. A sudden loud noise requires an immediate self-control roll. A thunderstorm is a traumatic experience for you!",
+			"local_notes": "You avoid any situation where loud noises are likely. A sudden loud noise requires an immediate self-control roll. A thunderstorm is a traumatic experience for you!",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -2385,7 +2340,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 5
+				"points": 5,
+				"current_level": 1
 			}
 		},
 		{
@@ -2397,7 +2353,7 @@
 			},
 			"name": "Charitable",
 			"reference": "B125",
-			"notes": "Make a self-control roll in any situation where you could render aid or are specifically asked for help, but should resist the urge",
+			"local_notes": "Make a self-control roll in any situation where you could render aid or are specifically asked for help, but should resist the urge",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -2436,7 +2392,7 @@
 			},
 			"name": "Cheaper (@Gear@; @Percentage@%)",
 			"reference": "PU2:8",
-			"notes": "@Reason@",
+			"local_notes": "@Reason@",
 			"tags": [
 				"Perk",
 				"Social"
@@ -2455,7 +2411,7 @@
 			},
 			"name": "Checkered Past",
 			"reference": "PU6:32",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Quirk",
 				"Social"
@@ -2474,7 +2430,7 @@
 			},
 			"name": "Chronic Depression",
 			"reference": "B126",
-			"notes": "Make a self-control roll to do anything but acquire and consume the minimum necessities for survival, or whenever you must choose between two or more actions",
+			"local_notes": "Make a self-control roll to do anything but acquire and consume the minimum necessities for survival, or whenever you must choose between two or more actions",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -2503,87 +2459,76 @@
 					"id": "mwFrVhKdQR-VJ4hE6",
 					"name": "1 hour interval",
 					"reference": "B126",
-					"cost": 0.5,
-					"cost_type": "multiplier",
+					"cost_adj": "x0.5",
 					"disabled": true
 				},
 				{
 					"id": "mnwGqKxOCiLssNsz_",
 					"name": "2 hour interval",
 					"reference": "B126",
-					"cost": 1,
-					"cost_type": "multiplier",
+					"cost_adj": "x1",
 					"disabled": true
 				},
 				{
 					"id": "m_NOoytO5JKN6SE4r",
 					"name": "4 hour interval",
 					"reference": "B126",
-					"cost": 1.5,
-					"cost_type": "multiplier",
+					"cost_adj": "x1.5",
 					"disabled": true
 				},
 				{
 					"id": "mUsa86lGHpRoQRWAq",
 					"name": "8 hour interval",
 					"reference": "B126",
-					"cost": 2,
-					"cost_type": "multiplier",
+					"cost_adj": "x2",
 					"disabled": true
 				},
 				{
 					"id": "moUt5TJg3QiOjKcJq",
 					"name": "FR: 6",
-					"cost": 0.5,
-					"cost_type": "multiplier",
+					"cost_adj": "x0.5",
 					"disabled": true
 				},
 				{
 					"id": "mYYlXnpPSerVEgMX4",
 					"name": "FR: 9",
-					"cost": 1,
-					"cost_type": "multiplier",
+					"cost_adj": "x1",
 					"disabled": true
 				},
 				{
 					"id": "mYCLrrHP1kdO8Kr0V",
 					"name": "FR: 12",
-					"cost": 2,
-					"cost_type": "multiplier",
+					"cost_adj": "x2",
 					"disabled": true
 				},
 				{
 					"id": "m4rn5EoG71ryrx9tS",
 					"name": "FR: 15",
-					"cost": 3,
-					"cost_type": "multiplier",
+					"cost_adj": "x3",
 					"disabled": true
 				},
 				{
 					"id": "mJN6t4ymSeLlU-U9g",
 					"name": "Mild",
 					"reference": "B126",
-					"notes": "-2 to DX, IQ, and self-control rolls",
-					"cost": -5,
-					"cost_type": "points",
+					"local_notes": "-2 to DX, IQ, and self-control rolls",
+					"cost_adj": "-5",
 					"disabled": true
 				},
 				{
 					"id": "mcf-bCjKt3Fc7_yVp",
 					"name": "Severe",
 					"reference": "B126",
-					"notes": "-4 to DX, IQ, and self-control rolls",
-					"cost": -10,
-					"cost_type": "points",
+					"local_notes": "-4 to DX, IQ, and self-control rolls",
+					"cost_adj": "-10",
 					"disabled": true
 				},
 				{
 					"id": "mHP-InON3WCO-Mqg0",
 					"name": "Agonizing",
 					"reference": "B126",
-					"notes": "-6 to DX, IQ, and self-control rolls",
-					"cost": -15,
-					"cost_type": "points",
+					"local_notes": "-6 to DX, IQ, and self-control rolls",
+					"cost_adj": "-15",
 					"disabled": true
 				}
 			],
@@ -2638,36 +2583,31 @@
 				{
 					"id": "mEsIBnWznROlDQ0c-",
 					"name": "@Friend with crash space@ (crash space)",
-					"cost": 1,
-					"cost_type": "points",
+					"cost_adj": "1",
 					"disabled": true
 				},
 				{
 					"id": "m6tyMPdtFvl-VObAH",
 					"name": "@Group@ - @Services@",
-					"cost": 1,
-					"cost_type": "points",
+					"cost_adj": "1",
 					"disabled": true
 				},
 				{
 					"id": "m_ZiOOaLcqu3VYpH5",
 					"name": "@Group@ - Has @Resources@",
-					"cost": 2,
-					"cost_type": "points",
+					"cost_adj": "2",
 					"disabled": true
 				},
 				{
 					"id": "mHKTfYj-Xf_bPo2r2",
 					"name": "@Large Group@ - Has @Lots of Services@",
-					"cost": 5,
-					"cost_type": "points",
+					"cost_adj": "5",
 					"disabled": true
 				},
 				{
 					"id": "mfTpZ-AsIyVoTgA0k",
 					"name": "@Vast Group@ - @Complete Services@",
-					"cost": 10,
-					"cost_type": "points",
+					"cost_adj": "10",
 					"disabled": true
 				}
 			],
@@ -2684,7 +2624,7 @@
 			},
 			"name": "Claustrophobia (Enclosed Spaces)",
 			"reference": "B149",
-			"notes": "You are uncomfortable any time you can’t see the sky – or at least a very high ceiling. In a small room or vehicle, you feel the walls closing in on you... You need air! This is a dangerous fear for someone who plans to go underground.",
+			"local_notes": "You are uncomfortable any time you can’t see the sky – or at least a very high ceiling. In a small room or vehicle, you feel the walls closing in on you... You need air! This is a dangerous fear for someone who plans to go underground.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -2798,7 +2738,7 @@
 			},
 			"name": "Code of Honor",
 			"reference": "PU6:9",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Mental",
 				"Quirk"
@@ -2817,7 +2757,7 @@
 			},
 			"name": "Code of Honor (Gentleman's)",
 			"reference": "B127",
-			"notes": "Never break your word. Never ignore an insult to yourself, a lady, or your flag; insults may only be wiped out by an apology or a duel (not necessarily to the death!). Never take advantage of an opponent in any way; weapons and circumstances must be equal (except in open war). This only applies between gentlemen (that is, those who you consider to be gentlemen).",
+			"local_notes": "Never break your word. Never ignore an insult to yourself, a lady, or your flag; insults may only be wiped out by an apology or a duel (not necessarily to the death!). Never take advantage of an opponent in any way; weapons and circumstances must be equal (except in open war). This only applies between gentlemen (that is, those who you consider to be gentlemen).",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -2836,7 +2776,7 @@
 			},
 			"name": "Code of Honor (Professional)",
 			"reference": "B127",
-			"notes": "Adhere to the ethics of your profession; always do your job to the best of your ability; support your guild, union, or professional association.",
+			"local_notes": "Adhere to the ethics of your profession; always do your job to the best of your ability; support your guild, union, or professional association.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -2855,7 +2795,7 @@
 			},
 			"name": "Code of Honor (Soldier's)",
 			"reference": "B127",
-			"notes": "An officer should be tough but fair, lead from the front, and look out for his men; an enlisted man should look out for his buddies and take care of his equipment. Every soldier should be willing to fight and die for the honor of his patrol, service, and the Guard; follow orders; obey the “rules of war”; treat an honorable enemy with respect (a dishonorable enemy deserves a stab); and wear the cloak with pride.",
+			"local_notes": "An officer should be tough but fair, lead from the front, and look out for his men; an enlisted man should look out for his buddies and take care of his equipment. Every soldier should be willing to fight and die for the honor of his patrol, service, and the Guard; follow orders; obey the “rules of war”; treat an honorable enemy with respect (a dishonorable enemy deserves a stab); and wear the cloak with pride.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -3002,7 +2942,7 @@
 			},
 			"name": "Combat Paralysis",
 			"reference": "B127",
-			"notes": "In any situation in which personal harm seems imminent, make a HT roll. Do not roll until the instant you need to fight, run, pull the trigger, or whatever. Any roll over 13 is a failure, even if you have HT 14+. On a success, you can act normally. On a failure, you are mentally stunned. ",
+			"local_notes": "In any situation in which personal harm seems imminent, make a HT roll. Do not roll until the instant you need to fight, run, pull the trigger, or whatever. Any roll over 13 is a failure, even if you have HT 14+. On a success, you can act normally. On a failure, you are mentally stunned. ",
 			"tags": [
 				"Disadvantage",
 				"Physical"
@@ -3042,7 +2982,7 @@
 			},
 			"name": "Combat Reflexes",
 			"reference": "B43",
-			"notes": "Never freeze",
+			"local_notes": "Never freeze",
 			"tags": [
 				"Advantage",
 				"Mental"
@@ -3125,7 +3065,7 @@
 					"id": "mC6hYx53IcFXgl6_k",
 					"name": "Concious",
 					"reference": "P45",
-					"cost": 50,
+					"cost_adj": "50%",
 					"disabled": true
 				}
 			],
@@ -3161,7 +3101,7 @@
 			},
 			"name": "Complicated",
 			"reference": "PU6:32",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Quirk",
 				"Social"
@@ -3180,7 +3120,7 @@
 			},
 			"name": "Compulsion",
 			"reference": "PU6:27",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Mental",
 				"Quirk"
@@ -3362,7 +3302,7 @@
 			},
 			"name": "Confused",
 			"reference": "B129",
-			"notes": "In a strange place, or when there’s a commotion going on, you must make a self-control roll",
+			"local_notes": "In a strange place, or when there’s a commotion going on, you must make a self-control roll",
 			"tags": [
 				"Disadvantage",
 				"Physical"
@@ -3409,115 +3349,100 @@
 				{
 					"id": "mfS4KcUKGLoH_5UUf",
 					"name": "Effective skill",
-					"notes": "12",
-					"cost": 1,
-					"cost_type": "points",
+					"local_notes": "12",
+					"cost_adj": "1",
 					"disabled": true
 				},
 				{
 					"id": "mBQjEmApzaoR9wW8x",
 					"name": "Effective skill",
-					"notes": "15",
-					"cost": 2,
-					"cost_type": "points",
+					"local_notes": "15",
+					"cost_adj": "2",
 					"disabled": true
 				},
 				{
 					"id": "mGbBOynQC6VowVWjK",
 					"name": "Effective skill",
-					"notes": "18",
-					"cost": 3,
-					"cost_type": "points",
+					"local_notes": "18",
+					"cost_adj": "3",
 					"disabled": true
 				},
 				{
 					"id": "mXpSTo6vMyyJQww0P",
 					"name": "Effective skill",
-					"notes": "21",
-					"cost": 4,
-					"cost_type": "points",
+					"local_notes": "21",
+					"cost_adj": "4",
 					"disabled": true
 				},
 				{
 					"id": "m-Ymeq6YesIp2cQpn",
 					"name": "Can obtain information using supernatural talents",
-					"cost": 1,
-					"cost_type": "points",
+					"cost_adj": "1",
 					"disabled": true
 				},
 				{
 					"id": "mIStNgQXEQLNVo543",
 					"name": "Group",
-					"cost": 5,
-					"cost_type": "multiplier",
+					"cost_adj": "x5",
 					"disabled": true
 				},
 				{
 					"id": "mOwNk9prGteDzPSdj",
 					"name": "Appears almost all the time",
-					"notes": "15-",
-					"cost": 3,
-					"cost_type": "multiplier",
+					"local_notes": "15-",
+					"cost_adj": "x3",
 					"disabled": true
 				},
 				{
 					"id": "mio0d5K7HDgpH3mXF",
 					"name": "Appears quite often",
-					"notes": "12-",
-					"cost": 2,
-					"cost_type": "multiplier",
+					"local_notes": "12-",
+					"cost_adj": "x2",
 					"disabled": true
 				},
 				{
 					"id": "m0mJ4PpGFyFBv9Kex",
 					"name": "Appears fairly often",
-					"notes": "9-",
-					"cost": 1,
-					"cost_type": "multiplier",
+					"local_notes": "9-",
+					"cost_adj": "x1",
 					"disabled": true
 				},
 				{
 					"id": "mEyAieTuWmttAxI6i",
 					"name": "Appears quite rarely",
-					"notes": "6-",
-					"cost": 0.5,
-					"cost_type": "multiplier",
+					"local_notes": "6-",
+					"cost_adj": "x0.5",
 					"disabled": true
 				},
 				{
 					"id": "m_ujJ5Y-BjoRoAFIR",
 					"name": "Completely reliable",
-					"cost": 3,
-					"cost_type": "multiplier",
+					"cost_adj": "x3",
 					"disabled": true
 				},
 				{
 					"id": "mew0G_8puNykCjH3T",
 					"name": "Usually reliable",
-					"cost": 2,
-					"cost_type": "multiplier",
+					"cost_adj": "x2",
 					"disabled": true
 				},
 				{
 					"id": "mvH8q448s69RWQ2xe",
 					"name": "Somewhat reliable",
-					"cost": 1,
-					"cost_type": "multiplier",
+					"cost_adj": "x1",
 					"disabled": true
 				},
 				{
 					"id": "mCEb7miepCK_BUPts",
 					"name": "Unreliable",
-					"cost": 0.5,
-					"cost_type": "multiplier",
+					"cost_adj": "x0.5",
 					"disabled": true
 				},
 				{
 					"id": "m3sURIbSlFIt8c-Ul",
 					"name": "Favor",
 					"reference": "B55",
-					"cost": 0.2,
-					"cost_type": "multiplier",
+					"cost_adj": "x0.2",
 					"disabled": true
 				}
 			],
@@ -3534,7 +3459,7 @@
 			},
 			"name": "Convincing Nod",
 			"reference": "PU2:15",
-			"notes": "Non-Verbal Fast-Talk",
+			"local_notes": "Non-Verbal Fast-Talk",
 			"tags": [
 				"Mental",
 				"Perk",
@@ -3581,7 +3506,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 1
+				"points": 1,
+				"current_level": 1
 			}
 		},
 		{
@@ -3593,7 +3519,7 @@
 			},
 			"name": "Cowardice",
 			"reference": "B129",
-			"notes": "Make a self-control roll any time you are called on to risk physical danger. Roll at -5 if you must risk death.",
+			"local_notes": "Make a self-control roll any time you are called on to risk physical danger. Roll at -5 if you must risk death.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -3640,8 +3566,7 @@
 				{
 					"id": "mOEw7NfIlMpLsWzYJ",
 					"name": "Xeno",
-					"cost": 10,
-					"cost_type": "points",
+					"cost_adj": "10",
 					"disabled": true
 				}
 			],
@@ -3659,7 +3584,7 @@
 			},
 			"name": "Cultural Familiarity (@Culture@)",
 			"reference": "B23",
-			"notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+			"local_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
 			"tags": [
 				"Advantage",
 				"Mental"
@@ -3668,15 +3593,13 @@
 				{
 					"id": "mZlN-7gDxHVlbTKLW",
 					"name": "Alien",
-					"cost": 1,
-					"cost_type": "points",
+					"cost_adj": "1",
 					"disabled": true
 				},
 				{
 					"id": "mEDLGJf-Ti4hrOPrI",
 					"name": "Native",
-					"cost": -1,
-					"cost_type": "points",
+					"cost_adj": "-1",
 					"disabled": true
 				}
 			],
@@ -3694,7 +3617,7 @@
 			},
 			"name": "Curious",
 			"reference": "B129",
-			"notes": "Make a self-control roll when presented with an interesting item or situation",
+			"local_notes": "Make a self-control roll when presented with an interesting item or situation",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -3751,7 +3674,7 @@
 			},
 			"name": "Cynophobia (Dogs)",
 			"reference": "B149",
-			"notes": "This includes all canines: foxes, wolves, coyotes, wild dogs, etc.",
+			"local_notes": "This includes all canines: foxes, wolves, coyotes, wild dogs, etc.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -3772,7 +3695,7 @@
 			},
 			"name": "Dabbler",
 			"reference": "PU2:16",
-			"notes": "@Up to 8 Skills@",
+			"local_notes": "@Up to 8 Skills@",
 			"tags": [
 				"Mental",
 				"Perk",
@@ -3792,7 +3715,7 @@
 			},
 			"name": "Daily Ritual",
 			"reference": "PU6:28",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Mental",
 				"Quirk"
@@ -3854,7 +3777,7 @@
 			},
 			"name": "Dead Giveaway",
 			"reference": "PU6:13",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Physical",
 				"Quirk",
@@ -3900,7 +3823,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": -1
+				"points": -1,
+				"current_level": 1
 			}
 		},
 		{
@@ -3949,7 +3873,7 @@
 			},
 			"name": "Delusion",
 			"reference": "PU6:17",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Mental",
 				"Quirk"
@@ -3977,24 +3901,21 @@
 					"id": "mkGoU5NgFPKFbDJqp",
 					"name": "Minor",
 					"reference": "B130",
-					"cost": -5,
-					"cost_type": "points",
+					"cost_adj": "-5",
 					"disabled": true
 				},
 				{
 					"id": "mIrG03FqxqWH5xoaP",
 					"name": "Major",
 					"reference": "B130",
-					"cost": -10,
-					"cost_type": "points",
+					"cost_adj": "-10",
 					"disabled": true
 				},
 				{
 					"id": "mKuUk9cOFwEyT366J",
 					"name": "Severe",
 					"reference": "B130",
-					"cost": -15,
-					"cost_type": "points",
+					"cost_adj": "-15",
 					"disabled": true
 				}
 			],
@@ -4029,7 +3950,7 @@
 			},
 			"name": "Demophobia (Crowds)",
 			"reference": "B149",
-			"notes": "Any group of over a dozen people sets off this fear unless they are all well known to you. The self-control roll is at -1 for over 25 people, -2 for a crowd of 100 or more, -3 for 1,000, -4 for 10,000, and so on.",
+			"local_notes": "Any group of over a dozen people sets off this fear unless they are all well known to you. The self-control roll is at -1 for over 25 people, -2 for a crowd of 100 or more, -3 for 1,000, -4 for 10,000, and so on.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -4059,113 +3980,100 @@
 					"id": "m89kzeg9i1C2fcpqN",
 					"name": "Point total",
 					"reference": "B131",
-					"notes": "100% of your starting points",
-					"cost": -1,
-					"cost_type": "points",
+					"local_notes": "100% of your starting points",
+					"cost_adj": "-1",
 					"disabled": true
 				},
 				{
 					"id": "mZPUtRnO3Mb3NBNCt",
 					"name": "Point total",
 					"reference": "B131",
-					"notes": "75% of your starting points",
-					"cost": -2,
-					"cost_type": "points",
+					"local_notes": "75% of your starting points",
+					"cost_adj": "-2",
 					"disabled": true
 				},
 				{
 					"id": "mIck7yVPlGytnH0MZ",
 					"name": "Point total",
 					"reference": "B131",
-					"notes": "50% of your starting points",
-					"cost": -5,
-					"cost_type": "points",
+					"local_notes": "50% of your starting points",
+					"cost_adj": "-5",
 					"disabled": true
 				},
 				{
 					"id": "m-U7wiAQY44v1Dl2T",
 					"name": "Point total",
 					"reference": "B131",
-					"notes": "25% of your starting points",
-					"cost": -10,
-					"cost_type": "points",
+					"local_notes": "25% of your starting points",
+					"cost_adj": "-10",
 					"disabled": true
 				},
 				{
 					"id": "mouxJgsZHu0OvwRzW",
 					"name": "Point total",
 					"reference": "B131",
-					"notes": "0 or fewer points",
-					"cost": -15,
-					"cost_type": "points",
+					"local_notes": "0 or fewer points",
+					"cost_adj": "-15",
 					"disabled": true
 				},
 				{
 					"id": "mBRegPL_pyY2eiCtd",
 					"name": "Appears almost all the time",
 					"reference": "B36",
-					"notes": "15-",
-					"cost": 3,
-					"cost_type": "multiplier",
+					"local_notes": "15-",
+					"cost_adj": "x3",
 					"disabled": true
 				},
 				{
 					"id": "mBfnc_MkhjpYHvsdd",
 					"name": "Appears quite often",
 					"reference": "B36",
-					"notes": "12-",
-					"cost": 2,
-					"cost_type": "multiplier",
+					"local_notes": "12-",
+					"cost_adj": "x2",
 					"disabled": true
 				},
 				{
 					"id": "mJu-Y81F3kDgHKP8g",
 					"name": "Appears fairly often",
 					"reference": "B36",
-					"notes": "9-",
-					"cost": 1,
-					"cost_type": "multiplier",
+					"local_notes": "9-",
+					"cost_adj": "x1",
 					"disabled": true
 				},
 				{
 					"id": "mtK8ZxGRQ1-DHrO2L",
 					"name": "Appears quite rarely",
 					"reference": "B36",
-					"notes": "6-",
-					"cost": 0.5,
-					"cost_type": "multiplier",
+					"local_notes": "6-",
+					"cost_adj": "x0.5",
 					"disabled": true
 				},
 				{
 					"id": "mURnp-PPYJ479WuH9",
 					"name": "Group",
 					"reference": "B131",
-					"cost": 2,
-					"cost_type": "multiplier",
+					"cost_adj": "x2",
 					"disabled": true
 				},
 				{
 					"id": "mos9rclbE4S1LGtZ0",
 					"name": "Acquaintance",
 					"reference": "B131",
-					"cost": 0.5,
-					"cost_type": "multiplier",
+					"cost_adj": "x0.5",
 					"disabled": true
 				},
 				{
 					"id": "mOqSpD-AOvl0KFnRr",
 					"name": "Friend",
 					"reference": "B131",
-					"cost": 1,
-					"cost_type": "multiplier",
+					"cost_adj": "x1",
 					"disabled": true
 				},
 				{
 					"id": "muPr5jSMsv5HXYOu8",
 					"name": "Loved one",
 					"reference": "B131",
-					"cost": 2,
-					"cost_type": "multiplier",
+					"cost_adj": "x2",
 					"disabled": true
 				}
 			],
@@ -4238,7 +4146,7 @@
 			},
 			"name": "Disarming Smile",
 			"reference": "PU2:15",
-			"notes": "Non-Verbal Diplomacy",
+			"local_notes": "Non-Verbal Diplomacy",
 			"tags": [
 				"Mental",
 				"Perk",
@@ -4286,14 +4194,14 @@
 					"id": "m1ujkxLRof1HPWW8N",
 					"name": "Only underwater",
 					"reference": "B49",
-					"cost": -30,
+					"cost_adj": "-30%",
 					"disabled": true
 				},
 				{
 					"id": "mBUgDWQpZ1mcrpZRy",
 					"name": "Profiling",
 					"reference": "P47",
-					"cost": 50,
+					"cost_adj": "50%",
 					"disabled": true
 				}
 			],
@@ -4333,14 +4241,14 @@
 					"id": "m4gebQJH5VWQUOZ9H",
 					"name": "Emotion Sense",
 					"reference": "B49",
-					"cost": 50,
+					"cost_adj": "50%",
 					"disabled": true
 				},
 				{
 					"id": "m609ebHRh1h9d8QG3",
 					"name": "Profiling",
 					"reference": "P47",
-					"cost": 50,
+					"cost_adj": "50%",
 					"disabled": true
 				}
 			],
@@ -4384,7 +4292,7 @@
 					"id": "mq9PGuNWECCP-RlR4",
 					"name": "Profiling",
 					"reference": "P47",
-					"cost": 50,
+					"cost_adj": "50%",
 					"disabled": true
 				}
 			],
@@ -4464,7 +4372,7 @@
 			},
 			"name": "Distinctive Features",
 			"reference": "PU6:14",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Physical",
 				"Quirk",
@@ -4484,7 +4392,7 @@
 			},
 			"name": "Distinctive Speech",
 			"reference": "PU6:16",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Mental",
 				"Quirk",
@@ -4803,7 +4711,7 @@
 			},
 			"name": "Dyslexia",
 			"reference": "B134",
-			"notes": "You have a written comprehension level of \"None\" for all languages, which cannot be improved",
+			"local_notes": "You have a written comprehension level of \"None\" for all languages, which cannot be improved",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -4856,7 +4764,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": -2
+				"points": -2,
+				"current_level": 1
 			}
 		},
 		{
@@ -4944,8 +4853,7 @@
 					"id": "mlvcXPMji_lWgt5Lb",
 					"name": "Photographic",
 					"reference": "B51",
-					"cost": 5,
-					"cost_type": "points",
+					"cost_adj": "5",
 					"disabled": true
 				}
 			],
@@ -4971,7 +4879,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 1
+				"points": 1,
+				"current_level": 1
 			}
 		},
 		{
@@ -4992,7 +4901,7 @@
 					"id": "mpUr6zFjjMPcpbsiW",
 					"name": "Remote",
 					"reference": "P48",
-					"cost": 50,
+					"cost_adj": "50%",
 					"disabled": true
 				}
 			],
@@ -5048,7 +4957,7 @@
 					"id": "meAz3JtSweq6eSWo1",
 					"name": "Remote",
 					"reference": "P48",
-					"cost": 50,
+					"cost_adj": "50%",
 					"disabled": true
 				}
 			],
@@ -5104,152 +5013,134 @@
 					"id": "mQZlnSbNutsv3FqaX",
 					"name": "Weak Individual",
 					"reference": "B135",
-					"notes": "50% of your starting points",
-					"cost": -5,
-					"cost_type": "points",
+					"local_notes": "50% of your starting points",
+					"cost_adj": "-5",
 					"disabled": true
 				},
 				{
 					"id": "mMmS_jNydCd8eWhZP",
 					"name": "Equal Individual",
 					"reference": "B135",
-					"notes": "100% of your starting points",
-					"cost": -10,
-					"cost_type": "points",
+					"local_notes": "100% of your starting points",
+					"cost_adj": "-10",
 					"disabled": true
 				},
 				{
 					"id": "m41WdVBQqpWS7K918",
 					"name": "Powerful Individual",
 					"reference": "B135",
-					"notes": "\u003e150% of your starting points",
-					"cost": -20,
-					"cost_type": "points",
+					"local_notes": "\u003e150% of your starting points",
+					"cost_adj": "-20",
 					"disabled": true
 				},
 				{
 					"id": "mLjoZO7jhfgrIQs0k",
 					"name": "Weak Group",
 					"reference": "B135",
-					"cost": -10,
-					"cost_type": "points",
+					"cost_adj": "-10",
 					"disabled": true
 				},
 				{
 					"id": "m5-zYaXECUfYt98O-",
 					"name": "Medium Group",
 					"reference": "B135",
-					"cost": -20,
-					"cost_type": "points",
+					"cost_adj": "-20",
 					"disabled": true
 				},
 				{
 					"id": "mpHQNy81KCJuu23xH",
 					"name": "Appears almost all the time",
 					"reference": "B36",
-					"notes": "15-",
-					"cost": 3,
-					"cost_type": "multiplier",
+					"local_notes": "15-",
+					"cost_adj": "x3",
 					"disabled": true
 				},
 				{
 					"id": "mZODiUZfiI_-k9JcQ",
 					"name": "Appears quite often",
 					"reference": "B36",
-					"notes": "12-",
-					"cost": 2,
-					"cost_type": "multiplier",
+					"local_notes": "12-",
+					"cost_adj": "x2",
 					"disabled": true
 				},
 				{
 					"id": "mkBiyhL30bMbz7fxO",
 					"name": "Appears fairly often",
 					"reference": "B36",
-					"notes": "9-",
-					"cost": 1,
-					"cost_type": "multiplier",
+					"local_notes": "9-",
+					"cost_adj": "x1",
 					"disabled": true
 				},
 				{
 					"id": "mNivpnj5D5OB-R01i",
 					"name": "Appears quite rarely",
 					"reference": "B36",
-					"notes": "6-",
-					"cost": 0.5,
-					"cost_type": "multiplier",
+					"local_notes": "6-",
+					"cost_adj": "x0.5",
 					"disabled": true
 				},
 				{
 					"id": "mjEaIDbtjH4Ea7PE9",
 					"name": "Large/Powerful Group",
 					"reference": "B135",
-					"cost": -30,
-					"cost_type": "points",
+					"cost_adj": "-30",
 					"disabled": true
 				},
 				{
 					"id": "m_8mnjpq9BXnbJCtT",
 					"name": "Utterly Formidable Group",
 					"reference": "B135",
-					"cost": -40,
-					"cost_type": "points",
+					"cost_adj": "-40",
 					"disabled": true
 				},
 				{
 					"id": "mQAHwMvqf7P3uXOsj",
 					"name": "Unknown",
 					"reference": "B135",
-					"cost": -5,
-					"cost_type": "points",
+					"cost_adj": "-5",
 					"disabled": true
 				},
 				{
 					"id": "m-UBrfAsOHoqjF9Ah",
 					"name": "Evil Twin",
 					"reference": "B135",
-					"cost_type": "points",
 					"disabled": true
 				},
 				{
 					"id": "mskZmJPphLy71-sLi",
 					"name": "Evil Twin",
 					"reference": "B135",
-					"notes": "More skilled or extra abilities",
-					"cost": -5,
-					"cost_type": "points",
+					"local_notes": "More skilled or extra abilities",
+					"cost_adj": "-5",
 					"disabled": true
 				},
 				{
 					"id": "msck0lzorCG9DXgG9",
 					"name": "Evil Twin",
 					"reference": "B135",
-					"notes": "More skilled and extra abilities",
-					"cost": -10,
-					"cost_type": "points",
+					"local_notes": "More skilled and extra abilities",
+					"cost_adj": "-10",
 					"disabled": true
 				},
 				{
 					"id": "m81pBJA5C5Zh5U7_C",
 					"name": "Watcher",
 					"reference": "B135",
-					"cost": 0.25,
-					"cost_type": "multiplier",
+					"cost_adj": "x0.25",
 					"disabled": true
 				},
 				{
 					"id": "mGe3rwjmZzzvw1QDN",
 					"name": "Rival",
 					"reference": "B135",
-					"cost": 0.5,
-					"cost_type": "multiplier",
+					"cost_adj": "x0.5",
 					"disabled": true
 				},
 				{
 					"id": "mfDO_Hd2QlgjomWcx",
 					"name": "Hunter",
 					"reference": "B135",
-					"cost": 1,
-					"cost_type": "multiplier",
+					"cost_adj": "x1",
 					"disabled": true
 				}
 			],
@@ -5282,7 +5173,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 5
+				"points": 5,
+				"current_level": 1
 			}
 		},
 		{
@@ -5310,7 +5202,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 15
+				"points": 15,
+				"current_level": 1
 			}
 		},
 		{
@@ -5337,7 +5230,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 5
+				"points": 5,
+				"current_level": 1
 			}
 		},
 		{
@@ -5365,7 +5259,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 10
+				"points": 10,
+				"current_level": 1
 			}
 		},
 		{
@@ -5392,7 +5287,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 5
+				"points": 5,
+				"current_level": 1
 			}
 		},
 		{
@@ -5404,7 +5300,7 @@
 			},
 			"name": "Entomophobia (Insects)",
 			"reference": "B150",
-			"notes": "You are afraid of all “bugs.” Large or poisonous ones give -3 to self-control rolls. Very large ones, or large numbers, give -6.",
+			"local_notes": "You are afraid of all “bugs.” Large or poisonous ones give -3 to self-control rolls. Very large ones, or large numbers, give -6.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -5505,7 +5401,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 2
+				"points": 2,
+				"current_level": 1
 			}
 		},
 		{
@@ -5571,7 +5468,7 @@
 			},
 			"name": "External Mood Influence",
 			"reference": "PU6:18",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Mental",
 				"Quirk"
@@ -5599,15 +5496,15 @@
 					"id": "mJE7CkFMpxgQ5H_1M",
 					"name": "Multi-Strike",
 					"reference": "P49",
-					"cost": 20,
+					"cost_adj": "20%",
 					"disabled": true
 				},
 				{
 					"id": "mgcJ_ELkpM06_ia5J",
 					"name": "Single Skill",
 					"reference": "P49",
-					"notes": "@Skill@",
-					"cost": -20,
+					"local_notes": "@Skill@",
+					"cost_adj": "-20%",
 					"disabled": true
 				}
 			],
@@ -5615,7 +5512,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 25
+				"points": 25,
+				"current_level": 1
 			}
 		},
 		{
@@ -5661,7 +5559,7 @@
 			},
 			"name": "Extra Sleep",
 			"reference": "B136",
-			"notes": "Require 1 hour/level more sleep for a full night's rest (max 4)",
+			"local_notes": "Require 1 hour/level more sleep for a full night's rest (max 4)",
 			"tags": [
 				"Disadvantage",
 				"Physical"
@@ -5670,7 +5568,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": -2
+				"points": -2,
+				"current_level": 1
 			}
 		},
 		{
@@ -5682,7 +5581,7 @@
 			},
 			"name": "Extreme Sexual Dimorphism",
 			"reference": "PU2:10",
-			"notes": "+1 to attempts to identify you, -1 to attempts to remain anonymous.",
+			"local_notes": "+1 to attempts to identify you, -1 to attempts to remain anonymous.",
 			"tags": [
 				"Exotic",
 				"Perk",
@@ -5884,7 +5783,7 @@
 			},
 			"name": "Favor Owed",
 			"reference": "PU6:32",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Quirk",
 				"Social"
@@ -5933,7 +5832,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": -2
+				"points": -2,
+				"current_level": 1
 			}
 		},
 		{
@@ -5975,7 +5875,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 2
+				"points": 2,
+				"current_level": 1
 			}
 		},
 		{
@@ -5987,7 +5888,7 @@
 			},
 			"name": "Fearsome Stare",
 			"reference": "PU2:15",
-			"notes": "Non-Verbal Intimidation",
+			"local_notes": "Non-Verbal Intimidation",
 			"tags": [
 				"Mental",
 				"Perk",
@@ -6027,7 +5928,7 @@
 			},
 			"name": "Fit",
 			"reference": "B55",
-			"notes": "Recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
+			"local_notes": "Recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
 			"tags": [
 				"Advantage",
 				"Physical"
@@ -6175,7 +6076,7 @@
 			},
 			"name": "Flourish (@Weapon Skill@)",
 			"reference": "PU2:15",
-			"notes": "Intimidate at +4 with ready after kill/knockdown",
+			"local_notes": "Intimidate at +4 with ready after kill/knockdown",
 			"tags": [
 				"Mental",
 				"Perk",
@@ -6213,7 +6114,7 @@
 			},
 			"name": "Follow-Through (@Weapon Skill@)",
 			"reference": "PU2:15",
-			"notes": "Intimidate as free action after kill/knockdown",
+			"local_notes": "Intimidate as free action after kill/knockdown",
 			"tags": [
 				"Mental",
 				"Perk",
@@ -6346,7 +6247,7 @@
 			},
 			"name": "Friend",
 			"reference": "PU2:18",
-			"notes": "@Details@",
+			"local_notes": "@Details@",
 			"tags": [
 				"Perk",
 				"Social"
@@ -6392,8 +6293,7 @@
 					"id": "myl4Q3_ekWm6VHUoP",
 					"name": "Quick",
 					"reference": "B57",
-					"cost": 25,
-					"cost_type": "points",
+					"cost_adj": "25",
 					"disabled": true
 				}
 			],
@@ -6411,7 +6311,7 @@
 			},
 			"name": "Gangster Swagger",
 			"reference": "PU2:15",
-			"notes": "Non-Verbal Streetwise",
+			"local_notes": "Non-Verbal Streetwise",
 			"tags": [
 				"Mental",
 				"Perk",
@@ -6430,7 +6330,7 @@
 				"id": "toGKRDz0udQ898FFw"
 			},
 			"name": "Gifted (@Subject@)",
-			"notes": "Once per session may reroll two times and take the best of three on any roll related to this subject",
+			"local_notes": "Once per session may reroll two times and take the best of three on any roll related to this subject",
 			"tags": [
 				"Advantage",
 				"Mental"
@@ -6518,7 +6418,7 @@
 			},
 			"name": "Gluttony",
 			"reference": "B137",
-			"notes": "Make a self-control roll when presented with a tempting morsel or good wine that, for some reason, you should resist. If you fail, you partake – regardless of the consequences.",
+			"local_notes": "Make a self-control roll when presented with a tempting morsel or good wine that, for some reason, you should resist. If you fail, you partake – regardless of the consequences.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -6547,62 +6447,55 @@
 					"id": "mwZy9amuPxRJ6XOfs",
 					"name": "People Affected",
 					"reference": "B27",
-					"notes": "Almost everyone",
-					"cost": 1,
-					"cost_type": "multiplier",
+					"local_notes": "Almost everyone",
+					"cost_adj": "x1",
 					"disabled": true
 				},
 				{
 					"id": "mDB-J70TGi5ODUrSP",
 					"name": "People Affected",
 					"reference": "B27",
-					"notes": "Almost everyone except @large class of people@",
-					"cost": 0.67,
-					"cost_type": "multiplier",
+					"local_notes": "Almost everyone except @large class of people@",
+					"cost_adj": "x0.67",
 					"disabled": true
 				},
 				{
 					"id": "mX27w8_EDFpUQyHHr",
 					"name": "People Affected",
 					"reference": "B27",
-					"notes": "@Large class of people@",
-					"cost": 0.5,
-					"cost_type": "multiplier",
+					"local_notes": "@Large class of people@",
+					"cost_adj": "x0.5",
 					"disabled": true
 				},
 				{
 					"id": "mNweN7DePvGCVCLnH",
 					"name": "People Affected",
 					"reference": "B27",
-					"notes": "@Small class of people@",
-					"cost": 0.33,
-					"cost_type": "multiplier",
+					"local_notes": "@Small class of people@",
+					"cost_adj": "x0.33",
 					"disabled": true
 				},
 				{
 					"id": "mIKaAe7YEFtviI5SV",
 					"name": "Recognized all the time",
 					"reference": "B28",
-					"cost": 1,
-					"cost_type": "multiplier",
+					"cost_adj": "x1",
 					"disabled": true
 				},
 				{
 					"id": "mhkig_eA867tSvvUF",
 					"name": "Recognized sometimes",
 					"reference": "B28",
-					"notes": "10-",
-					"cost": 0.5,
-					"cost_type": "multiplier",
+					"local_notes": "10-",
+					"cost_adj": "x0.5",
 					"disabled": true
 				},
 				{
 					"id": "mnJIPbJKqnENIjPrd",
 					"name": "Recognized occasionally",
 					"reference": "B28",
-					"notes": "7-",
-					"cost": 0.33,
-					"cost_type": "multiplier",
+					"local_notes": "7-",
+					"cost_adj": "x0.33",
 					"disabled": true
 				}
 			],
@@ -6619,7 +6512,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 5
+				"points": 5,
+				"current_level": 1
 			}
 		},
 		{
@@ -6667,7 +6561,7 @@
 			},
 			"name": "Greed",
 			"reference": "B137",
-			"notes": "Make a self-control roll any time riches are offered – as payment for fair work, gains from adventure, spoils of crime, or just bait. If you fail, you do whatever it takes to get the payoff.",
+			"local_notes": "Make a self-control roll any time riches are offered – as payment for fair work, gains from adventure, spoils of crime, or just bait. If you fail, you do whatever it takes to get the payoff.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -6753,7 +6647,7 @@
 			},
 			"name": "Grudge",
 			"reference": "PU6:32",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Quirk",
 				"Social"
@@ -7004,7 +6898,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": -5
+				"points": -5,
+				"current_level": 1
 			}
 		},
 		{
@@ -7062,7 +6957,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 2
+				"points": 2,
+				"current_level": 1
 			}
 		},
 		{
@@ -7090,7 +6986,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 2
+				"points": 2,
+				"current_level": 1
 			}
 		},
 		{
@@ -7120,7 +7017,7 @@
 			},
 			"name": "Haughty Sneer",
 			"reference": "PU2:15",
-			"notes": "Non-Verbal Savoir-Faire (High Society)",
+			"local_notes": "Non-Verbal Savoir-Faire (High Society)",
 			"tags": [
 				"Mental",
 				"Perk",
@@ -7196,7 +7093,7 @@
 			},
 			"name": "Hemophobia (Blood)",
 			"reference": "B149",
-			"notes": "The sight of blood gives you the screaming willies! You need to make a self-control roll during most combats...",
+			"local_notes": "The sight of blood gives you the screaming willies! You need to make a self-control roll during most combats...",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -7217,7 +7114,7 @@
 			},
 			"name": "Herpetophobia (Reptiles)",
 			"reference": "B150",
-			"notes": "You come unglued at the thought of reptiles, amphibians, and similar scaly slimies. A very large reptile, or a poisonous one, gives -2 to self-control rolls; a horde of reptiles (such as a snake pit) gives -4.",
+			"local_notes": "You come unglued at the thought of reptiles, amphibians, and similar scaly slimies. A very large reptile, or a poisonous one, gives -2 to self-control rolls; a horde of reptiles (such as a snake pit) gives -4.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -7383,7 +7280,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 5
+				"points": 5,
+				"current_level": 1
 			}
 		},
 		{
@@ -7395,7 +7293,7 @@
 			},
 			"name": "High Pain Threshold",
 			"reference": "B59",
-			"notes": "Never suffer shock penalties when injured",
+			"local_notes": "Never suffer shock penalties when injured",
 			"tags": [
 				"Advantage",
 				"Physical"
@@ -7426,7 +7324,7 @@
 			},
 			"name": "High Status",
 			"reference": "B28",
-			"notes": "@Description@",
+			"local_notes": "@Description@",
 			"tags": [
 				"Advantage",
 				"Social"
@@ -7435,7 +7333,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 5
+				"points": 5,
+				"current_level": 1
 			}
 		},
 		{
@@ -7501,7 +7400,7 @@
 			},
 			"name": "Honesty",
 			"reference": "B138",
-			"notes": "Make a self-control roll when faced with the “need” to break unreasonable laws; if you fail, you must obey the law, whatever the consequences. If you manage to resist your urges and break the law, make a second self-control roll afterward. If you fail, you must turn yourself in to the authorities!",
+			"local_notes": "Make a self-control roll when faced with the “need” to break unreasonable laws; if you fail, you must obey the law, whatever the consequences. If you manage to resist your urges and break the law, make a second self-control roll afterward. If you fail, you must turn yourself in to the authorities!",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -7613,7 +7512,7 @@
 					"id": "mH1o7djsJ9bvk1EvK",
 					"name": "DX penalty if not wearing custom-made clothing and armor",
 					"reference": "B139",
-					"notes": "Clothing and armor costs 10% more than usual",
+					"local_notes": "Clothing and armor costs 10% more than usual",
 					"features": [
 						{
 							"type": "attribute_bonus",
@@ -7686,7 +7585,7 @@
 			},
 			"name": "Hyper-Specialization (@Skill@; @Specialty@)",
 			"reference": "PU2:16",
-			"notes": "+5 to specialty",
+			"local_notes": "+5 to specialty",
 			"tags": [
 				"Mental",
 				"Perk",
@@ -7834,7 +7733,7 @@
 			},
 			"name": "Impulsiveness",
 			"reference": "B139",
-			"notes": "Make a self-control roll whenever it would be wise to wait and ponder. If you fail, you must act",
+			"local_notes": "Make a self-control roll whenever it would be wise to wait and ponder. If you fail, you must act",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -8047,24 +7946,21 @@
 					"id": "mFRGLDQ4ONtDQfTVt",
 					"name": "Consumption x2",
 					"reference": "B139",
-					"cost": -10,
-					"cost_type": "points",
+					"cost_adj": "-10",
 					"disabled": true
 				},
 				{
 					"id": "mtia-jW7SNG02ZNjO",
 					"name": "Consumption x4",
 					"reference": "B139",
-					"cost": -20,
-					"cost_type": "points",
+					"cost_adj": "-20",
 					"disabled": true
 				},
 				{
 					"id": "mQbXf55OcGWOuTQRY",
 					"name": "Consumption x8",
 					"reference": "B139",
-					"cost": -30,
-					"cost_type": "points",
+					"cost_adj": "-30",
 					"disabled": true
 				}
 			],
@@ -8081,7 +7977,7 @@
 			},
 			"name": "Incurious",
 			"reference": "B140",
-			"notes": "Make a self-control roll when confronted with something strange. If you fail, you ignore it!",
+			"local_notes": "Make a self-control roll when confronted with something strange. If you fail, you ignore it!",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -8108,7 +8004,7 @@
 			},
 			"name": "Indecisive",
 			"reference": "B140",
-			"notes": "Make a self-control roll whenever a choice confronts you, modified downward by 1 for each alternative you can see. If you fail, you do nothing.",
+			"local_notes": "Make a self-control roll whenever a choice confronts you, modified downward by 1 for each alternative you can see. If you fail, you do nothing.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -8136,7 +8032,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 1
+				"points": 1,
+				"current_level": 1
 			}
 		},
 		{
@@ -8148,7 +8045,7 @@
 			},
 			"name": "Indomitable",
 			"reference": "B60",
-			"notes": "Impossible to influence through ordinary words or actions",
+			"local_notes": "Impossible to influence through ordinary words or actions",
 			"tags": [
 				"Advantage",
 				"Mental"
@@ -8306,17 +8203,15 @@
 					"id": "mvbEu_aj2yfg_eKxI",
 					"name": "Mild",
 					"reference": "B140",
-					"notes": "GM secretly rolls 3d for the number of days between episodes",
-					"cost": -10,
-					"cost_type": "points"
+					"local_notes": "GM secretly rolls 3d for the number of days between episodes",
+					"cost_adj": "-10"
 				},
 				{
 					"id": "mfhz_aFIPyo8LLwmh",
 					"name": "Severe",
 					"reference": "B140",
-					"notes": "GM secretly rolls 2d-1 for the number of days between episodes",
-					"cost": -15,
-					"cost_type": "points",
+					"local_notes": "GM secretly rolls 2d-1 for the number of days between episodes",
+					"cost_adj": "-15",
 					"disabled": true
 				}
 			],
@@ -8361,32 +8256,28 @@
 					"id": "mmStq5AnE5foENXll",
 					"name": "Scope: Common",
 					"reference": "B140",
-					"cost": -5,
-					"cost_type": "points",
+					"cost_adj": "-5",
 					"disabled": true
 				},
 				{
 					"id": "m865hYck-JCEIF7Wj",
 					"name": "Scope: Occasional",
 					"reference": "B140",
-					"cost": -2,
-					"cost_type": "points",
+					"cost_adj": "-2",
 					"disabled": true
 				},
 				{
 					"id": "mEA0ZuiIAvmyE9Ymk",
 					"name": "Scope: Rare",
 					"reference": "B140",
-					"cost": -1,
-					"cost_type": "points",
+					"cost_adj": "-1",
 					"disabled": true
 				},
 				{
 					"id": "mR0L8IkSizEXNKE6I",
 					"name": "Scope: Anyone unlike you",
 					"reference": "B140",
-					"cost": -10,
-					"cost_type": "points",
+					"cost_adj": "-10",
 					"disabled": true
 				}
 			],
@@ -8438,7 +8329,7 @@
 					"id": "mkOtYLU5lqtQ7w-js",
 					"name": "Inspired",
 					"reference": "P56",
-					"cost": 100,
+					"cost_adj": "100%",
 					"disabled": true
 				}
 			],
@@ -8597,7 +8488,7 @@
 			},
 			"name": "Kleptomania",
 			"reference": "B141",
-			"notes": "Make a self-control roll whenever you are presented with a chance to steal, at up to -3 if the item is especially interesting to you (not necessarily valuable, unless you are poor or have Greed). If you fail, you must try to steal it. You may keep or sell stolen items, but you may not return or discard them.",
+			"local_notes": "Make a self-control roll whenever you are presented with a chance to steal, at up to -3 if the item is especially interesting to you (not necessarily valuable, unless you are poor or have Greed). If you fail, you must try to steal it. You may keep or sell stolen items, but you may not return or discard them.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -8641,8 +8532,7 @@
 					"id": "m82UbWqCTqzzjj5_T",
 					"name": "Total",
 					"reference": "B141",
-					"cost": -10,
-					"cost_type": "points",
+					"cost_adj": "-10",
 					"disabled": true
 				}
 			],
@@ -8660,7 +8550,7 @@
 			},
 			"name": "Lame (Crippled Legs)",
 			"reference": "B141",
-			"notes": "You must reduce your Basic Move to half your Basic Speed (round down)",
+			"local_notes": "You must reduce your Basic Move to half your Basic Speed (round down)",
 			"tags": [
 				"Disadvantage",
 				"Physical"
@@ -8671,7 +8561,7 @@
 					"name": "Mitigator: Flight",
 					"reference": "FFWF13",
 					"reference_highlight": "Lame",
-					"cost": -80,
+					"cost_adj": "-80%",
 					"disabled": true
 				}
 			],
@@ -8696,7 +8586,7 @@
 			},
 			"name": "Lame (Crippled Legs)",
 			"reference": "B141",
-			"notes": "You must reduce your Basic Move to half your Basic Speed (round down)",
+			"local_notes": "You must reduce your Basic Move to half your Basic Speed (round down)",
 			"tags": [
 				"Disadvantage",
 				"Physical"
@@ -8707,7 +8597,7 @@
 					"name": "Mitigator: Flight",
 					"reference": "FFWF13",
 					"reference_highlight": "Lame",
-					"cost": -80,
+					"cost_adj": "-80%",
 					"disabled": true
 				}
 			],
@@ -8777,76 +8667,67 @@
 					"id": "mgO5Q3WtS0IFkN4gk",
 					"name": "Native",
 					"reference": "B23",
-					"cost": -6,
-					"cost_type": "points",
+					"cost_adj": "-6",
 					"disabled": true
 				},
 				{
 					"id": "mZM72NLfFw9DyWjP4",
 					"name": "Spoken",
 					"reference": "B24",
-					"notes": "None",
-					"cost_type": "points",
+					"local_notes": "None",
 					"disabled": true
 				},
 				{
 					"id": "m5uLwz1uOVGyrkiZ2",
 					"name": "Spoken",
 					"reference": "B24",
-					"notes": "Broken",
-					"cost": 1,
-					"cost_type": "points",
+					"local_notes": "Broken",
+					"cost_adj": "1",
 					"disabled": true
 				},
 				{
 					"id": "m5zzYjYOA9f8CzESO",
 					"name": "Spoken",
 					"reference": "B24",
-					"notes": "Accented",
-					"cost": 2,
-					"cost_type": "points"
+					"local_notes": "Accented",
+					"cost_adj": "2"
 				},
 				{
 					"id": "mfmu22ZttERvzhdUi",
 					"name": "Spoken",
 					"reference": "B24",
-					"notes": "Native",
-					"cost": 3,
-					"cost_type": "points",
+					"local_notes": "Native",
+					"cost_adj": "3",
 					"disabled": true
 				},
 				{
 					"id": "mTTyWMEd9Rb0zx-ZD",
 					"name": "Written",
 					"reference": "B24",
-					"notes": "None",
-					"cost_type": "points",
+					"local_notes": "None",
 					"disabled": true
 				},
 				{
 					"id": "mIWIqYm-bZHdCJ9hb",
 					"name": "Written",
 					"reference": "B24",
-					"notes": "Broken",
-					"cost": 1,
-					"cost_type": "points",
+					"local_notes": "Broken",
+					"cost_adj": "1",
 					"disabled": true
 				},
 				{
 					"id": "mWkzVCz_aotugtE1m",
 					"name": "Written",
 					"reference": "B24",
-					"notes": "Accented",
-					"cost": 2,
-					"cost_type": "points"
+					"local_notes": "Accented",
+					"cost_adj": "2"
 				},
 				{
 					"id": "msLikaglBymoDA4lm",
 					"name": "Written",
 					"reference": "B24",
-					"notes": "Native",
-					"cost": 3,
-					"cost_type": "points",
+					"local_notes": "Native",
+					"cost_adj": "3",
 					"disabled": true
 				}
 			],
@@ -8863,7 +8744,7 @@
 			},
 			"name": "Language: @Language@",
 			"reference": "B24",
-			"notes": "With Language Talent",
+			"local_notes": "With Language Talent",
 			"tags": [
 				"Advantage",
 				"Language",
@@ -8888,42 +8769,37 @@
 					"id": "m1jOTSciePTi9UToR",
 					"name": "Native",
 					"reference": "B23",
-					"cost": -4,
-					"cost_type": "points",
+					"cost_adj": "-4",
 					"disabled": true
 				},
 				{
 					"id": "mDiJ_lSE5ctT-s6ZB",
 					"name": "Spoken",
 					"reference": "B24",
-					"notes": "Accented",
-					"cost": 1,
-					"cost_type": "points"
+					"local_notes": "Accented",
+					"cost_adj": "1"
 				},
 				{
 					"id": "mdOTwlCh2QRetDUcU",
 					"name": "Spoken",
 					"reference": "B24",
-					"notes": "Native",
-					"cost": 2,
-					"cost_type": "points",
+					"local_notes": "Native",
+					"cost_adj": "2",
 					"disabled": true
 				},
 				{
 					"id": "mTGc9tnpIyE3L640U",
 					"name": "Written",
 					"reference": "B24",
-					"notes": "Accented",
-					"cost": 1,
-					"cost_type": "points"
+					"local_notes": "Accented",
+					"cost_adj": "1"
 				},
 				{
 					"id": "mXc88SFtb9zIl8OU8",
 					"name": "Written",
 					"reference": "B24",
-					"notes": "Native",
-					"cost": 2,
-					"cost_type": "points",
+					"local_notes": "Native",
+					"cost_adj": "2",
 					"disabled": true
 				}
 			],
@@ -8958,7 +8834,7 @@
 			},
 			"name": "Laziness",
 			"reference": "B142",
-			"notes": "Your chances of getting a raise or promotion in any job are halved. If you are self-employed, halve your monthly pay.",
+			"local_notes": "Your chances of getting a raise or promotion in any job are halved. If you are self-employed, halve your monthly pay.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -9009,7 +8885,7 @@
 			},
 			"name": "Lecherousness",
 			"reference": "B142",
-			"notes": "Make a self-control roll whenever you have more than the briefest contact with an appealing member of the sex you find attractive, at -5 if this person is Handsome/Beautiful, or at -10 if Very Handsome/Very Beautiful. If you fail, you must make a “pass” using whatever wiles and skills you can bring to bear.",
+			"local_notes": "Make a self-control roll whenever you have more than the briefest contact with an appealing member of the sex you find attractive, at -5 if this person is Handsome/Beautiful, or at -10 if Very Handsome/Very Beautiful. If you fail, you must make a “pass” using whatever wiles and skills you can bring to bear.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -9038,32 +8914,28 @@
 					"id": "m1HTMys7ldnjWK5IJ",
 					"name": "UN Observer",
 					"reference": "B65",
-					"cost": 5,
-					"cost_type": "points",
+					"cost_adj": "5",
 					"disabled": true
 				},
 				{
 					"id": "mOUv4B6QB68iro5Yi",
 					"name": "Petty Diplomat",
 					"reference": "B65",
-					"cost": 15,
-					"cost_type": "points",
+					"cost_adj": "15",
 					"disabled": true
 				},
 				{
 					"id": "mHXUgSKNjZo4cfLm9",
 					"name": "Diplomatic Immunity",
 					"reference": "B65",
-					"cost": 20,
-					"cost_type": "points",
+					"cost_adj": "20",
 					"disabled": true
 				},
 				{
 					"id": "mqLGDZ9wolEYPKVyn",
 					"name": "Bard",
 					"reference": "B65",
-					"cost": 10,
-					"cost_type": "points",
+					"cost_adj": "10",
 					"disabled": true
 				}
 			],
@@ -9098,7 +8970,7 @@
 			},
 			"name": "Less Sleep",
 			"reference": "B65",
-			"notes": "Require 1 hour/level less sleep for a full night's rest (max 4)",
+			"local_notes": "Require 1 hour/level less sleep for a full night's rest (max 4)",
 			"tags": [
 				"Advantage",
 				"Physical"
@@ -9107,7 +8979,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 2
+				"points": 2,
+				"current_level": 1
 			}
 		},
 		{
@@ -9119,7 +8992,7 @@
 			},
 			"name": "Light Sleeper",
 			"reference": "B142",
-			"notes": "Whenever you must sleep in an uncomfortable place, or whenever there is more than the slightest noise, you must make a HT roll in order to fall asleep. On a failure, you can try again after one hour, but you will suffer all the usual effects of one hour of missed sleep.",
+			"local_notes": "Whenever you must sleep in an uncomfortable place, or whenever there is more than the slightest noise, you must make a HT roll in order to fall asleep. On a failure, you can try again after one hour, but you will suffer all the usual effects of one hour of missed sleep.",
 			"tags": [
 				"Disadvantage",
 				"Physical"
@@ -9229,7 +9102,7 @@
 			},
 			"name": "Loner",
 			"reference": "B142",
-			"notes": "Make a self-control roll whenever anyone lingers nearby, watches over your shoulder, etc. If you fail, you lash out at that person just as if you had Bad Temper.",
+			"local_notes": "Make a self-control roll whenever anyone lingers nearby, watches over your shoulder, etc. If you fail, you lash out at that person just as if you had Bad Temper.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -9288,7 +9161,7 @@
 			},
 			"name": "Low Pain Threshold",
 			"reference": "B142",
-			"notes": "Double the shock from any injury. Whenever you take a wound that does more than 1 HP of damage, you must make a Will roll to avoid crying out.",
+			"local_notes": "Double the shock from any injury. Whenever you take a wound that does more than 1 HP of damage, you must make a Will roll to avoid crying out.",
 			"tags": [
 				"Disadvantage",
 				"Physical"
@@ -9376,7 +9249,7 @@
 			},
 			"name": "Low Status ",
 			"reference": "B28",
-			"notes": "@Description@",
+			"local_notes": "@Description@",
 			"tags": [
 				"Disadvantage",
 				"Social"
@@ -9385,7 +9258,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": -5
+				"points": -5,
+				"current_level": 1
 			}
 		},
 		{
@@ -9405,7 +9279,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": -5
+				"points": -5,
+				"current_level": 1
 			}
 		},
 		{
@@ -9435,7 +9310,7 @@
 			},
 			"name": "Luck",
 			"reference": "B66,P59",
-			"notes": "Usable once per hour of play",
+			"local_notes": "Usable once per hour of play",
 			"tags": [
 				"Advantage",
 				"Mental"
@@ -9445,36 +9320,36 @@
 					"id": "mt5tj63gdKWZ5NYAp",
 					"name": "Active",
 					"reference": "B66",
-					"cost": -40,
+					"cost_adj": "-40%",
 					"disabled": true
 				},
 				{
 					"id": "mHdFlDbtZLqtf5ca_",
 					"name": "Aspected",
 					"reference": "B66",
-					"notes": "@Aspect@",
-					"cost": -20,
+					"local_notes": "@Aspect@",
+					"cost_adj": "-20%",
 					"disabled": true
 				},
 				{
 					"id": "ml2to5b2bT6fe4-Ra",
 					"name": "Defensive",
 					"reference": "B66",
-					"cost": -20,
+					"cost_adj": "-20%",
 					"disabled": true
 				},
 				{
 					"id": "mjJ-0KVlE5qCRn-I6",
 					"name": "Wishing",
 					"reference": "P59",
-					"cost": 100,
+					"cost_adj": "100%",
 					"disabled": true
 				},
 				{
 					"id": "mLFVZkD4yDt8rstNr",
 					"name": "Game Time",
 					"reference": "P108",
-					"notes": "Uses per game day equal to its maximum possible uses per real hour",
+					"local_notes": "Uses per game day equal to its maximum possible uses per real hour",
 					"disabled": true
 				}
 			],
@@ -9546,7 +9421,7 @@
 			},
 			"name": "Mild Shyness",
 			"reference": "B154",
-			"notes": "You are uneasy with strangers, especially assertive or attractive ones.",
+			"local_notes": "You are uneasy with strangers, especially assertive or attractive ones.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -9775,7 +9650,7 @@
 			},
 			"name": "Miserliness",
 			"reference": "B144",
-			"notes": "Make a self-control roll any time you are called on to spend money. If the expenditure is large, this roll may be at -5 or worse (GM’s decision). If you fail, you refuse to spend the money.",
+			"local_notes": "Make a self-control roll any time you are called on to spend money. If the expenditure is large, this roll may be at -5 or worse (GM’s decision). If you fail, you refuse to spend the money.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -9804,18 +9679,16 @@
 					"id": "mQZ9G_ilHPis-8x7m",
 					"name": "Finger",
 					"reference": "B144",
-					"notes": "Gives -1 DX with that hand (only)",
-					"cost": -2,
-					"cost_type": "points",
+					"local_notes": "Gives -1 DX with that hand (only)",
+					"cost_adj": "-2",
 					"disabled": true
 				},
 				{
 					"id": "mEPFljmVGmzCh7Wnj",
 					"name": "Thumb",
 					"reference": "B144",
-					"notes": "Gives -5 DX with that hand (only)",
-					"cost": -5,
-					"cost_type": "points",
+					"local_notes": "Gives -5 DX with that hand (only)",
+					"cost_adj": "-5",
 					"disabled": true
 				}
 			],
@@ -9886,7 +9759,7 @@
 			},
 			"name": "Motion Sickness",
 			"reference": "B144",
-			"notes": "You may never learn any vehicle-operation skill. You must roll vs. HT as soon as you are aboard a moving vehicle. On a failure, you vomit and are at -5 on all DX, IQ, and skill rolls for the rest of the journey. On a success, you are merely miserably queasy and at -2 on DX, IQ, and skill rolls. Roll daily on long journeys.",
+			"local_notes": "You may never learn any vehicle-operation skill. You must roll vs. HT as soon as you are aboard a moving vehicle. On a failure, you vomit and are at -5 on all DX, IQ, and skill rolls for the rest of the journey. On a success, you are merely miserably queasy and at -2 on DX, IQ, and skill rolls. Roll daily on long journeys.",
 			"tags": [
 				"Disadvantage",
 				"Physical"
@@ -10000,8 +9873,7 @@
 					"id": "mOmIQimX0HD4qr-AJ",
 					"name": "Replaces Status",
 					"reference": "B29",
-					"cost": 5,
-					"cost_type": "points",
+					"cost_adj": "5",
 					"affects": "levels_only",
 					"disabled": true
 				},
@@ -10009,8 +9881,7 @@
 					"id": "m5qeMVOPVjM2OBQD4",
 					"name": "Courtesy",
 					"reference": "B29",
-					"cost": -4,
-					"cost_type": "points",
+					"cost_adj": "-4",
 					"affects": "levels_only",
 					"disabled": true
 				}
@@ -10019,7 +9890,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 5
+				"points": 5,
+				"current_level": 1
 			}
 		},
 		{
@@ -10031,7 +9903,7 @@
 			},
 			"name": "Mysophobia (Dirt)",
 			"reference": "B149",
-			"notes": "You are deathly afraid of infection, or just of dirt and filth. Make a self-control roll when you must do something that might get you dirty. Roll at -5 to eat any unaccustomed food. You should act as “finicky” as possible.",
+			"local_notes": "You are deathly afraid of infection, or just of dirt and filth. Make a self-control roll when you must do something that might get you dirty. Roll at -5 to eat any unaccustomed food. You should act as “finicky” as possible.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -10052,7 +9924,7 @@
 			},
 			"name": "Natural Pockets",
 			"reference": "PU2:14",
-			"notes": "@Details@",
+			"local_notes": "@Details@",
 			"tags": [
 				"Mental",
 				"Perk"
@@ -10107,7 +9979,7 @@
 			},
 			"name": "Necrophobia (Death)",
 			"reference": "B149",
-			"notes": "You are terrified by the idea of death. Make a self-control roll in the presence of any dead body (animals don’t count, but portions of human bodies do). Roll at -4 if the body is that of someone you know, or -6 if the body is unnaturally animated in some way. A ghost (or apparent ghost) also requires a roll at -6.",
+			"local_notes": "You are terrified by the idea of death. Make a self-control roll in the presence of any dead body (animals don’t count, but portions of human bodies do). Roll at -4 if the body is that of someone you know, or -6 if the body is unnaturally animated in some way. A ghost (or apparent ghost) also requires a roll at -6.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -10182,7 +10054,7 @@
 			},
 			"name": "Night Blindness",
 			"reference": "B144",
-			"notes": "If the vision or combat penalty for poor lighting is between -1 and -4 for most people, your penalty is the worse of double the usual penalty or -3. If the usual penalty is -5 or worse, you function as though you were completely blind. If you have Acute Vision, it only applies in situations with no darkness penalty.",
+			"local_notes": "If the vision or combat penalty for poor lighting is between -1 and -4 for most people, your penalty is the worse of double the usual penalty or -3. If the usual penalty is -5 or worse, you function as though you were completely blind. If you have Acute Vision, it only applies in situations with no darkness penalty.",
 			"tags": [
 				"Disadvantage",
 				"Physical"
@@ -10231,7 +10103,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 1
+				"points": 1,
+				"current_level": 1
 			}
 		},
 		{
@@ -10243,7 +10116,7 @@
 			},
 			"name": "Nightmares",
 			"reference": "B144",
-			"notes": "Make a self-control roll each morning upon awakening. If you fail, you suffered nightmares; this costs you 1 FP that you can only recover through sleep. On a roll of 17 or 18, you are left shaking, and are at -1 to all skill and Perception rolls for the entire day.",
+			"local_notes": "Make a self-control roll each morning upon awakening. If you fail, you suffered nightmares; this costs you 1 FP that you can only recover through sleep. On a roll of 17 or 18, you are left shaking, and are at -1 to all skill and Perception rolls for the entire day.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -10403,7 +10276,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": -2
+				"points": -2,
+				"current_level": 1
 			}
 		},
 		{
@@ -10522,43 +10396,6 @@
 			}
 		},
 		{
-			"id": "tuaA-fzuajLKk55C7",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tuBvIPa1ygEAxIiQ2"
-			},
-			"name": "Obsession",
-			"reference": "B146",
-			"notes": "@Goal@; Make a self-control roll whenever it would be wise to deviate from your goal. If you fail, you continue to pursue your Obsession, regardless of the consequences.",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"modifiers": [
-				{
-					"id": "mANvFa0KdLGazFjfs",
-					"name": "Short term",
-					"reference": "B146",
-					"cost": -5,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "m5EAPe1aVEacREoyq",
-					"name": "Long term",
-					"reference": "B146",
-					"cost": -10,
-					"cost_type": "points",
-					"disabled": true
-				}
-			],
-			"cr": 12,
-			"calc": {
-				"points": 0
-			}
-		},
-		{
 			"id": "t_PhuboBhxK-WbeJf",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -10574,6 +10411,41 @@
 			"base_points": -1,
 			"calc": {
 				"points": -1
+			}
+		},
+		{
+			"id": "tuaA-fzuajLKk55C7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tuBvIPa1ygEAxIiQ2"
+			},
+			"name": "Obsession",
+			"reference": "B146",
+			"local_notes": "@Goal@; Make a self-control roll whenever it would be wise to deviate from your goal. If you fail, you continue to pursue your Obsession, regardless of the consequences.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mANvFa0KdLGazFjfs",
+					"name": "Short term",
+					"reference": "B146",
+					"cost_adj": "-5",
+					"disabled": true
+				},
+				{
+					"id": "m5EAPe1aVEacREoyq",
+					"name": "Long term",
+					"reference": "B146",
+					"cost_adj": "-10",
+					"disabled": true
+				}
+			],
+			"cr": 12,
+			"calc": {
+				"points": 0
 			}
 		},
 		{
@@ -10604,7 +10476,7 @@
 			},
 			"name": "Odious Personal Habit",
 			"reference": "B22",
-			"notes": "@Habit@",
+			"local_notes": "@Habit@",
 			"tags": [
 				"Disadvantage",
 				"Physical"
@@ -10614,24 +10486,21 @@
 					"id": "mjs4lhV-3Zsc69miF",
 					"name": "-1 Reaction",
 					"reference": "B22",
-					"cost": -5,
-					"cost_type": "points",
+					"cost_adj": "-5",
 					"disabled": true
 				},
 				{
 					"id": "mJA4GMLnEf-5S5Omr",
 					"name": "-2 Reaction",
 					"reference": "B22",
-					"cost": -10,
-					"cost_type": "points",
+					"cost_adj": "-10",
 					"disabled": true
 				},
 				{
 					"id": "mQCSS392d8Dwn5bUl",
 					"name": "-3 Reaction",
 					"reference": "B22",
-					"cost": -15,
-					"cost_type": "points",
+					"cost_adj": "-15",
 					"disabled": true
 				}
 			],
@@ -10648,7 +10517,7 @@
 			},
 			"name": "Odious Personal Habit",
 			"reference": "PU6:20",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Mental",
 				"Quirk",
@@ -10705,7 +10574,7 @@
 			},
 			"name": "On the Edge",
 			"reference": "B146",
-			"notes": "Make a self-control roll whenever you face a life-threatening situation: piloting a burning vehicle, staring down an entire street gang while armed only with a toothbrush, etc. If you fail, you may not back down from the challenge – but you may roll again after every success roll or reaction roll relating to the situation. In combat, make a self-control roll every time you take your turn. If you fail, you must make an All-Out attack or engage in some other kind of near-insane, suicidal behavior.",
+			"local_notes": "Make a self-control roll whenever you face a life-threatening situation: piloting a burning vehicle, staring down an entire street gang while armed only with a toothbrush, etc. If you fail, you may not back down from the challenge – but you may roll again after every success roll or reaction roll relating to the situation. In combat, make a self-control roll every time you take your turn. If you fail, you must make an All-Out attack or engage in some other kind of near-insane, suicidal behavior.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -10776,7 +10645,7 @@
 			},
 			"name": "One Hand",
 			"reference": "B147",
-			"notes": "You cannot use two-handed weapons, wield two weapons at once (or a weapon and a shield), or perform any task that requires two arms",
+			"local_notes": "You cannot use two-handed weapons, wield two weapons at once (or a weapon and a shield), or perform any task that requires two arms",
 			"tags": [
 				"Disadvantage",
 				"Physical"
@@ -10857,7 +10726,7 @@
 			},
 			"name": "Overcautious Habit",
 			"reference": "PU6:30",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Mental",
 				"Quirk"
@@ -10876,7 +10745,7 @@
 			},
 			"name": "Overconfidence",
 			"reference": "B148",
-			"notes": "You must make a self-control roll any time the GM feels you show an unreasonable degree of caution. If you fail, you must go ahead as though you were able to handle the situation!",
+			"local_notes": "You must make a self-control roll any time the GM feels you show an unreasonable degree of caution. If you fail, you must go ahead as though you were able to handle the situation!",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -10926,7 +10795,7 @@
 			},
 			"name": "Pacifism: Cannot Harm Innocents",
 			"reference": "B148",
-			"notes": "You may fight – you may even start fights – but you may only use deadly force on a foe that is attempting to do you serious harm. Capture is not “serious harm” unless you are already under penalty of death or have a Code of Honor that would require suicide if captured. You never intentionally do anything that causes, or even threatens to cause, injury to the uninvolved – particularly if they are “ordinary folks.”",
+			"local_notes": "You may fight – you may even start fights – but you may only use deadly force on a foe that is attempting to do you serious harm. Capture is not “serious harm” unless you are already under penalty of death or have a Code of Honor that would require suicide if captured. You never intentionally do anything that causes, or even threatens to cause, injury to the uninvolved – particularly if they are “ordinary folks.”",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -10936,7 +10805,7 @@
 					"id": "mLrAdMEE3SVz1S1q2",
 					"name": "Species-Specific",
 					"reference": "UT32",
-					"cost": -80,
+					"cost_adj": "-80%",
 					"disabled": true
 				}
 			],
@@ -10954,7 +10823,7 @@
 			},
 			"name": "Pacifism: Cannot Kill",
 			"reference": "B148",
-			"notes": "You may fight – you may even start fights – but you may never do anything that seems likely to kill another. This includes abandoning a wounded foe to die “on his own”! You must do your best to keep your companions from killing, too. If you do kill someone (or feel responsible for a death), you immediately suffer a nervous breakdown. Roll 3d and be totally morose and useless for that many days. During this time, you must make a Will roll to offer any sort of violence toward anyone, for any reason.",
+			"local_notes": "You may fight – you may even start fights – but you may never do anything that seems likely to kill another. This includes abandoning a wounded foe to die “on his own”! You must do your best to keep your companions from killing, too. If you do kill someone (or feel responsible for a death), you immediately suffer a nervous breakdown. Roll 3d and be totally morose and useless for that many days. During this time, you must make a Will roll to offer any sort of violence toward anyone, for any reason.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -10964,7 +10833,7 @@
 					"id": "mP2g-H2sJu-0tY3un",
 					"name": "Species-Specific",
 					"reference": "UT32",
-					"cost": -80,
+					"cost_adj": "-80%",
 					"disabled": true
 				}
 			],
@@ -10982,7 +10851,7 @@
 			},
 			"name": "Pacifism: Reluctant Killer",
 			"reference": "B148",
-			"notes": "You are psychologically unprepared to kill people. Whenever you make a deadly attack (e.g., with a knife or a gun) against an obvious person whose face is visible to you, you are at -4 to hit and may not Aim. If you cannot see the foe’s face (due to a mask, darkness, or distance, or because you attacked from behind), the penalty is only -2, save in close combat. You have no penalty to attack a vehicle (even an occupied one), an opponent you do not believe is a person (including things with Horrific or Monstrous appearance), or a target you can’t actually see (e.g., a set of map coordinates or a blip on a radar screen). If you kill a recognizable person, the effect on you is the same as for Pacifism: Cannot Kill. You have no problem with your allies killing; you may even supply ammo, loaded weapons, and encouragement! You just can’t do the killing yourself.",
+			"local_notes": "You are psychologically unprepared to kill people. Whenever you make a deadly attack (e.g., with a knife or a gun) against an obvious person whose face is visible to you, you are at -4 to hit and may not Aim. If you cannot see the foe’s face (due to a mask, darkness, or distance, or because you attacked from behind), the penalty is only -2, save in close combat. You have no penalty to attack a vehicle (even an occupied one), an opponent you do not believe is a person (including things with Horrific or Monstrous appearance), or a target you can’t actually see (e.g., a set of map coordinates or a blip on a radar screen). If you kill a recognizable person, the effect on you is the same as for Pacifism: Cannot Kill. You have no problem with your allies killing; you may even supply ammo, loaded weapons, and encouragement! You just can’t do the killing yourself.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -10992,7 +10861,7 @@
 					"id": "m8hLWlwOYoibh--Os",
 					"name": "Species-Specific",
 					"reference": "UT32",
-					"cost": -80,
+					"cost_adj": "-80%",
 					"disabled": true
 				}
 			],
@@ -11010,7 +10879,7 @@
 			},
 			"name": "Pacifism: Self-Defense Only",
 			"reference": "B148",
-			"notes": "You only fight to defend yourself or those in your care, using only as much force as necessary (no pre-emptive strikes allowed!). You must do your best to discourage others from starting fights.",
+			"local_notes": "You only fight to defend yourself or those in your care, using only as much force as necessary (no pre-emptive strikes allowed!). You must do your best to discourage others from starting fights.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -11020,7 +10889,7 @@
 					"id": "mcI0drgP95L_-k12l",
 					"name": "Species-Specific",
 					"reference": "UT32",
-					"cost": -80,
+					"cost_adj": "-80%",
 					"disabled": true
 				}
 			],
@@ -11279,8 +11148,8 @@
 					"id": "mO_Gy4swTcLpokAwL",
 					"name": "Easy to Hit",
 					"reference": "B75",
-					"notes": "Others can target your eyes at only -6 to hit",
-					"cost": -20,
+					"local_notes": "Others can target your eyes at only -6 to hit",
+					"cost_adj": "-20%",
 					"disabled": true
 				}
 			],
@@ -11424,39 +11293,39 @@
 					"id": "mAqlY1f4FZbyvOJAi",
 					"name": "Remote",
 					"reference": "P48",
-					"cost": 50,
+					"cost_adj": "50%",
 					"disabled": true
 				},
 				{
 					"id": "mImOGsNYjb_kiaqg9",
 					"name": "Specialized",
 					"reference": "P77",
-					"notes": "All terrestrial plants",
-					"cost": -40,
+					"local_notes": "All terrestrial plants",
+					"cost_adj": "-40%",
 					"disabled": true
 				},
 				{
 					"id": "mKS7RPKcr95_MVYmI",
 					"name": "Specialized",
 					"reference": "P77",
-					"notes": "All aquatic plants",
-					"cost": -40,
+					"local_notes": "All aquatic plants",
+					"cost_adj": "-40%",
 					"disabled": true
 				},
 				{
 					"id": "mKIvUg_jBYW1W_UWD",
 					"name": "Specialized",
 					"reference": "P77",
-					"notes": "@Large Subset: Herbs, Trees@",
-					"cost": -50,
+					"local_notes": "@Large Subset: Herbs, Trees@",
+					"cost_adj": "-50%",
 					"disabled": true
 				},
 				{
 					"id": "mvo9oiIT01j76vpaX",
 					"name": "Specialized",
 					"reference": "P77",
-					"notes": "@Small Subset: Evergreens, Medicinals@",
-					"cost": -60,
+					"local_notes": "@Small Subset: Evergreens, Medicinals@",
+					"cost_adj": "-60%",
 					"disabled": true
 				}
 			],
@@ -11511,7 +11380,7 @@
 			},
 			"name": "Positive Secret",
 			"reference": "PU6:33",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Quirk",
 				"Social"
@@ -11530,7 +11399,7 @@
 			},
 			"name": "Post-Combat Shakes",
 			"reference": "B150",
-			"notes": "Make a self-control roll at the end of any battle. If you fail, roll 3d, add the amount by which you failed your self-control roll, and look up the result on the Fright Check Table.",
+			"local_notes": "Make a self-control roll at the end of any battle. If you fail, roll 3d, add the amount by which you failed your self-control roll, and look up the result on the Fright Check Table.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -11586,7 +11455,7 @@
 			},
 			"name": "Preferred Looks",
 			"reference": "PU6:26",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Mental",
 				"Quirk",
@@ -11606,7 +11475,7 @@
 			},
 			"name": "Preferred Tactics",
 			"reference": "PU6:26",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Mental",
 				"Quirk"
@@ -11625,7 +11494,7 @@
 			},
 			"name": "Pretense",
 			"reference": "PU6:33",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Quirk",
 				"Social"
@@ -11663,7 +11532,7 @@
 			},
 			"name": "Pyromania",
 			"reference": "B150",
-			"notes": "Make a self-control roll whenever you have an opportunity to set a fire",
+			"local_notes": "Make a self-control roll whenever you have an opportunity to set a fire",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -11683,7 +11552,7 @@
 			},
 			"name": "Pyrophobia (Fire)",
 			"reference": "B150",
-			"notes": "Even a burning cigarette bothers you if it comes within five yards.",
+			"local_notes": "Even a burning cigarette bothers you if it comes within five yards.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -11861,7 +11730,7 @@
 					"id": "mASVKQiuGR-R5yyXG",
 					"name": "Words of Power",
 					"reference": "P70",
-					"cost": 100,
+					"cost_adj": "100%",
 					"disabled": true
 				}
 			],
@@ -11897,7 +11766,7 @@
 			},
 			"name": "Reach Mastery (@Weapon@)",
 			"reference": "PU2:7",
-			"notes": "Let you change reach as a free action",
+			"local_notes": "Let you change reach as a free action",
 			"tags": [
 				"Mental",
 				"Perk"
@@ -11934,7 +11803,7 @@
 			},
 			"name": "Recovery",
 			"reference": "B80",
-			"notes": "When determining the length of time you remain unconscious for any reason, divide all times by 60",
+			"local_notes": "When determining the length of time you remain unconscious for any reason, divide all times by 60",
 			"tags": [
 				"Advantage",
 				"Exotic",
@@ -11963,21 +11832,21 @@
 					"id": "mgLp_7XNsOL_RqHsD",
 					"name": "Cast-Iron Stomach",
 					"reference": "B80",
-					"cost": -50,
+					"cost_adj": "-50%",
 					"disabled": true
 				},
 				{
 					"id": "m6LyNRn1pYBIVpXzc",
 					"name": "Food Only",
 					"reference": "B80",
-					"cost": -50,
+					"cost_adj": "-50%",
 					"disabled": true
 				},
 				{
 					"id": "mVjsNpsiclFVRhe2w",
 					"name": "Water Only",
 					"reference": "B80",
-					"cost": -50,
+					"cost_adj": "-50%",
 					"disabled": true
 				}
 			],
@@ -11985,7 +11854,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 2
+				"points": 2,
+				"current_level": 1
 			}
 		},
 		{
@@ -12006,48 +11876,42 @@
 					"id": "mTqM5Koxb2Nwgimbz",
 					"name": "@Very Common: Metabolic Hazards, etc.@",
 					"reference": "B80",
-					"cost": 30,
-					"cost_type": "points",
+					"cost_adj": "30",
 					"disabled": true
 				},
 				{
 					"id": "ma3xLVoniqgm5jave",
 					"name": "@Common: Poison, Sickness, etc.@",
 					"reference": "B81",
-					"cost": 15,
-					"cost_type": "points",
+					"cost_adj": "15",
 					"disabled": true
 				},
 				{
 					"id": "mV6n6SXRWjFQGxK6d",
 					"name": "@Occasional: Disease, Ingested Poison, etc.@",
 					"reference": "B81",
-					"cost": 10,
-					"cost_type": "points",
+					"cost_adj": "10",
 					"disabled": true
 				},
 				{
 					"id": "mBU7mbeb-sjzl_VSj",
 					"name": "Immunity",
 					"reference": "B81",
-					"cost": 1,
-					"cost_type": "multiplier",
+					"cost_adj": "x1",
 					"disabled": true
 				},
 				{
 					"id": "mkovtyof_-mzKUygm",
 					"name": "+8 to all HT rolls to resist",
 					"reference": "B81",
-					"cost": 0.5,
-					"cost_type": "multiplier",
+					"cost_adj": "x0.5",
 					"disabled": true
 				},
 				{
 					"id": "mrCmJ5roWPrdKoO6I",
 					"name": "+3 to all HT rolls to resist",
 					"reference": "B81",
-					"cost": 0.33,
-					"cost_type": "multiplier",
+					"cost_adj": "x0.33",
 					"disabled": true
 				}
 			],
@@ -12065,7 +11929,7 @@
 			},
 			"name": "Resistant to @Specific Poison@",
 			"reference": "PU2:14",
-			"notes": "+3 to resist",
+			"local_notes": "+3 to resist",
 			"tags": [
 				"Mental",
 				"Perk"
@@ -12147,39 +12011,35 @@
 					"id": "meuSNqx2_sbQpsSAt",
 					"name": "Substitution",
 					"reference": "B151",
-					"cost": -50,
+					"cost_adj": "-50%",
 					"disabled": true
 				},
 				{
 					"id": "mB4TRNFYfU_NoVXpn",
 					"name": "Very Common",
 					"reference": "B151",
-					"cost": -10,
-					"cost_type": "points",
+					"cost_adj": "-10",
 					"disabled": true
 				},
 				{
 					"id": "mRK5_fiodJm_LKLbR",
 					"name": "Common",
 					"reference": "B151",
-					"cost": -20,
-					"cost_type": "points",
+					"cost_adj": "-20",
 					"disabled": true
 				},
 				{
 					"id": "mysu14TH8YUx_OB3C",
 					"name": "Occasional",
 					"reference": "B151",
-					"cost": -30,
-					"cost_type": "points",
+					"cost_adj": "-30",
 					"disabled": true
 				},
 				{
 					"id": "mr83poEoy74nE9Awf",
 					"name": "Rare",
 					"reference": "B151",
-					"cost": -40,
-					"cost_type": "points",
+					"cost_adj": "-40",
 					"disabled": true
 				}
 			],
@@ -12288,7 +12148,7 @@
 			},
 			"name": "Scotophobia (Darkness)",
 			"reference": "B149",
-			"notes": "A common fear, but crippling. You should avoid being underground if possible; if something happens to your flashlight or torch, you might well lose your mind before you can relight it.",
+			"local_notes": "A common fear, but crippling. You should avoid being underground if possible; if something happens to your flashlight or torch, you might well lose your mind before you can relight it.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -12336,32 +12196,28 @@
 					"id": "mjxnXQBsiKO14m4eD",
 					"name": "Serious Embarrassment",
 					"reference": "B152",
-					"cost": -5,
-					"cost_type": "points",
+					"cost_adj": "-5",
 					"disabled": true
 				},
 				{
 					"id": "m8a-_RngD2dDt9MKN",
 					"name": "Utter Rejection",
 					"reference": "B152",
-					"cost": -10,
-					"cost_type": "points",
+					"cost_adj": "-10",
 					"disabled": true
 				},
 				{
 					"id": "mNO5JIk8PgbfGMGDW",
 					"name": "Imprisonment",
 					"reference": "B152",
-					"cost": -20,
-					"cost_type": "points",
+					"cost_adj": "-20",
 					"disabled": true
 				},
 				{
 					"id": "mqjN-mMhRpoBSk2B1",
 					"name": "Possible Death",
 					"reference": "B152",
-					"cost": -30,
-					"cost_type": "points",
+					"cost_adj": "-30",
 					"disabled": true
 				}
 			],
@@ -12414,7 +12270,7 @@
 			},
 			"name": "Self-Imposed Limit",
 			"reference": "PU6:27",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Mental",
 				"Quirk"
@@ -12433,7 +12289,7 @@
 			},
 			"name": "Selfish",
 			"reference": "B153",
-			"notes": "Make a self-control roll whenever you experience a clear social slight or “snub.” On a failure, you lash out at the offending party just as if you had Bad Temper.",
+			"local_notes": "Make a self-control roll whenever you experience a clear social slight or “snub.” On a failure, you lash out at the offending party just as if you had Bad Temper.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -12460,7 +12316,7 @@
 			},
 			"name": "Selfless",
 			"reference": "B153",
-			"notes": "You must make a self-control roll to put your needs – even survival – before those of someone else.",
+			"local_notes": "You must make a self-control roll to put your needs – even survival – before those of someone else.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -12480,7 +12336,7 @@
 			},
 			"name": "Semi-Upright",
 			"reference": "B153",
-			"notes": "Moving while upright reduces Move by 40%",
+			"local_notes": "Moving while upright reduces Move by 40%",
 			"tags": [
 				"Disadvantage",
 				"Exotic",
@@ -12509,48 +12365,42 @@
 					"id": "mqp-9ahKlcD_Uieoh",
 					"name": "Friends and Companions",
 					"reference": "B153",
-					"cost": -5,
-					"cost_type": "points",
+					"cost_adj": "-5",
 					"disabled": true
 				},
 				{
 					"id": "mmx4AJGO3j9-hbNHF",
 					"name": "@Small Group@",
 					"reference": "B153",
-					"cost": -5,
-					"cost_type": "points",
+					"cost_adj": "-5",
 					"disabled": true
 				},
 				{
 					"id": "mROY4gH9049NMMl8z",
 					"name": "@Individual@",
 					"reference": "B153",
-					"cost": -2,
-					"cost_type": "points",
+					"cost_adj": "-2",
 					"disabled": true
 				},
 				{
 					"id": "mM7YBgh1SNy6qTkp0",
 					"name": "@Large Group@",
 					"reference": "B153",
-					"cost": -10,
-					"cost_type": "points",
+					"cost_adj": "-10",
 					"disabled": true
 				},
 				{
 					"id": "mTPVPqJBkyJ3-8AQf",
 					"name": "@Entire Race@",
 					"reference": "B153",
-					"cost": -15,
-					"cost_type": "points",
+					"cost_adj": "-15",
 					"disabled": true
 				},
 				{
 					"id": "mQxfDnGN4tt9857L3",
 					"name": "Every Living Being",
 					"reference": "B153",
-					"cost": -20,
-					"cost_type": "points",
+					"cost_adj": "-20",
 					"disabled": true
 				}
 			],
@@ -12577,14 +12427,14 @@
 					"id": "m8b5Br9hjtwRuy_rL",
 					"name": "Stethoscopic",
 					"reference": "P73",
-					"cost": 50,
+					"cost_adj": "50%",
 					"disabled": true
 				},
 				{
 					"id": "ma7nq9ioqrPjWE4f3",
 					"name": "Ultra-Fine",
 					"reference": "P73",
-					"cost": 30,
+					"cost_adj": "30%",
 					"disabled": true
 				}
 			],
@@ -12611,21 +12461,21 @@
 					"id": "mJbhziwZ3xit3R2hs",
 					"name": "Wishing",
 					"reference": "P73",
-					"cost": 100,
+					"cost_adj": "100%",
 					"disabled": true
 				},
 				{
 					"id": "mb2fXuNoFlWnbcuz2",
 					"name": "Wishing",
 					"reference": "P73",
-					"notes": "For others only",
+					"local_notes": "For others only",
 					"disabled": true
 				},
 				{
 					"id": "maEnQWf8qajnsJUhG",
 					"name": "Game Time",
 					"reference": "P108",
-					"notes": "Uses per game week equal to its maximum possible uses per session",
+					"local_notes": "Uses per game week equal to its maximum possible uses per session",
 					"disabled": true
 				}
 			],
@@ -12633,7 +12483,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 15
+				"points": 15,
+				"current_level": 1
 			}
 		},
 		{
@@ -12664,7 +12515,7 @@
 			},
 			"name": "Severe Shyness",
 			"reference": "B154",
-			"notes": "You are very uncomfortable around strangers, and tend to be quiet even among friends.",
+			"local_notes": "You are very uncomfortable around strangers, and tend to be quiet even among friends.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -12820,7 +12671,7 @@
 			},
 			"name": "Sexy Pose",
 			"reference": "PU2:15",
-			"notes": "Non-Verbal Sex Appeal",
+			"local_notes": "Non-Verbal Sex Appeal",
 			"tags": [
 				"Mental",
 				"Perk",
@@ -12894,7 +12745,7 @@
 			},
 			"name": "Shocking Affectation",
 			"reference": "PU6:15",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Mental",
 				"Quirk",
@@ -12914,7 +12765,7 @@
 			},
 			"name": "Short Attention Span",
 			"reference": "B153",
-			"notes": "Make a self-control roll whenever you must maintain interest in something for an extended period of time, or whenever a distraction is offered. If you fail, you automatically fail at the task at hand.",
+			"local_notes": "Make a self-control roll whenever you must maintain interest in something for an extended period of time, or whenever a distraction is offered. If you fail, you automatically fail at the task at hand.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -12988,7 +12839,7 @@
 			},
 			"name": "Signature Gear",
 			"reference": "B85",
-			"notes": "For equipment normally bought with money, each point gives goods worth up to 50% of the average campaign starting wealth (but never cash).",
+			"local_notes": "For equipment normally bought with money, each point gives goods worth up to 50% of the average campaign starting wealth (but never cash).",
 			"tags": [
 				"Advantage",
 				"Social"
@@ -12997,7 +12848,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 1
+				"points": 1,
+				"current_level": 1
 			}
 		},
 		{
@@ -13170,7 +13022,7 @@
 			},
 			"name": "Sleepwalker",
 			"reference": "B154",
-			"notes": "If sleepwalking would matter during an adventure, the GM will make a self-control roll for you whenever you go to sleep. If you fail, you sleepwalk sometime during the night. You wake up after walking for 1d minutes, or if someone awakens you.",
+			"local_notes": "If sleepwalking would matter during an adventure, the GM will make a self-control roll for you whenever you go to sleep. If you fail, you sleepwalk sometime during the night. You wake up after walking for 1d minutes, or if someone awakens you.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -13200,32 +13052,28 @@
 					"id": "mwqie689ZEj_gtW3A",
 					"name": "1/2 time",
 					"reference": "B154",
-					"cost": -8,
-					"cost_type": "points",
+					"cost_adj": "-8",
 					"disabled": true
 				},
 				{
 					"id": "mnIYGILDWDF6R7ifs",
 					"name": "2/3 time",
 					"reference": "B154",
-					"cost": -16,
-					"cost_type": "points",
+					"cost_adj": "-16",
 					"disabled": true
 				},
 				{
 					"id": "m9hGZuRVekkiA1mBF",
 					"name": "3/4 time",
 					"reference": "B154",
-					"cost": -20,
-					"cost_type": "points",
+					"cost_adj": "-20",
 					"disabled": true
 				},
 				{
 					"id": "mn9B-sjhPlzN3IDaA",
 					"name": "7/8 time",
 					"reference": "B154",
-					"cost": -26,
-					"cost_type": "points",
+					"cost_adj": "-26",
 					"disabled": true
 				}
 			],
@@ -13286,7 +13134,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": -5
+				"points": -5,
+				"current_level": 1
 			}
 		},
 		{
@@ -13351,7 +13200,7 @@
 			},
 			"name": "Social Chameleon",
 			"reference": "B86",
-			"notes": "Exempt from reaction penalties due to differences in Rank or Status",
+			"local_notes": "Exempt from reaction penalties due to differences in Rank or Status",
 			"tags": [
 				"Advantage",
 				"Mental"
@@ -13377,7 +13226,7 @@
 			},
 			"name": "Social Regard",
 			"reference": "B87",
-			"notes": "@Type: Feared, Respected or Venerated@: @Reason@",
+			"local_notes": "@Type: Feared, Respected or Venerated@: @Reason@",
 			"tags": [
 				"Advantage",
 				"Social"
@@ -13394,7 +13243,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 5
+				"points": 5,
+				"current_level": 1
 			}
 		},
 		{
@@ -13465,7 +13315,7 @@
 			},
 			"name": "Social Stigma (Minor)",
 			"reference": "B155",
-			"notes": "You are underage by your culture’s standards. You must buy off this trait when you reach “legal age” (usually 18) for your time and place.",
+			"local_notes": "You are underage by your culture’s standards. You must buy off this trait when you reach “legal age” (usually 18) for your time and place.",
 			"tags": [
 				"Disadvantage",
 				"Social"
@@ -13517,7 +13367,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 1
+				"points": 1,
+				"current_level": 1
 			}
 		},
 		{
@@ -13612,24 +13463,21 @@
 					"id": "mCQOqiq1L3T5VswYg",
 					"name": "Mild",
 					"reference": "B156",
-					"cost": -10,
-					"cost_type": "points",
+					"cost_adj": "-10",
 					"disabled": true
 				},
 				{
 					"id": "mgjvAxIu_-bmiXD2o",
 					"name": "Moderate",
 					"reference": "B156",
-					"cost": -15,
-					"cost_type": "points",
+					"cost_adj": "-15",
 					"disabled": true
 				},
 				{
 					"id": "mzETzIwzZ7Cv8r2_e",
 					"name": "Severe",
 					"reference": "B156",
-					"cost": -20,
-					"cost_type": "points",
+					"cost_adj": "-20",
 					"disabled": true
 				}
 			],
@@ -13840,7 +13688,7 @@
 			},
 			"name": "Superstition",
 			"reference": "PU6:9",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Mental",
 				"Quirk"
@@ -13994,24 +13842,21 @@
 					"id": "mzvdLjA97nd2ct7X1",
 					"name": "Occasional",
 					"reference": "B158",
-					"cost": 1,
-					"cost_type": "multiplier",
+					"cost_adj": "x1",
 					"disabled": true
 				},
 				{
 					"id": "mMtua7rGONN_DkQ7q",
 					"name": "Common",
 					"reference": "B158",
-					"cost": 2,
-					"cost_type": "multiplier",
+					"cost_adj": "x2",
 					"disabled": true
 				},
 				{
 					"id": "mf_-NeGh0HSSXdvEi",
 					"name": "Very Common",
 					"reference": "B158",
-					"cost": 4,
-					"cost_type": "multiplier",
+					"cost_adj": "x4",
 					"disabled": true
 				}
 			],
@@ -14019,7 +13864,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": -1
+				"points": -1,
+				"current_level": 1
 			}
 		},
 		{
@@ -14224,7 +14070,8 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 1
+				"points": 1,
+				"current_level": 1
 			}
 		},
 		{
@@ -14236,7 +14083,7 @@
 			},
 			"name": "Teratophobia (Monsters)",
 			"reference": "B150",
-			"notes": "Any “unnatural” creature sets off this fear. You have -1 to -4 on the self-control roll if the monster seems very large or dangerous, or if there are a lot of them. Note that the definition of “monster” depends on experience. An American Indian would consider an elephant monstrous, while an African pygmy would not!",
+			"local_notes": "Any “unnatural” creature sets off this fear. You have -1 to -4 on the self-control roll if the monster seems very large or dangerous, or if there are a lot of them. Note that the definition of “monster” depends on experience. An American Indian would consider an elephant monstrous, while an African pygmy would not!",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -14267,15 +14114,14 @@
 					"id": "mmg_L1sKt24zZcU1r",
 					"name": "Unstable on solid ground",
 					"reference": "B93",
-					"cost": -5,
-					"cost_type": "points",
+					"cost_adj": "-5",
 					"disabled": true
 				},
 				{
 					"id": "mEBBzyVzWDNf4jF9Y",
 					"name": "Active",
 					"reference": "P84",
-					"cost": 300,
+					"cost_adj": "300%",
 					"disabled": true
 				}
 			],
@@ -14293,7 +14139,7 @@
 			},
 			"name": "Thalassophobia (Oceans)",
 			"reference": "B150",
-			"notes": "You are afraid of any large body of water. Ocean travel, or even air travel over the ocean, is basically impossible for you, and encounters with aquatic monsters are also upsetting.",
+			"local_notes": "You are afraid of any large body of water. Ocean travel, or even air travel over the ocean, is basically impossible for you, and encounters with aquatic monsters are also upsetting.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -14425,7 +14271,7 @@
 			},
 			"name": "Trademark Move",
 			"reference": "PU2:8",
-			"notes": "@Description@",
+			"local_notes": "@Description@",
 			"tags": [
 				"Perk",
 				"Physical"
@@ -14444,7 +14290,7 @@
 			},
 			"name": "Trained by a Master",
 			"reference": "B93,MA48",
-			"notes": "No chi features",
+			"local_notes": "No chi features",
 			"tags": [
 				"Advantage",
 				"Mental"
@@ -14453,7 +14299,7 @@
 				{
 					"id": "m5wgpDeuq3lkM1IVm",
 					"name": "Unarmed only",
-					"cost": -40,
+					"cost_adj": "-40%",
 					"disabled": true
 				}
 			],
@@ -14471,7 +14317,7 @@
 			},
 			"name": "Trickster",
 			"reference": "B159",
-			"notes": "Make a self-control roll each day. If you fail, you must try to trick a dangerous subject: a skilled warrior, a dangerous monster, a whole group of reasonably competent opponents, etc. If you resist, you get a cumulative -1 per day to your self-control roll until you finally fail a roll!",
+			"local_notes": "Make a self-control roll each day. If you fail, you must try to trick a dangerous subject: a skilled warrior, a dangerous monster, a whole group of reasonably competent opponents, etc. If you resist, you get a cumulative -1 per day to your self-control roll until you finally fail a roll!",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -14491,7 +14337,7 @@
 			},
 			"name": "Trivial Reputation",
 			"reference": "PU6:33",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Quirk",
 				"Social"
@@ -14528,7 +14374,7 @@
 			},
 			"name": "Trivial Secret",
 			"reference": "PU6:33",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Quirk",
 				"Social"
@@ -14547,7 +14393,7 @@
 			},
 			"name": "Truthfulness",
 			"reference": "B159",
-			"notes": "Make a self-control roll whenever you must keep silent about an uncomfortable truth (lying by omission). Roll at -5 if you actually have to tell a falsehood! If you fail, you blurt out the truth, or stumble so much that your lie is obvious.",
+			"local_notes": "Make a self-control roll whenever you must keep silent about an uncomfortable truth (lying by omission). Roll at -5 if you actually have to tell a falsehood! If you fail, you blurt out the truth, or stumble so much that your lie is obvious.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -14633,7 +14479,7 @@
 			},
 			"name": "Unfazeable",
 			"reference": "B95",
-			"notes": "Exempt from fright checks. Reaction modifiers do not affect you.",
+			"local_notes": "Exempt from fright checks. Reaction modifiers do not affect you.",
 			"tags": [
 				"Advantage",
 				"Mental"
@@ -14643,7 +14489,7 @@
 					"id": "mGmdfa37SSpKL5Yvk",
 					"name": "Familiar Horrors",
 					"reference": "H20",
-					"cost": -50,
+					"cost_adj": "-50%",
 					"disabled": true
 				}
 			],
@@ -14661,7 +14507,7 @@
 			},
 			"name": "Unfit",
 			"reference": "B160",
-			"notes": "You lose FP at twice the normal rate",
+			"local_notes": "You lose FP at twice the normal rate",
 			"tags": [
 				"Disadvantage",
 				"Physical"
@@ -14704,7 +14550,7 @@
 			},
 			"name": "Unluckiness",
 			"reference": "B160",
-			"notes": "Once per play session, the GM will arbitrarily and maliciously make something go wrong for you.",
+			"local_notes": "Once per play session, the GM will arbitrarily and maliciously make something go wrong for you.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -14741,7 +14587,7 @@
 			},
 			"name": "Variable Quirk",
 			"reference": "PU6:21",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Quirk"
 			],
@@ -14851,7 +14697,7 @@
 			},
 			"name": "Very Fit",
 			"reference": "B55",
-			"notes": "Recover FP at twice the normal rate; lose FP at half the normal rate (in both cases, not FP spent for spells or psi powers)",
+			"local_notes": "Recover FP at twice the normal rate; lose FP at half the normal rate (in both cases, not FP spent for spells or psi powers)",
 			"tags": [
 				"Advantage",
 				"Physical"
@@ -14877,7 +14723,7 @@
 			},
 			"name": "Very Rapid Healing",
 			"reference": "B79",
-			"notes": "When you roll to recover lost HP, a successful HT roll means you heal 2 HP, not 1",
+			"local_notes": "When you roll to recover lost HP, a successful HT roll means you heal 2 HP, not 1",
 			"tags": [
 				"Advantage",
 				"Physical"
@@ -14918,7 +14764,7 @@
 			},
 			"name": "Very Unfit",
 			"reference": "B160",
-			"notes": "You lose FP at twice the normal rate and recover FP at only half the normal rate",
+			"local_notes": "You lose FP at twice the normal rate and recover FP at only half the normal rate",
 			"tags": [
 				"Disadvantage",
 				"Physical"
@@ -15055,7 +14901,7 @@
 			},
 			"name": "Vow",
 			"reference": "B161",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Disadvantage",
 				"Mental"
@@ -15065,24 +14911,21 @@
 					"id": "mjumXmIjMItIAjZRi",
 					"name": "Minor",
 					"reference": "B161",
-					"cost": -5,
-					"cost_type": "points",
+					"cost_adj": "-5",
 					"disabled": true
 				},
 				{
 					"id": "m8DMtR4c6pQVrXtl1",
 					"name": "Major",
 					"reference": "B161",
-					"cost": -10,
-					"cost_type": "points",
+					"cost_adj": "-10",
 					"disabled": true
 				},
 				{
 					"id": "m2fwceXSttp_GLyZC",
 					"name": "Great",
 					"reference": "B161",
-					"cost": -15,
-					"cost_type": "points",
+					"cost_adj": "-15",
 					"disabled": true
 				}
 			],
@@ -15127,6 +14970,7 @@
 			"weapons": [
 				{
 					"id": "wLP_nHNmkMbQOpHQU",
+					"sv": 1,
 					"damage": {
 						"type": "cr",
 						"st": "thr",
@@ -15207,48 +15051,42 @@
 					"id": "mc2EYN2_boZVGwelW",
 					"name": "One weapon",
 					"reference": "B99",
-					"cost": 20,
-					"cost_type": "points",
+					"cost_adj": "20",
 					"disabled": true
 				},
 				{
 					"id": "mNkpP7OV_P2e7b-_1",
 					"name": "Two weapons",
 					"reference": "B99",
-					"cost": 25,
-					"cost_type": "points",
+					"cost_adj": "25",
 					"disabled": true
 				},
 				{
 					"id": "m4OCpE4eKOc9lUTP2",
 					"name": "Small class",
 					"reference": "B99",
-					"cost": 30,
-					"cost_type": "points",
+					"cost_adj": "30",
 					"disabled": true
 				},
 				{
 					"id": "m9Vj9viuj3DJRIZqB",
 					"name": "Medium class",
 					"reference": "B99",
-					"cost": 35,
-					"cost_type": "points",
+					"cost_adj": "35",
 					"disabled": true
 				},
 				{
 					"id": "m6LtR5sx8HD3jHA0T",
 					"name": "Large class",
 					"reference": "B99",
-					"cost": 40,
-					"cost_type": "points",
+					"cost_adj": "40",
 					"disabled": true
 				},
 				{
 					"id": "mzbzv4Kr8aZKpaZqc",
 					"name": "All weapons",
 					"reference": "B99",
-					"cost": 45,
-					"cost_type": "points",
+					"cost_adj": "45",
 					"use_level_from_trait": true,
 					"disabled": true
 				}
@@ -15266,7 +15104,7 @@
 			},
 			"name": "Willful Ignorance",
 			"reference": "PU6:9",
-			"notes": "@Subject@",
+			"local_notes": "@Subject@",
 			"tags": [
 				"Mental",
 				"Quirk"
@@ -15340,7 +15178,7 @@
 			},
 			"name": "Xenophobia (Strange and Unknown Things)",
 			"reference": "B150",
-			"notes": "You are upset by any sort of strange circumstances, and in particular by strange people. Make a self-control roll when surrounded by people of another race or nationality; roll at -3 if the people are not human. If you lose control, you might well attack strangers out of fear.",
+			"local_notes": "You are upset by any sort of strange circumstances, and in particular by strange people. Make a self-control roll when surrounded by people of another race or nationality; roll at -3 if the people are not human. If you lose control, you might well attack strangers out of fear.",
 			"tags": [
 				"Disadvantage",
 				"Mental"
